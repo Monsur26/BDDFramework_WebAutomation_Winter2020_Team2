@@ -1,0 +1,939 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 91754700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Amazon Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Amazon_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-20T03:41:54.979Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8317754400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Search product",
+        "description": "",
+        "id": "explore-amazon-home-page;search-product",
+        "after": [
+          {
+            "result": {
+              "duration": 1518936700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3098713600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Enter Hand Gloves in search input field",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Enter_Hand_Gloves_in_search_input_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4080088600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Click on search button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 869674000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see Hand Gloves",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Hand_Gloves()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2987000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Amazon Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Amazon_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-20T03:42:13.438Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6485129900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Search product and add into cart",
+        "description": "",
+        "id": "explore-amazon-home-page;search-product-and-add-into-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 909611000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2082431400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I Enter Disposable Face Mask in search input field",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Enter_Disposable_Face_Mask_in_search_input_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2093493200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Click on search button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1422196700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select Modenna Face mask",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_select_Modenna_Face_mask()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 707107400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I add in cart",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_add_in_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 720177000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should see Face mask in cart",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Face_mask_in_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1992600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Amazon Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Amazon_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-20T03:42:27.875Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5834689500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Search New Releases",
+        "description": "",
+        "id": "explore-amazon-home-page;search-new-releases",
+        "after": [
+          {
+            "result": {
+              "duration": 894074800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3723043400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on New Releases Link",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_New_Releases_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 221407200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I should see all products on New Releases Product",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_all_products_on_New_Releases_Product()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1995000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Amazon Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Amazon_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-20T03:42:38.560Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5874764500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Search New Releases",
+        "description": "",
+        "id": "explore-amazon-home-page;search-new-releases",
+        "after": [
+          {
+            "result": {
+              "duration": 901844600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3372350800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on New Releases Link",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_New_Releases_Link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3557485100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on Electronics",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Electronics()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 442814500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see all New Released Electronics",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_all_New_Released_Electronics()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1988100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Amazon Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Amazon_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-20T03:42:52.732Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5698291700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Search Find a Gift",
+        "description": "",
+        "id": "explore-amazon-home-page;search-find-a-gift",
+        "after": [
+          {
+            "result": {
+              "duration": 933913200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3194460300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I click on Find a Gift Link",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Find_a_Gift_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 721084300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I should see all products on Find a Gift",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_all_products_on_Find_a_Gift()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3988700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Amazon Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Amazon_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-20T03:43:03.293Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5888885600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Search Best Sellers Products",
+        "description": "",
+        "id": "explore-amazon-home-page;search-best-sellers-products",
+        "after": [
+          {
+            "result": {
+              "duration": 952837400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3575437600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click on Best Sellers Link",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Best_Sellers_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 187498600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I should see all Best Sellers Products",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_all_Best_Sellers_Products()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2991100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Amazon Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Amazon_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-20T03:43:13.917Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5997866100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Search Best Sellers Books",
+        "description": "",
+        "id": "explore-amazon-home-page;search-best-sellers-books",
+        "after": [
+          {
+            "result": {
+              "duration": 962278200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4904804100,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I click on Best Sellers Link",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Best_Sellers_Link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4297507400,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I click on Books",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Books()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101728200,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I should see all Best Sellers Books",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_all_Best_Sellers_Books()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Amazon Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Amazon_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-20T03:43:30.204Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6017366900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "Check all Accounts and Lists",
+        "description": "",
+        "id": "explore-amazon-home-page;check-all-accounts-and-lists",
+        "after": [
+          {
+            "result": {
+              "duration": 909043000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 130646600,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I bring mouse on Accounts $ Lists",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_bring_mouse_on_Accounts_$_Lists()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2320794400,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I click on Sign in button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73802000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I should see Sign-in page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Sign_in_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1994700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Amazon Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Amazon_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-20T03:43:39.691Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5776029500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "Search Appliances from All Departments",
+        "description": "",
+        "id": "explore-amazon-home-page;search-appliances-from-all-departments",
+        "after": [
+          {
+            "result": {
+              "duration": 845443300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1715411900,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I click on All Departments Dropdown and click on Appliances",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_All_Departments_Dropdown_and_click_on_Appliances()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1606471200,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I Click on search button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 487695000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I should see all Appliances",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_all_Appliances()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2989800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Amazon Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Amazon_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-20T03:43:50.139Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5798591000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 59,
+        "name": "Search Amazon Main Menu",
+        "description": "",
+        "id": "explore-amazon-home-page;search-amazon-main-menu",
+        "after": [
+          {
+            "result": {
+              "duration": 849867200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2055503600,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I click on Amazon Main Menu",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Amazon_Main_Menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42885600,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I should see all Category",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_all_Category()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Explore Amazon Home page",
+    "description": "",
+    "id": "explore-amazon-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/Homepage.feature",
+    "tags": []
+  }
+]
