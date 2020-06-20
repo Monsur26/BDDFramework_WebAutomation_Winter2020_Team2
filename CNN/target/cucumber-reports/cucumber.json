@@ -1,0 +1,440 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Given I am CNN homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-20T04:15:21.581Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5073804300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Menu Search box",
+        "description": "",
+        "id": "exploring-features-on-cnn-homepage;menu-search-box",
+        "after": [
+          {
+            "result": {
+              "duration": 718474400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3702099500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click menu search generating box",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_menu_search_generating_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 666200800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Menu search box generates",
+            "match": {
+              "location": "stepdefinition.StepDefinition.menu_search_box_generates()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Given I am CNN homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-20T04:15:31.854Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4349884400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Searching items",
+        "description": "",
+        "id": "exploring-features-on-cnn-homepage;searching-items",
+        "after": [
+          {
+            "result": {
+              "duration": 717080100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4885934200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click to open menu generating box",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_to_open_menu_generating_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 750682300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I search for specified item and press enter",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_search_for_specified_item_and_press_enter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 228392100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "i get the specified search item",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_get_the_specified_search_item()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Given I am CNN homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-20T04:15:42.792Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6094732700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "US top news of the day",
+        "description": "",
+        "id": "exploring-features-on-cnn-homepage;us-top-news-of-the-day",
+        "after": [
+          {
+            "result": {
+              "duration": 699543100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7744256900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click US top news and top news of the day",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_US_top_news_and_top_news_of_the_day()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2293866300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I get the top news of the day",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_get_the_top_news_of_the_day()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Given I am CNN homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-20T04:15:59.629Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4782212800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "video link",
+        "description": "",
+        "id": "exploring-features-on-cnn-homepage;video-link",
+        "after": [
+          {
+            "result": {
+              "duration": 775597700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3557488500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click video link",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_video_link()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2436482400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click selected video",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_selected_video()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html[1]/body[1]/div[5]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/a[1]/*[local-name()\u003d\u0027svg\u0027][1]/*[name()\u003d\u0027rect\u0027][1]\"}\n  (Session info: chrome\u003d83.0.4103.97)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-7MG7A7J\u0027, ip: \u0027192.168.1.201\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\Monsu\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56029}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 882b6a3b560298c252bb3b76f9dece1d\n*** Element info: {Using\u003dxpath, value\u003d/html[1]/body[1]/div[5]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/a[1]/*[local-name()\u003d\u0027svg\u0027][1]/*[name()\u003d\u0027rect\u0027][1]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.getText(Unknown Source)\r\n\tat home.Homepage.validatingCNNLogo(Homepage.java:53)\r\n\tat stepdefinition.StepDefinition.selected_video_starts_playing(StepDefinition.java:88)\r\n\tat ✽.selected video starts playing(file:///C:/Users/Monsu/IdeaProjects/BDDFramework_WEM_Winter_2020_Team2/CNN/src/main/java/features/Homepage.feature:21)\r\n",
+              "duration": 10796052100,
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "selected video starts playing",
+            "match": {
+              "location": "stepdefinition.StepDefinition.selected_video_starts_playing()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Given I am CNN homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-20T04:16:21.996Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4562798100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "user acc hover mouse",
+        "description": "",
+        "id": "exploring-features-on-cnn-homepage;user-acc-hover-mouse",
+        "after": [
+          {
+            "result": {
+              "duration": 698481600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3683151000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I hover mouse over user account",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_hover_mouse_over_user_account()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 139625100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user account options show up",
+            "match": {
+              "location": "stepdefinition.StepDefinition.user_account_options_show_up()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Given I am CNN homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-20T04:16:31.085Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4287466200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "login info input",
+        "description": "",
+        "id": "exploring-features-on-cnn-homepage;login-info-input",
+        "after": [
+          {
+            "result": {
+              "duration": 715986200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3535544600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click user account button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_user_account_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1957305900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I input username and password",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_input_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58842500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the info shows up",
+            "match": {
+              "location": "stepdefinition.StepDefinition.the_info_shows_up()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Exploring features on CNN homepage",
+    "description": "  As a customer I want to explore several feature on CNN home page.",
+    "id": "exploring-features-on-cnn-homepage",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/Homepage.feature",
+    "tags": []
+  }
+]
