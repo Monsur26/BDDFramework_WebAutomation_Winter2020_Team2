@@ -11,7 +11,7 @@ plugin = {"pretty","json:target/cucumber-reports/cucumber.json","html:target/cuc
 strict =true ,
 monochrome =true ,
 dryRun = false,
-tags = ("@Test1"))
+tags = "@Test4")
 
 public class TestRunner {
 }

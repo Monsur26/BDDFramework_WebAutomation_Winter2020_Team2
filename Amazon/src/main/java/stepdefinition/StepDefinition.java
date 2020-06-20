@@ -25,9 +25,8 @@ public class StepDefinition extends WebAPI {
     static Homepage homepage;
     public static void getInitElements(){homepage=PageFactory.initElements(driver,Homepage.class);}
 
-
-    @Given("I am at amazon Home Page1")
-    public void i_am_at_amazon_Home_Page1() throws InterruptedException {
+    @Given("I am at amazon Home Page 1")
+    public void i_am_at_amazon_Home_Page_1() throws IOException {
         getInitElements();
     }
 
@@ -50,20 +49,18 @@ public class StepDefinition extends WebAPI {
 
     }
     ///////////////////////////////////////////////////////////////////////////////////////////
-    @Given("I am at amazon Home Page2")
-    public void i_am_at_amazon_Home_Page2() {
-        getInitElements();
-    }
+
     @Given("I Enter hello kitty stickers in search input field")
     public void i_Enter_hello_kitty_stickers_in_search_input_field() {
         getInitElements();
+        homepage.enterKeyWord("hello kitty stickers");
+
     }
     @When("I Click search button1")
     public void i_Click_search_button1() throws InterruptedException {
         getInitElements();
-        homepage.enterKeyWord("hello kitty stickers");
+        homepage.clickSearchButton();
         sleepFor(3);
-        throw new io.cucumber.java.PendingException();
     }
 
     @Then("I should see hello kitty stickers")
@@ -71,48 +68,42 @@ public class StepDefinition extends WebAPI {
         getInitElements();
 
     }
-    //////////////////////////////////////////////////////////////
-    @Given("I Enter stickers in search input field")
-    public void i_Enter_stickers_in_search_input_field() {
-
+//    //////////////////////////////////////////////////////////////
+    @Given("I Enter pink notebook in search input field")
+    public void i_Enter_pink_notebook_in_search_input_field() throws InterruptedException {
+        homepage.enterKeyWord("pink notebook");
+        sleepFor(3);
+        homepage.clickSearchButton();
+        sleepFor(3);
+        cleanUp();
     }
 
-    @When("I Click search button")
+    @When("I Click search button3")
     public void i_Click_search_button3() {
 
     }
 
-    @Then("I should see stickers")
-    public void i_should_see_stickers() {
+    @Then("I should see pink notebook")
+    public void i_should_see_pink_notebook() {
     }
-///////////////////////////////////////////////////////
-@Given("I Enter stickers in search input field")
-public void i_Enter_stickers_in_search_input_field2() {
-
+//////////////////////////////////////////////////
+@Given("I am at amazon Home Page4")
+public void i_am_at_amazon_Home_Page4() throws InterruptedException {
+    homepage.enterKeyWord("orange sandals");
+    sleepFor(3);
+    homepage.clickSearchButton();
+    homepage.clickSandals();
+    homepage.clickQty();
+    sleepFor(3);
+    cleanUp();
 }
-
-    @When("I Click search button")
-    public void i_Click_search_button4() {
-
-    }
-
-    @Then("I should see stickers")
-    public void i_should_see_stickers2() {
-
-    }
-////////////////////////////////////////////////
-@Given("I am at amazon Home Page")
-public void i_am_at_amazon_Home_Page() {
-
-}
-
     @Given("I Enter orange sandals in search input field")
     public void i_Enter_orange_sandals_in_search_input_field() {
 
     }
 
-    @When("I Click search button")
-    public void i_Click_search_button5() {
+    @When("I Click search button4")
+    public void i_Click_search_button4() {
 
     }
 
@@ -120,14 +111,19 @@ public void i_am_at_amazon_Home_Page() {
     public void i_should_see_orange_sandals() {
 
     }
-//////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
 @Given("I Enter flowers in search input field")
-public void i_Enter_flowers_in_search_input_field() {
-
+public void i_Enter_flowers_in_search_input_field() throws InterruptedException {
+    homepage.enterKeyWord("flowers");
+    sleepFor(3);
+    homepage.clickSearchButton();
+    sleepFor(3);
+    homepage.clickFlowers();
+    sleepFor(3);
+    cleanUp();
 }
-
-    @When("I Click search button")
-    public void i_Click_search_button6() {
+    @When("I Click search button5")
+    public void i_Click_search_button5() {
 
     }
 
@@ -135,14 +131,22 @@ public void i_Enter_flowers_in_search_input_field() {
     public void i_should_see_flowers() {
 
     }
-////////////////////////////////////////////////
+//////////////////////////////////////////////////
 @Given("I Enter mirror in search input field")
-public void i_Enter_mirror_in_search_input_field() {
-
+public void i_Enter_mirror_in_search_input_field() throws InterruptedException {
+    homepage.enterKeyWord("mirror");
+    sleepFor(3);
+    homepage.clickSearchButton();
+    sleepFor(3);
+    homepage.clickMirror();
+    sleepFor(3);
+    homepage.clickQty();
+    sleepFor(3);
+    cleanUp();
 }
 
-    @When("I Click search button")
-    public void i_Click_search_button7() {
+    @When("I Click search button6")
+    public void i_Click_search_button6() {
 
     }
 
@@ -150,15 +154,49 @@ public void i_Enter_mirror_in_search_input_field() {
     public void i_should_see_mirror() {
 
     }
-////////////////////////////////////
-
+//////////////////////////////////////
     @Given("I am at amazon Home Page")
-    public void i_am_at_amazon_Home_Page3() {
-
+    public void i_am_at_amazon_Home_Page7() throws InterruptedException {
+        homepage.enterKeyWord("rainbow pillow");
+        sleepFor(3);
+        homepage.clickSearchButton();
+        sleepFor(3);
+        homepage.clickPillow();
+        sleepFor(3);
+        homepage.clickQty();
+        homepage.doSelectQty();
+        sleepFor(3);
+        cleanUp();
     }
 
     @Given("I Enter rainbow pillow in search input field")
     public void i_Enter_rainbow_pillow_in_search_input_field() {
+
+    }
+
+    @When("I Click search button7")
+    public void i_Click_search_button7() {
+
+    }
+
+    @Then("I should see rainbow pillow")
+    public void i_should_see_rainbow_pillow() {
+
+    }
+//////////////////////////////////////////
+    @Given("I am at amazon Home Page")
+    public void i_am_at_amazon_Home_Page() throws InterruptedException {
+        homepage.enterKeyWord("feather pen");
+        sleepFor(3);
+        homepage.clickSearchButton();
+        sleepFor(3);
+        homepage.clickPen();
+        sleepFor(3);
+        cleanUp();
+    }
+
+    @Given("I Enter feather pen in search input field")
+    public void i_Enter_feather_pen_in_search_input_field() {
 
     }
 
@@ -167,38 +205,19 @@ public void i_Enter_mirror_in_search_input_field() {
 
     }
 
-    @Then("I should see rainbow pillow")
-    public void i_should_see_rainbow_pillow() {
-
-    }
-////////////////////////////////////////
-    @Given("I am at amazon Home Page")
-    public void i_am_at_amazon_Home_Page5() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
-    }
-
-    @Given("I Enter feather pen in search input field")
-    public void i_Enter_feather_pen_in_search_input_field() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
-    }
-
-    @When("I Click search button")
-    public void i_Click_search_button9() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
-    }
-
     @Then("I should see feather pen")
     public void i_should_see_feather_pen() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
-    }
-/////////////////////////////////
-    @Given("I am at amazon Home Page")
-    public void i_am_at_amazon_Home_Page9() {
 
+    }
+///////////////////////////////////
+    @Given("I am at amazon Home Page")
+    public void i_am_at_amazon_Home_Page9() throws InterruptedException {
+        homepage.enterKeyWord("popcorn tub");
+        sleepFor(3);
+        homepage.clickSearchButton();
+        sleepFor(3);
+        homepage.clickPopcorn();
+        cleanUp();
     }
 
     @Given("I Enter popcorn tub in search input field")
@@ -206,24 +225,32 @@ public void i_Enter_mirror_in_search_input_field() {
 
     }
 
-    @When("I Click search button")
-    public void i_Click_search_button2() {
+    @When("I Click search button9")
+    public void i_Click_search_button9() {
 
     }
 
-    @Then("I should see feather pen")
-    public void i_should_see_feather_pen2() {
+    @Then("I should see popcorn tub")
+    public void i_should_see_popcorn_tub() {
 
     }
-////////////////////////////////////
+//////////////////////////////////////
 @Given("I am at amazon Home Page")
     public void i_am_at_amazon_Home_Page10() {
 
     }
 
     @Given("I Enter pink headphones in search input field")
-    public void i_Enter_pink_headphones_in_search_input_field() {
-
+    public void i_Enter_pink_headphones_in_search_input_field() throws InterruptedException {
+        homepage.enterKeyWord("pink headphones");
+        sleepFor(3);
+        homepage.clickSearchButton();
+        sleepFor(3);
+        homepage.clickHeadphones();
+        sleepFor(3);
+        homepage.clickQty();
+        homepage.doSelectQty();
+        cleanUp();
     }
 
     @When("I Click search button")

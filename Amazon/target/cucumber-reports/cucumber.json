@@ -1,1 +1,107 @@
-[]
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 59838600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at amazon Home Page 1",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_amazon_Home_Page_1()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-20T10:16:26.210Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8114861400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Search product",
+        "description": "",
+        "id": "search-products-on-amazon-searchbox;search-product",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17954500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I Enter orange sandals in search input field",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Enter_orange_sandals_in_search_input_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7178747400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I Click search button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 993400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see orange sandals",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_orange_sandals()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test4"
+          }
+        ]
+      }
+    ],
+    "name": "Search products on amazon searchBox",
+    "description": "  As a customer i want to search product on Amazon.com to purchase and navigate the website",
+    "id": "search-products-on-amazon-searchbox",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/Homepage.feature",
+    "tags": []
+  }
+]
