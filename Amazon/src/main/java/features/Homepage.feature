@@ -41,18 +41,18 @@ Feature: Search products on amazon searchBox
     And I Enter rainbow pillow in search input field
     When I Click search button
     Then I should see rainbow pillow
-#  @Test8
-#  Scenario: Search product
-#    And I Enter feather pen in search input field
-#    When I Click search button
-#    Then I should see feather pen
-#  @Test9
-#  Scenario: Search product
-#    And I Enter popcorn tub in search input field
-#    When I Click search button
-#    Then I should see feather pen
-#  @Test10
-#  Scenario: Search product
-#    And I Enter pink headphones in search input field
-#    When I Click search button
-#    Then I should see pink headphones
+  @Test8
+  Scenario: Search product
+    And I Enter feather pen in search input field
+    When I Click search button
+    Then I should see feather pen
+  @Test9
+  Scenario: Search product
+    And I Enter popcorn tub in search input field
+    When I Click search button
+    Then I should see feather pen
+  @Test10
+  Scenario: Search product
+    And I Enter pink headphones in search input field
+    When I Click search button
+    Then I should see pink headphones

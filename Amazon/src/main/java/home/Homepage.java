@@ -13,11 +13,8 @@ import static webelements.HomepageWebElements.*;
 public class Homepage extends WebAPI {
 
     @FindBy(how = How.CSS,using = shopLinksWebElements) public List<WebElement> shopLinks;
-
-    // Page Objects Design Pattern/Page object Model(POM)
     @FindBy(how = How.CSS,using = searchBoxWebElement) public WebElement searchBox;
     @FindBy(how = How.CSS,using = searchButtonWebElement) public WebElement searchButton;
-    //@FindBy(how = How.XPATH,using = artNaturalWebElement) public WebElement artNatural;
     @FindBy(css =artNaturalWebElement ) public WebElement artNatural;
     @FindBy(how = How.CSS,using = qtyWebElement) public WebElement qty;
     @FindBy(how = How.XPATH,using = selectQtyWebElement) public WebElement selectQty;
@@ -70,18 +67,9 @@ public class Homepage extends WebAPI {
     public void clickMirror(){
         mirror.click();
     }
-    public void clickPillow(){
-        //click pillow
-        pillow.click();
-    }
-    public void clickPopcorn(){
-        //click pillow
-        popcorn.click();
-    }
-    public void clickHeadphones(){
-        //click pillow
-        headphones.click();
-    }
+    public void clickPillow(){ pillow.click(); }
+    public void clickPopcorn(){ popcorn.click(); }
+    public void clickHeadphones(){ headphones.click(); }
 
     public void validateSearchProduct(String expectedResult) {
         String actualResult = searchValidText.getText();

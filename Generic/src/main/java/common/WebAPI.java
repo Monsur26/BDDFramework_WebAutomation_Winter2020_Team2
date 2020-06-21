@@ -406,7 +406,6 @@ public class WebAPI {
         }
 
     }
-
     public void mouseHoverByXpath(String locator) {
         try {
             WebElement element = driver.findElement(By.xpath(locator));
@@ -421,6 +420,8 @@ public class WebAPI {
         }
 
     }
+
+
 
     //handling Alert
     public void okAlert() {

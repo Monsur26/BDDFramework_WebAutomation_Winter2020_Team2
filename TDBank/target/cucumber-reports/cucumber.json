@@ -1,0 +1,1005 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d83.0.4103.106)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LLR0ASQH3\u0027, ip: \u0027172.16.0.24\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002714.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\student\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62155}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 04f3ee698d6e17ac9ab830c7c568d76e\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat home.Homepage.student(Homepage.java:34)\r\n\tat stepdefinition.StepDefinition.i_am_at_the_TDBank_Home_Page(StepDefinition.java:36)\r\n\tat ✽.I am at the TDBank Home Page(file:///C:/Users/student/IdeaProjects/BDDFramework_WebAutomation_Winter2020_Team2/TDBank/src/main/java/features/Homepage.feature:5)\r\n",
+              "duration": 13165459100,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "I am at the TDBank Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_the_TDBank_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-21T04:19:57.804Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6860107700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Navigating to the student banking on TDBank",
+        "description": "",
+        "id": "browse-tdbank;navigating-to-the-student-banking-on-tdbank",
+        "after": [
+          {
+            "result": {
+              "duration": 951116200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1997600,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I hover to Services",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_hover_to_Services()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I Click Student Banking",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_Student_Banking()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998100,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I am on student banking page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_on_student_banking_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d83.0.4103.106)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LLR0ASQH3\u0027, ip: \u0027172.16.0.24\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002714.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\student\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62269}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: b455b5ef3f559b2db397a16765bb1bba\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat home.Homepage.student(Homepage.java:34)\r\n\tat stepdefinition.StepDefinition.i_am_at_the_TDBank_Home_Page(StepDefinition.java:36)\r\n\tat ✽.I am at the TDBank Home Page(file:///C:/Users/student/IdeaProjects/BDDFramework_WebAutomation_Winter2020_Team2/TDBank/src/main/java/features/Homepage.feature:5)\r\n",
+              "duration": 12621112600,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "I am at the TDBank Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_the_TDBank_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-21T04:20:19.107Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6426314300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Navigating to the services on TDBank",
+        "description": "",
+        "id": "browse-tdbank;navigating-to-the-services-on-tdbank",
+        "after": [
+          {
+            "result": {
+              "duration": 974900800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 997300,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I hover to Services",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_hover_to_Services()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996800,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I Click on services",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_services()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997600,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I see the service options",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_see_the_service_options()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11995046400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at the TDBank Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_the_TDBank_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-21T04:20:39.151Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7683938600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Navigating the products section on TDBank",
+        "description": "",
+        "id": "browse-tdbank;navigating-the-products-section-on-tdbank",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 995700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I hover to products",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_hover_to_products()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on the drop down",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_the_drop_down()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I read the products options",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_read_the_products_options()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test3"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d83.0.4103.106)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LLR0ASQH3\u0027, ip: \u0027172.16.0.24\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002714.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\student\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62536}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 6e7b9d2c1096b9b6d32861cbd3598b19\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat home.Homepage.student(Homepage.java:34)\r\n\tat stepdefinition.StepDefinition.i_am_at_the_TDBank_Home_Page(StepDefinition.java:36)\r\n\tat ✽.I am at the TDBank Home Page(file:///C:/Users/student/IdeaProjects/BDDFramework_WebAutomation_Winter2020_Team2/TDBank/src/main/java/features/Homepage.feature:5)\r\n",
+              "duration": 12984169300,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "I am at the TDBank Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_the_TDBank_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-21T04:20:58.843Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14984757000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Help section",
+        "description": "",
+        "id": "browse-tdbank;help-section",
+        "after": [
+          {
+            "result": {
+              "duration": 939671900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 998400,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "I click on country",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_country()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "I click on Canada",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Canada()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "I Click help",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_help()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "I read the help options",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_read_the_help_options()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test4"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d83.0.4103.106)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LLR0ASQH3\u0027, ip: \u0027172.16.0.24\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002714.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\student\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62643}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 566b3bb958f1fa909f1dca2461b9838e\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat home.Homepage.student(Homepage.java:34)\r\n\tat stepdefinition.StepDefinition.i_am_at_the_TDBank_Home_Page(StepDefinition.java:36)\r\n\tat ✽.I am at the TDBank Home Page(file:///C:/Users/student/IdeaProjects/BDDFramework_WebAutomation_Winter2020_Team2/TDBank/src/main/java/features/Homepage.feature:5)\r\n",
+              "duration": 12356728600,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "I am at the TDBank Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_the_TDBank_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-21T04:21:27.795Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7219225300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Search debit card",
+        "description": "",
+        "id": "browse-tdbank;search-debit-card",
+        "after": [
+          {
+            "result": {
+              "duration": 997862600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 998000,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "I click the searchbar",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_the_searchbar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "I enter debit card",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_enter_debit_card()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 34,
+            "name": "I Click enter",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998100,
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "I see the debit card options",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_see_the_debit_card_options()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test5"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11871093300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at the TDBank Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_the_TDBank_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-21T04:21:48.387Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5814496100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Go to Canada",
+        "description": "",
+        "id": "browse-tdbank;go-to-canada",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 994200,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I click on the region",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_the_region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 994100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I click Canada",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_Canada()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I see Canada",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_see_Canada()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test6"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I am at the TDBank Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_the_TDBank_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-21T04:22:06.088Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created\nfrom chrome not reachable\n  (Session info: chrome\u003d83.0.4103.106)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LLR0ASQH3\u0027, ip: \u0027172.16.0.24\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002714.0.1\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00769563+2725219]\n\tOrdinal0 [0x00668551+1672529]\n\tOrdinal0 [0x00550202+524802]\n\tOrdinal0 [0x005499B2+498098]\n\tOrdinal0 [0x0054A09B+499867]\n\tOrdinal0 [0x0054AFF5+503797]\n\tOrdinal0 [0x00546994+485780]\n\tOrdinal0 [0x00550FF0+528368]\n\tOrdinal0 [0x004FD6C9+186057]\n\tOrdinal0 [0x004FCA3D+182845]\n\tOrdinal0 [0x004FA94B+174411]\n\tOrdinal0 [0x004E2528+75048]\n\tOrdinal0 [0x004E35A0+79264]\n\tOrdinal0 [0x004E3539+79161]\n\tOrdinal0 [0x0067D607+1758727]\n\tGetHandleVerifier [0x00886546+1050150]\n\tGetHandleVerifier [0x00886291+1049457]\n\tGetHandleVerifier [0x008910D7+1094071]\n\tGetHandleVerifier [0x00886B46+1051686]\n\tOrdinal0 [0x00675B06+1727238]\n\tOrdinal0 [0x0067EB7B+1764219]\n\tOrdinal0 [0x0067ECE3+1764579]\n\tOrdinal0 [0x00694C05+1854469]\n\tBaseThreadInitThunk [0x75D96359+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x76F47BF4+180]\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat common.WebAPI.getLocalDriver(WebAPI.java:71)\r\n\tat common.WebAPI.setUp(WebAPI.java:55)\r\n\tat stepdefinition.StepDefinition.openBrowser(StepDefinition.java:22)\r\n",
+              "duration": 18547377400,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "Login Enter",
+        "description": "",
+        "id": "browse-tdbank;login-enter",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 43,
+            "name": "I hover to login",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "I click on login",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "I should see login",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test7"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000300,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I am at the TDBank Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_the_TDBank_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-21T04:22:24.655Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created\nfrom chrome not reachable\n  (Session info: chrome\u003d83.0.4103.106)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LLR0ASQH3\u0027, ip: \u0027172.16.0.24\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002714.0.1\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00769563+2725219]\n\tOrdinal0 [0x00668551+1672529]\n\tOrdinal0 [0x00550202+524802]\n\tOrdinal0 [0x005499B2+498098]\n\tOrdinal0 [0x0054A09B+499867]\n\tOrdinal0 [0x0054AFF5+503797]\n\tOrdinal0 [0x00546994+485780]\n\tOrdinal0 [0x00550FF0+528368]\n\tOrdinal0 [0x004FD6C9+186057]\n\tOrdinal0 [0x004FCA3D+182845]\n\tOrdinal0 [0x004FA94B+174411]\n\tOrdinal0 [0x004E2528+75048]\n\tOrdinal0 [0x004E35A0+79264]\n\tOrdinal0 [0x004E3539+79161]\n\tOrdinal0 [0x0067D607+1758727]\n\tGetHandleVerifier [0x00886546+1050150]\n\tGetHandleVerifier [0x00886291+1049457]\n\tGetHandleVerifier [0x008910D7+1094071]\n\tGetHandleVerifier [0x00886B46+1051686]\n\tOrdinal0 [0x00675B06+1727238]\n\tOrdinal0 [0x0067EB7B+1764219]\n\tOrdinal0 [0x0067ECE3+1764579]\n\tOrdinal0 [0x00694C05+1854469]\n\tBaseThreadInitThunk [0x75D96359+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x76F47BF4+180]\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat common.WebAPI.getLocalDriver(WebAPI.java:71)\r\n\tat common.WebAPI.setUp(WebAPI.java:55)\r\n\tat stepdefinition.StepDefinition.openBrowser(StepDefinition.java:22)\r\n",
+              "duration": 16050647200,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "Sign in enter",
+        "description": "",
+        "id": "browse-tdbank;sign-in-enter",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1994200,
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "I hover to sign in",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_hover_to_sign_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998900,
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "I click signin",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_signin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "I should see signin",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_signin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test8"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5855866800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at the TDBank Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_the_TDBank_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-21T04:22:40.724Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11284272800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "Giftcard",
+        "description": "",
+        "id": "browse-tdbank;giftcard",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 53,
+            "name": "I hover to login",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 963000,
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "I click login",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_login3()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1034800,
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "I hover to giftcard",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_hover_to_giftcard()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 960600,
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "I click giftcard",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_giftcard()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test9"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13254264300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at the TDBank Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_the_TDBank_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-21T04:22:57.877Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6641047900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 58,
+        "name": "Register Giftcard",
+        "description": "",
+        "id": "browse-tdbank;register-giftcard",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 59,
+            "name": "I hover to login",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "I click login",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_login3()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997000,
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "I hover to giftcard",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_hover_to_giftcard()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "skipped"
+            },
+            "line": 62,
+            "name": "I click giftcard",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_giftcard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000600,
+              "status": "skipped"
+            },
+            "line": 63,
+            "name": "I click register",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_register()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test10"
+          }
+        ]
+      }
+    ],
+    "name": "Browse TDBank",
+    "description": "  As a customer i want to browse TDBank and see the services they offer",
+    "id": "browse-tdbank",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/Homepage.feature",
+    "tags": []
+  }
+]

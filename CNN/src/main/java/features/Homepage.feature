@@ -42,12 +42,12 @@ Feature: Browse CNN
   @Test7
   Scenario: Email input
     And I click on user
-    When I enter my email
+    When I enter my email1
     Then I should see my email
   @Test8
   Scenario: Email Pass
     And I click on user
-    When I enter my email
+    When I enter my email2
     Then I enter my password
   @Test9
   Scenario: Login

@@ -27,7 +27,31 @@ import static webelements.HomepageWebElements.*;
         @FindBy(how = How.CSS, using = loginWebElement) public WebElement login;
         @FindBy(how = How.CSS, using = entertainmentWebElement) public WebElement entertainment;
         @FindBy(how = How.XPATH, using = searchValidTextWebElements) public WebElement searchValidText;
+       public  void enterKeyWord(String keyword){
+           search.sendKeys(keyword);
+       }
 
+
+       public  void clickhealth(){ health.click(); }
+       public void clickwellness(){
+           wellness.click();
+       }
+       public void clickedition(){
+           edition.click();
+       }
+
+       public void clickinternational(){ international.click(); }
+       public void clickhamburger(){ hamburger.click(); }
+       public void clickpolitics(){ politics.click(); }
+       public void clickmagnify(){ magnify.click(); }
+       public void clicksearch(){ search.click(); }
+       public void clickbutton(){ button.click(); }
+       public void clickstories(){ stories.click(); }
+       public void clickuser(){ user.click(); }
+       public void clickemail(){ email.click(); }
+       public void password(){ password.click(); }
+       public void login(){ login.click(); }
+       public void entertainment(){ entertainment.click(); }
         public void validateSearchProduct(String expectedResult) {
             String actualResult = searchValidText.getText();
             Assert.assertEquals("Search Result not Displayed",expectedResult,actualResult);
