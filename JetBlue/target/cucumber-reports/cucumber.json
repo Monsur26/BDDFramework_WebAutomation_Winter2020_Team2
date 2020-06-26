@@ -1,0 +1,947 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 29919100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_cnn_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T00:58:55.739Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6407830200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Click JetBlue from Africa",
+        "description": "",
+        "id": "being-able-to-plan-flights-on-jetblue;click-jetblue-from-africa",
+        "after": [
+          {
+            "result": {
+              "duration": 637337600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4151570700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "make it fullscreen",
+            "match": {
+              "location": "stepdefinition.StepDefinition.make_it_full_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2815255100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I Browse from Africa",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_browse_from_Africa()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10969800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see same URL",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_lists()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_cnn_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T00:59:09.847Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4806298100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Click JetBlue from Asia",
+        "description": "",
+        "id": "being-able-to-plan-flights-on-jetblue;click-jetblue-from-asia",
+        "after": [
+          {
+            "result": {
+              "duration": 640278200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4146752100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "make it fullscreen",
+            "match": {
+              "location": "stepdefinition.StepDefinition.make_it_full_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2537781300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I Browse from Asia",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_browse_from_Asia()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4987000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should see same URL",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_lists()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression2"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 996500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_cnn_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T00:59:21.988Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4798456400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Click JetBlue from CA",
+        "description": "",
+        "id": "being-able-to-plan-flights-on-jetblue;click-jetblue-from-ca",
+        "after": [
+          {
+            "result": {
+              "duration": 635926000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4248716300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "make it fullscreen",
+            "match": {
+              "location": "stepdefinition.StepDefinition.make_it_full_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2520345100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I Browse from CA",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_browse_from_CA()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5982900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I should see same URL",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_lists()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression3"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_cnn_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T00:59:34.202Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4667474800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Click JetBlue from EU",
+        "description": "",
+        "id": "being-able-to-plan-flights-on-jetblue;click-jetblue-from-eu",
+        "after": [
+          {
+            "result": {
+              "duration": 617860900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4127726600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "make it fullscreen",
+            "match": {
+              "location": "stepdefinition.StepDefinition.make_it_full_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2581508800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I Browse from Europe",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_browse_from_EU()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5992800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I should see same URL",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_lists()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression4"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 999800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_cnn_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T00:59:46.206Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4792435800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Click JetBlue from Arab",
+        "description": "",
+        "id": "being-able-to-plan-flights-on-jetblue;click-jetblue-from-arab",
+        "after": [
+          {
+            "result": {
+              "duration": 655429800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4224429200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "make it fullscreen",
+            "match": {
+              "location": "stepdefinition.StepDefinition.make_it_full_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2774785900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I Browse from ARAB",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_browse_from_ARAB()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3988200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I should see same URL",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_lists()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression5"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_cnn_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T00:59:58.677Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5932151300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "Click JetBlue from SA",
+        "description": "",
+        "id": "being-able-to-plan-flights-on-jetblue;click-jetblue-from-sa",
+        "after": [
+          {
+            "result": {
+              "duration": 620494800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4183688600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "make it fullscreen",
+            "match": {
+              "location": "stepdefinition.StepDefinition.make_it_full_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2506387400,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I Browse from SA",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_browse_from_SA()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41,
+            "name": "I should see new Location",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_cnn_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T01:00:11.933Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5921914500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "Click JetBlue from NA",
+        "description": "",
+        "id": "being-able-to-plan-flights-on-jetblue;click-jetblue-from-na",
+        "after": [
+          {
+            "result": {
+              "duration": 624280800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4152138800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "make it fullscreen",
+            "match": {
+              "location": "stepdefinition.StepDefinition.make_it_full_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3757740900,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I Browse from NA",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_browse_from_NA()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47,
+            "name": "I should see new Location",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest2"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 996100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_cnn_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T01:00:26.398Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5028492000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "Click JetBlue from NABuffalo",
+        "description": "",
+        "id": "being-able-to-plan-flights-on-jetblue;click-jetblue-from-nabuffalo",
+        "after": [
+          {
+            "result": {
+              "duration": 629393100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4193500100,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "make it fullscreen",
+            "match": {
+              "location": "stepdefinition.StepDefinition.make_it_full_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2718234400,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I Browse from NABuffalo",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_browse_from_NABuffalo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 54,
+            "name": "I should see new Location",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest3"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 998700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_cnn_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T01:00:38.973Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4907327500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 58,
+        "name": "Click JetBlue from NADetroit",
+        "description": "",
+        "id": "being-able-to-plan-flights-on-jetblue;click-jetblue-from-nadetroit",
+        "after": [
+          {
+            "result": {
+              "duration": 703747100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4191349000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "make it fullscreen",
+            "match": {
+              "location": "stepdefinition.StepDefinition.make_it_full_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2651211300,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I Browse from NADetroit",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_browse_from_NADetroit()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 61,
+            "name": "I should see new Location",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest4"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_cnn_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T01:00:51.431Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4728950500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 65,
+        "name": "Drop down list to see items in ascending order by name",
+        "description": "",
+        "id": "being-able-to-plan-flights-on-jetblue;drop-down-list-to-see-items-in-ascending-order-by-name",
+        "after": [
+          {
+            "result": {
+              "duration": 628347000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4128003100,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "make it fullscreen",
+            "match": {
+              "location": "stepdefinition.StepDefinition.make_it_full_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3192706300,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I browse items from ascending order",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_browse_from_ascending()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5983000,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I see items from ascending ord",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_see_from_ascending()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest5"
+          }
+        ]
+      }
+    ],
+    "name": "Being able to plan flights on JetBlue",
+    "description": "  As a customer i want to be able to book a flight from anywhere",
+    "id": "being-able-to-plan-flights-on-jetblue",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/Homepage.feature",
+    "tags": []
+  }
+]

@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
         plugin = {"pretty","json:target/cucumber-reports/cucumber.json","html:target/cucumber-reports"},
         strict =true ,
         monochrome =true ,
-        dryRun = false,
         tags = "")
 
 public class TestRunner {

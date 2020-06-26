@@ -17,7 +17,11 @@ public class StepDefinition extends WebAPI {
     public void closeBrowser() {
         cleanUp();
     }
-    static Homepage homepage;
-    public static void getInitElements(){homepage=PageFactory.initElements(driver,Homepage.class);}
+    static Homepage homePage;
+    public static void getInitElements(){
+        homePage=PageFactory.initElements(driver,Homepage.class);
+    }
+
+
 
 }
