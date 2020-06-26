@@ -16,4 +16,5 @@ public class HomepageWebElements {
     public static final String welcomeMemberSignInWebElement="Sign In";
     public static final String newPageSigninWebElement="//button[contains(text(),'Sign In')]";
     public static final String exploreMedicareWebElement="//a[contains(text(),'Explore Medicare Plans')]";
+
 }

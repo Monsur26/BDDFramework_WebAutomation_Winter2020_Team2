@@ -35,7 +35,7 @@ public class StepDefinition extends WebAPI {
     @Then("Menu search box generates")
     public void menu_search_box_generates() {
         getInitElements();
-        homepage.validatingCNNLogo();
+        homepage.validateMenu();
     }
 
     @Given("I click to open menu generating box")
@@ -53,7 +53,7 @@ public class StepDefinition extends WebAPI {
     @Then("i get the specified search item")
     public void i_get_the_specified_search_item() {
         getInitElements();
-        homepage.validatingCNNLogo();
+        homepage.validateMenu();
     }
 
     @Given("I click US top news and top news of the day")
@@ -118,5 +118,38 @@ public class StepDefinition extends WebAPI {
         getInitElements();
         homepage.validatingCNNLogo();
     }
+    @Given("I scroll down")
+    public void i_scroll_down() {
+    getInitElements();
+    homepage.windowScroll();
+    }
+
+    @Then("I see the bottom of the homepage.")
+    public void i_see_the_bottom_of_the_homepage() {
+    getInitElements();
+    homepage.validateMenu();
+    }
+    @When("I search for specified {string} and press enter")
+    public void i_search_for_specified_and_press_enter(String string) {
+        getInitElements();
+        homepage.heeadersearchbox(string);
+
+    }
+
+    @Then("I get \"\"top news\"\"")
+    public void i_get_top_news() {
+
+    }
+
+    @Then("I get \"\"Covid\"\"")
+    public void i_get_Covid() {
+
+    }
+
+    @Then("I get \"\"BLM\"\"")
+    public void i_get_BLM() {
+
+    }
+
 
 }

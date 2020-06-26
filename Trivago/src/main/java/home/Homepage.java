@@ -70,9 +70,7 @@ public class Homepage extends WebAPI {
     public void searchButton(){searchButton.click();}
     public void trivagoInsta(){
         trivagoInsta.click();
-        for(String winHandle : driver.getWindowHandles()){
-            driver.switchTo().window(winHandle);
-        }
+        windowSwitch();
 
     }
     public void validationMenuHoverAndSelect(){

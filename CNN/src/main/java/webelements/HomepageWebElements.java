@@ -1,7 +1,7 @@
 package webelements;
 
 public class HomepageWebElements {
-    public static final String menuBoxWebElement="#header-nav-container > div > div.Grid-sc-1kcyc0j-0.sc-fBuWsC.jBNLzo > div > button > svg";
+    public static final String menuBoxWebElement="/html[1]/body[1]/div[5]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[5]/button[1]/*[local-name()='svg'][1]";
     public static final String headerSearchBarWebElement="//input[contains(@id,\"header-search-bar\")]";
     public static final String buttonSearchBarWebElement="Text-sc-1amvtpj-0 iEWJSI";
     public static final String USNewsLinkBarWebElement="//*[@id=\"header-nav-container\"]/div/div[1]/div/div[2]/nav/ul/li[1]/a";

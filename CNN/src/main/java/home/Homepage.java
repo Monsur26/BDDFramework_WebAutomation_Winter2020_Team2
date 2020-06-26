@@ -6,11 +6,10 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
-
 import static webelements.HomepageWebElements.*;
 
 public class Homepage extends WebAPI {
-    @FindBy(css = menuBoxWebElement)public WebElement menuBox;
+    @FindBy(xpath = menuBoxWebElement)public WebElement menuBox;
     @FindBy(xpath = headerSearchBarWebElement)public WebElement headerSearch;
     @FindBy(className = buttonSearchBarWebElement)public WebElement searchButton;
     @FindBy(xpath = USNewsLinkBarWebElement)public WebElement USNewsLink;
@@ -48,9 +47,14 @@ public class Homepage extends WebAPI {
     public void userACC(){userAcc.click();}
     public void emaillogin(String emaillog){email.sendKeys(emaillog);}
     public void passwordadd(String pass){ password.sendKeys(pass);}
+    public void windowScroll(){ scrollUpDownByHeight(); }
 
     public void validatingCNNLogo(){
         String actual=CNNLogo.getText();
+        Assert.assertEquals("not successful","",actual);
+    }
+    public void validateMenu(){
+        String actual=menuBox.getText();
         Assert.assertEquals("not successful","",actual);
     }
 }

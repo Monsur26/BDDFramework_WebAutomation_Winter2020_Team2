@@ -42,11 +42,8 @@ public class Homepage extends WebAPI {
     public void medicareZip(String digits){
         medicareZip.sendKeys(digits);
         medicareZip.sendKeys(Keys.ENTER);
-        for(String winHandle : driver.getWindowHandles()){
-            driver.switchTo().window(winHandle);
-        }
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-
+        windowSwitch();
+        implicitWait(5);
     }
     public void setSignInMenu(){
         signInMenu.click();
@@ -54,36 +51,26 @@ public class Homepage extends WebAPI {
     public void setMyuhc(){
         String winHandleBefore = driver.getWindowHandle();
         myuhc.click();
-        for(String winHandle : driver.getWindowHandles()){
-            driver.switchTo().window(winHandle);
-        }
-        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
-        driver.switchTo().window(winHandleBefore);
+        windowSwitch();
+        implicitWait(5);
+        switchToPreviousWindow(winHandleBefore);
     }
     public void setEspaniolLng() throws InterruptedException {espaniolLng.click(); }
     public void setEnglishLng(){englishLng.click();}
-    public void upperLinks(){upperMenuLinks.size();
-        for (WebElement ul:upperMenuLinks) {
-            System.out.println(ul.getText());
-        }
+    public void upperLinks(){
+        upperMenuLinks.size();
+        windowSwitch();
     }
     public void welcomeMemberSignIn(){
         welcomeMember.click();
-        for(String winHandle : driver.getWindowHandles()){
-            driver.switchTo().window(winHandle);
-        }
-
+        windowSwitch();
     }
     public void dragUHCLogo(){
-        Actions actions=new Actions(driver);
-        actions.dragAndDrop(uhcLogo,searchBox).build().perform();
+        dragAndDrop(uhcLogo,searchBox);
     }
     public void dragExploreMedicare(){
-        Actions a=new Actions(driver);
-        a.dragAndDrop(exploreMedicareButton,searchBox).build().perform();
+        dragAndDrop(exploreMedicareButton,searchBox);
     }
-
-
 
     public void validateCovidNotice(){
         String actual=uhcLogo.getText();
