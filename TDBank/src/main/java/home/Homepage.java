@@ -2,6 +2,8 @@ package home;
 
 import common.WebAPI;
 import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -25,7 +27,7 @@ public class Homepage extends WebAPI {
     @FindBy(how = How.CSS, using = passwordWebelement) public WebElement password;
     @FindBy(how = How.CSS, using = loginsubmitWebelement) public WebElement loginsubmit;
     @FindBy(how = How.XPATH, using = accountLogInTextWebelement) public WebElement accountLogInText;
-    @FindBy(how = How.LINK_TEXT, using = creditcardsWebelement) public WebElement creditcards;
+    @FindBy(how = How.XPATH, using = creditcardsWebelement) public WebElement creditcards;
     @FindBy(how = How.CSS, using = homeEquityWebelement) public WebElement homeEquity;
     @FindBy(how = How.CSS, using = setMylocationWebelement) public WebElement setMylocation;
     @FindBy(how = How.XPATH, using = countryWebelement) public WebElement country;
@@ -39,21 +41,34 @@ public class Homepage extends WebAPI {
     @FindBy(how = How.XPATH, using = individualsWebelement) public WebElement individual;
     @FindBy(how = How.XPATH, using = individualsTextWebelement) public WebElement individualText;
 
-
+    public void mouseHoverbyCSSNew(WebElement we1, WebElement we2){
+//        WebElement element1 = driver.findElement(By.xpath(locator1));
+//        WebElement element2 = driver.findElement(By.xpath(locator2));
+        Actions action = new Actions(driver);
+        Actions hover = action.moveToElement(we1);
+        hover.moveToElement(we1).moveToElement(we2).click().build().perform();
+    }
+    public void clickOnElementbyMouseHover(){
+        mouseHoverbyCSSNew(productlink,creditcards);
+    }
+    public void Scrolldown() {        JavascriptExecutor js = (JavascriptExecutor)driver;
+        js.executeScript("scrollBy(0, 4500)");
+    }
     public void MouseHoverOnProducts() throws InterruptedException {
         mouseHoverByCSS("#td-desktop-nav-dropdown-link-2");
-        sleepFor(1);
-//        mouseHoverByCSS("#td-desktop-nav-dropdown-link-3");
-//        sleepFor(3);
-    }
+        sleepFor(10);
+       }
+
     public void MouseHoverOnProductsToServices() throws InterruptedException {
         mouseHoverByCSS("#td-desktop-nav-dropdown-link-2");
         sleepFor(3);
         mouseHoverByCSS("#td-desktop-nav-dropdown-link-3");
-        sleepFor(3);
+        sleepFor(10);
+
     }
+    public void ClickOnProducts(){ clickOnElement("#td-desktop-nav-dropdown-link-2");}
     public void creditCardsProducts(){
-        productlink.click();
+//        productlink.click();
         creditcards.click();
     }
     public void validateTDBankProductsmenu(String expectedResult){
@@ -110,7 +125,6 @@ public class Homepage extends WebAPI {
         Actions action=new Actions(driver);
         action.sendKeys(Keys.ENTER).build().perform();
     }
-
     public void validateTDBankHelpSearch(String expectedResult) {
         String actualResult =helpsearchResultText.getText();
         Assert.assertEquals("Search Result not Displayed", expectedResult, actualResult);

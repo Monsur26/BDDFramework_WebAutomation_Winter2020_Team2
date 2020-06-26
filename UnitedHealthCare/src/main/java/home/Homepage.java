@@ -96,8 +96,4 @@ public class Homepage extends WebAPI {
         String actualResult=forProvidersNewUserText.getText();
         Assert.assertEquals("Search Result not Displayed",expectedResult,actualResult);
     }
-
-
-
-
 }

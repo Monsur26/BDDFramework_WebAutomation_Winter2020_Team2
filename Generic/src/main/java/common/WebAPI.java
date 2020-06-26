@@ -3,6 +3,7 @@ package common;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -57,7 +58,7 @@ public class WebAPI {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         //driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
         driver.get(url);
-        //driver.manage().window().maximize();
+        driver.manage().window().maximize();
     }
 
     public WebDriver getLocalDriver(String OS, String browserName) {
@@ -397,6 +398,7 @@ public class WebAPI {
             WebElement element = driver.findElement(By.cssSelector(locator));
             Actions action = new Actions(driver);
             Actions hover = action.moveToElement(element);
+            hover.build().perform();
         } catch (Exception ex) {
             System.out.println("First attempt has been done, This is second try");
             WebElement element = driver.findElement(By.cssSelector(locator));
@@ -412,6 +414,7 @@ public class WebAPI {
             WebElement element = driver.findElement(By.xpath(locator));
             Actions action = new Actions(driver);
             Actions hover = action.moveToElement(element);
+            hover.build().perform();
         } catch (Exception ex) {
             System.out.println("First attempt has been done, This is second try");
             WebElement element = driver.findElement(By.xpath(locator));
@@ -454,9 +457,9 @@ public class WebAPI {
     }
 
     //Synchronization
-    public void waitUntilClickAble(By locator) {
+    public void waitUntilClickAble(String locator) {
         WebDriverWait wait = new WebDriverWait(driver, 10);
-        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+//        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
     }
 
     public void waitUntilVisible(By locator) {
@@ -560,6 +563,28 @@ public class WebAPI {
         String text = webElement.getText();
         return text;
     }
+    public void dropDownByCSS(WebElement element, String value){
+//        WebElement element=driver.
+        Select select=new Select(element);
+        select.selectByVisibleText(value);
+    }
 
+
+    public void implicitWait(int sec){
+        driver.manage().timeouts().implicitlyWait(sec,TimeUnit.SECONDS) ;
+    }
+    public void scrollDownVertically(){
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+//        js.executeScript("scrollBy(0,8500)");
+        js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+    }
+    public void scrollUpVertically(){
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+        js.executeScript("scrollBy(0,-8000)");
+    }
+    public void validateTestCase(WebElement element,String expectedResult){
+        String actualResult=element.getText();
+        Assert.assertEquals("Search Result not Displayed",expectedResult,actualResult);
+    }
 
 }

@@ -15,7 +15,8 @@ public class HomepageWebElements {
     public static final String passwordWebelement="input[name='password']";
     public static final String loginsubmitWebelement="button[form='loginForm']";
     public static final String accountLogInTextWebelement="//h1[contains(text(),'Welcome to Online Banking')]";
-    public static final String creditcardsWebelement="Credit Cards";
+//    public static final String creditcardsWebelement="Credit Cards";
+    public static final String creditcardsWebelement="//ul[@class='td-dropdown-content']//a[contains(text(),'Credit Cards')]";
     public static final String homeEquityWebelement="span[class='td-icon td-icon-homeEquityFlexline td-icon-sm-center td-icon-md-center']";
     public static final String setMylocationWebelement="button[class='td-button td-button-block td-button-secondary']";
     public static final String countryWebelement="//a[@id='td-desktop-nav-dropdown-link-0']//span[@class='td-icon expand']";

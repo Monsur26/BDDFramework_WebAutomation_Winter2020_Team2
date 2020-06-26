@@ -38,11 +38,17 @@ public class StepDefinition extends WebAPI {
         getInitElements();
         homepage.MouseHoverOnProducts();
     }
+    @Then("I click on Products")
+    public void i_click_on_Products() {
+        getInitElements();
+        homepage.ClickOnProducts();
+    }
 
     @When("I click on Credit Cards")
     public void i_click_on_Credit_Cards() {
         getInitElements();
-        homepage.creditCardsProducts();
+        homepage.clickOnElementbyMouseHover();
+//        homepage.creditCardsProducts();
     }
 
     @Then("I should see All type of Credit Cards")

@@ -8,35 +8,21 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.Select;
-
 import java.util.List;
-
 import static webelements.HomepageWebElements.*;
 
 public class Homepage extends WebAPI {
 
-    //    @FindBy(css=shopLinksWebElements) public List<WebElement> shopLinks;
     @FindBy(how = How.CSS, using = shopLinksWebElements) public List<WebElement> shopLinks;
-
-    // Page Objects Design Pattern/Page object Model(POM)
     @FindBy(how = How.CSS, using = searchBoxWebElement)    public WebElement searchBox;
-    @FindBy(how = How.CSS, using = searchButtonWebElement)
-    public WebElement searchButton;
-    //@FindBy(how = How.XPATH,using = artNaturalWebElement) public WebElement artNatural;
-    @FindBy(css = artNaturalWebElement)
-    public WebElement artNatural;
-    @FindBy(how = How.CSS, using = qtyWebElement)
-    public WebElement qty;
-    @FindBy(how = How.XPATH, using = selectQtyWebElement)
-    public WebElement selectQty;
-    @FindBy(how = How.ID, using = addToCartWebElement)
-    public WebElement addToCart;
-    @FindBy(how = How.ID, using = checkoutWebElement)
-    public WebElement checkout;
-    @FindBy(how = How.XPATH, using = searchValidTextWebElements)
-    public WebElement searchValidText;
+    @FindBy(how = How.CSS, using = searchButtonWebElement)    public WebElement searchButton;
+    @FindBy(css = artNaturalWebElement)    public WebElement artNatural;
+    @FindBy(how = How.CSS, using = qtyWebElement)    public WebElement qty;
+    @FindBy(how = How.XPATH, using = selectQtyWebElement) public WebElement selectQty;
+    @FindBy(how = How.ID, using = addToCartWebElement)   public WebElement addToCart;
+    @FindBy(how = How.ID, using = checkoutWebElement) public WebElement checkout;
+    @FindBy(how = How.XPATH, using = searchValidTextWebElements)    public WebElement searchValidText;
     @FindBy(how = How.XPATH, using = searchTodaysDealsWebelement) public WebElement todaysDeal;
-
     @FindBy(how = How.XPATH, using = searchTodaysDealsTextWebelement) public WebElement todaysDealsText;
     @FindBy(how = How.LINK_TEXT, using = searchNewReleasesWebelement) public WebElement newReleases;
     @FindBy(how = How.CSS, using = searchNewReleasesTextWebelement) public WebElement newReleasesText;
@@ -60,56 +46,22 @@ public class Homepage extends WebAPI {
     @FindBy(how = How.CSS, using=giftCardsTextWebelement) public WebElement giftCardsText;
     @FindBy(how = How.CSS, using=mainmenuWebelement) public WebElement mainmenu;
     @FindBy(how = How.CSS, using=mainmenuTextWebelement) public WebElement mainmenuText;
+    @FindBy(how = How.XPATH, using=searchResultTextWebelement) public WebElement searchResultText;
 
-
-
-    // Steps:1: // Enter keyword in search box
-    public void enterKeyWord(String keyword) {
-        // Enter keyword in search box
-        searchBox.sendKeys(keyword);
-    }
-
-    // Steps:2:
-    public void clickSearchButton() {
-        // Click searchButton
-        searchButton.click();
-    }
-
-    // Steps:3:
+    public void enterKeyWord(String keyword) {  searchBox.sendKeys(keyword);   }
+    public void clickSearchButton() { searchButton.click(); }
     public void clickProduct() {modennafacemask.click(); }
-
-    // Steps:4:
-    public void clickQty() {
-        // Click Quantity
-        qty.click();
-    }
-
-    // Steps:5:
-    public void doSelectQty() {
-        // Select Quantity
-        selectQty.click();
-    }
-
-    // Steps:6:
-    public void clickAddToCart() {
-        // Click Add to Cart
-        addToCart.click();
-    }
-
-    // Steps:7:
-    public void clickCheckout() {
-        // Click Checkout
-        checkout.click();
-    }
+    public void clickQty() { qty.click(); }
+    public void doSelectQty() { selectQty.click(); }
+    public void clickAddToCart() { addToCart.click(); }
+    public void clickCheckout() { checkout.click(); }
     public void validateSearchProduct(String expectedResult) {
         String actualResult = searchValidText.getText();
         Assert.assertEquals("Search Result not Displayed",expectedResult,actualResult);
-
     }
     public void validateSearchProduct(List<String> expectedResult) {
         String actualResult = searchValidText.getText();
         Assert.assertEquals("Search Result not Displayed",expectedResult,actualResult);
-
     }
     public void AmazonTodaysDeal(){ todaysDeal.click();}
     public void validateTodaysDeals(String expectedResult){
@@ -153,9 +105,8 @@ public class Homepage extends WebAPI {
         String actualResult=maskaddedincartText.getText();
         Assert.assertEquals("Search Result not Displayed",expectedResult,actualResult);
     }
-    public void AmazonAccList(){
-      mouseHoverByCSS("#nav-link-accountList");
-    }
+    public void AmazonAccList(){ mouseHoverByCSS("#nav-link-accountList");}
+//    public void ClickOnAccList(){ clickOnElement("#nav-link-accountList");}
     public void validateAccountlists(String expectedResult){
         String actualResult=accountListText.getText();
         Assert.assertEquals("Search Result not Displayed",expectedResult,actualResult);
@@ -195,5 +146,8 @@ public class Homepage extends WebAPI {
         String actualResult=mainmenuText.getText();
         Assert.assertEquals("Search Result not Displayed",expectedResult,actualResult);
     }
-
+    public void validateSearchItems(String expectedResult){
+        String actualResult=searchResultText.getText();
+        Assert.assertEquals("Search Result not Displayed",expectedResult,actualResult);
+    }
 }

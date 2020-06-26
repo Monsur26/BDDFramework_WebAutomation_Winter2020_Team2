@@ -34,5 +34,8 @@ public class HomepageWebElements {
     public static final String giftCardsTextWebelement="#contentGrid_463932 > div > div:nth-child(1)";
     public static final String mainmenuWebelement="a#nav-hamburger-menu";
     public static final String mainmenuTextWebelement="#hmenu-content > ul.hmenu.hmenu-visible > li:nth-child(1) > div";
+    public static final String FaceMaskTextWebelement="#//*[@id=\"search\"]/span/div/span/h1/div/div[1]/div/div/span[3]";
+    public static final String TabletTextWebelement="//*[@id=\"search\"]/span/div/span/h1/div/div[1]/div/div/span[3]";
+    public static final String searchResultTextWebelement="//*[@id=\"search\"]/span/div/span/h1/div/div[1]/div/div/span[3]";
 
 }

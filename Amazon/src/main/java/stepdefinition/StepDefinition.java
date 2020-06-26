@@ -136,6 +136,7 @@ public class StepDefinition extends WebAPI {
         getInitElements();
         homepage.AmazonAccList();
     }
+
     @When("I click on Sign in button")
     public void i_click_on_Sign_in_button() throws InterruptedException {
       getInitElements();
@@ -180,6 +181,49 @@ public class StepDefinition extends WebAPI {
     public void i_should_see_all_Category() {
         getInitElements();
         homepage.validateAmazonMainMenu("SHOP BY CATEGORY");
+    }
+//    @Given("I Enter Items in search input field")
+//    public void i_Enter_Items_in_search_input_field(String string) {
+//        getInitElements();
+//        homepage.enterKeyWord(string);
+//    }
+
+
+    @Given("I Enter {string} in search input field")
+    public void i_Enter_in_search_input_field(String string) {
+        getInitElements();
+        homepage.enterKeyWord(string);
+    }
+    @When("I Click search button")
+    public void i_Click_search_button() {
+        getInitElements();
+        homepage.clickSearchButton();
+    }
+
+
+
+    @Then("I should see \"\"Face Mask\"\"")
+    public void i_should_see_Face_Mask() {
+        getInitElements();
+        homepage.validateSearchItems("\"Face Mask\"");
+    }
+
+    @Then("I should see \"\"Tablet\"\"")
+    public void i_should_see_Tablet() {
+        getInitElements();
+        homepage.validateSearchItems("\"Tablet\"");
+    }
+
+    @Then("I should see \"\"Hand soap\"\"")
+    public void i_should_see_Hand_soap() {
+        getInitElements();
+        homepage.validateSearchItems("\"Hand soap\"");
+    }
+
+    @Then("I should see \"\"I Phone {int} Pro\"\"")
+    public void i_should_see_I_Phone_Pro(Integer int1) {
+        getInitElements();
+        homepage.validateSearchItems("\"iphone 11 pro\"");
     }
 
 }

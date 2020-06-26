@@ -1,0 +1,95 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-20T14:58:46.784Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16061876200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Explore Progressive Products",
+        "description": "",
+        "id": "explore-progressive-home-page;explore-progressive-products",
+        "after": [
+          {
+            "result": {
+              "duration": 2071582300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 90037100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Progressive Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Progressive_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 454608600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on Explore Products",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Explore_Products()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.util.NoSuchElementException\r\n\tat java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:721)\r\n\tat java.base/java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:741)\r\n\tat home.Homepage.windowHandle(Homepage.java:24)\r\n\tat home.Homepage.ExploreProductsWindow(Homepage.java:28)\r\n\tat stepdefinition.StepDefinition.i_am_at_Explore_Products_window(StepDefinition.java:40)\r\n\tat ✽.I am at Explore Products window(file:///C:/Users/maruf/Desktop/Selenium_group_2/BDD%20group%20project/BDDFramework_WebAutomation_Winter2020_Team2/Progressive/src/main/java/features/Homepage.feature:6)\r\n",
+              "duration": 34906800,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "I am at Explore Products window",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Explore_Products_window()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I should see all products in new window",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_all_products_in_new_window()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Explore Progressive Home Page",
+    "description": "",
+    "id": "explore-progressive-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/Homepage.feature",
+    "tags": []
+  }
+]
