@@ -587,6 +587,9 @@ public class WebAPI {
         JavascriptExecutor js=(JavascriptExecutor) driver;
         js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
     }
+    public static void windowMaximize() {
+        driver.manage().window().maximize();
+    }
 
 
 
