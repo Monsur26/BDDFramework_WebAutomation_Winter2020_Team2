@@ -1,0 +1,1701 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T22:46:55.414Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2613468000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Select Book",
+        "description": "",
+        "id": "explore-jetblue-page;select-book",
+        "after": [
+          {
+            "result": {
+              "duration": 102937000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30989000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_JetBlue_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3590454000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Click on Book in Menu Bar",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_Book_in_Menu_Bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2227000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see Book",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Book()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T22:47:01.817Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2118807000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "click LogIn",
+        "description": "",
+        "id": "explore-jetblue-page;click-login",
+        "after": [
+          {
+            "result": {
+              "duration": 116188000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2343000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_JetBlue_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4181598000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I Click on LogIn in Menu Bar",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_LogIn_in_Menu_Bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1709000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should see LogIn",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_LogIn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T22:47:08.250Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2060355000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "click MyTrips",
+        "description": "",
+        "id": "explore-jetblue-page;click-mytrips",
+        "after": [
+          {
+            "result": {
+              "duration": 106802000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1710000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_JetBlue_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2684484000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I Click on MyTrips in Menu Bar",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_MyTrips_in_Menu_Bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2498000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should see MyTrips",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_MyTrips()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T22:47:13.116Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2057474000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "mouseHover MyTrips",
+        "description": "",
+        "id": "explore-jetblue-page;mousehover-mytrips",
+        "after": [
+          {
+            "result": {
+              "duration": 105239000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2003000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_JetBlue_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1129000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I mouseHover on MyTrips in Menu Bar",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_mouseHover_on_MyTrips_in_Menu_Bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2161108000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I mouseHover on MyTrips",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_mouseHover_on_MyTrips()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2005000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should see mouseHover on MyTrips",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_mouseHover_on_MyTrips()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T22:47:17.453Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2101905000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "mouseHover Explore",
+        "description": "",
+        "id": "explore-jetblue-page;mousehover-explore",
+        "after": [
+          {
+            "result": {
+              "duration": 102953000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2352000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_JetBlue_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1211000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I mouseHover on Explore in Menu Bar",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_mouseHover_on_Explore_in_Menu_Bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2431762000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I mouseHover on Explore",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_mouseHover_on_Explore()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1254000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I should see mouseHover on Explore",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_mouseHover_on_Explore()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T22:47:22.101Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2016226000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "mouseHover Travel",
+        "description": "",
+        "id": "explore-jetblue-page;mousehover-travel",
+        "after": [
+          {
+            "result": {
+              "duration": 102463000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2029000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_JetBlue_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 934000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I mouseHover on Travel in Menu Bar",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_mouseHover_on_Travel_in_Menu_Bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2376882000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I mouseHover on Travel",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_mouseHover_on_Travel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1502000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I should see mouseHover on Travel",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_mouseHover_on_Travel()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T22:47:26.607Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2077654000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "mouseHover Flight",
+        "description": "",
+        "id": "explore-jetblue-page;mousehover-flight",
+        "after": [
+          {
+            "result": {
+              "duration": 105490000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1406000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_JetBlue_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 583000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I mouseHover on Flight in Menu Bar",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_mouseHover_on_Flight_in_Menu_Bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3282725000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I mouseHover on Flight",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_mouseHover_on_Flight()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 735000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I should see mouseHover on Flight",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_mouseHover_on_Flight()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T22:47:32.081Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2045840000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "mouseHover CheckIn",
+        "description": "",
+        "id": "explore-jetblue-page;mousehover-checkin",
+        "after": [
+          {
+            "result": {
+              "duration": 101306000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1419000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_JetBlue_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 958000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I mouseHover on CheckIn in Menu Bar",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_mouseHover_on_CheckIn_in_Menu_Bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3312057000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I mouseHover on CheckIn",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_mouseHover_on_CheckIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1477000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I should see mouseHover on CheckIn",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_mouseHover_on_CheckIn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T22:47:37.549Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2067019000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 58,
+        "name": "mouseHover TravelAlert",
+        "description": "",
+        "id": "explore-jetblue-page;mousehover-travelalert",
+        "after": [
+          {
+            "result": {
+              "duration": 103262000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 646000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_JetBlue_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 433000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I mouseHover on TravelAlert in Menu Bar",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_mouseHover_on_TravelAlert_in_Menu_Bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2156979000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I mouseHover on TravelAlert",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_mouseHover_on_TravelAlert()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7414000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I should see mouseHover on TravelAlert",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_mouseHover_on_TravelAlert()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T22:47:41.889Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2062353000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 65,
+        "name": "click Travel",
+        "description": "",
+        "id": "explore-jetblue-page;click-travel",
+        "after": [
+          {
+            "result": {
+              "duration": 106927000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1278000,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_JetBlue_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2610787000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I Click on Travel in Menu Bar",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_Travel_in_Menu_Bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 906000,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I should see Travel",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Travel()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T22:47:46.677Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2060044000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 71,
+        "name": "maximize LogIn",
+        "description": "",
+        "id": "explore-jetblue-page;maximize-login",
+        "after": [
+          {
+            "result": {
+              "duration": 111540000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1068000,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_JetBlue_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4468160000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I Click on maximize LogIn",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_maximize_LogIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 656000,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I should see maximize LogIn",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_maximize_LogIn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T22:47:53.324Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2020258000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 77,
+        "name": "click oneWay RadioButton",
+        "description": "",
+        "id": "explore-jetblue-page;click-oneway-radiobutton",
+        "after": [
+          {
+            "result": {
+              "duration": 116705000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1059000,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_JetBlue_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"jb-tabpanel-id-0\"]/jb-booker-tabs-wrapper/div/jb-booker-air-wrapper/div/jb-booker-air/form/div/div[1]/jb-radio-group/fieldset/div/jb-radio[2]/label/div[1]\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027iqras-MBP.home\u0027, ip: \u0027fd4b:8d38:69ba:1:90ac:b685:d48e:8ea5%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/3d/zj33kjy14r7...}, goog:chromeOptions: {debuggerAddress: localhost:49719}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 14ff9d1e56cb86aa2bb64c4b6b0094a4\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"jb-tabpanel-id-0\"]/jb-booker-tabs-wrapper/div/jb-booker-air-wrapper/div/jb-booker-air/form/div/div[1]/jb-radio-group/fieldset/div/jb-radio[2]/label/div[1]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\n\tat home.Homepage.oneWayRadioButton(Homepage.java:76)\n\tat stepdefinition.StepDefinition.i_Click_on_oneWay_RadioButton(StepDefinition.java:197)\n\tat ✽.I Click on oneWay RadioButton(file:///Users/iqrakhan/IdeaProjects/BDDFramework_WebAutomation_Winter2020_Team2/JetBlue/src/main/java/features/Homepage.feature:79)\n",
+              "duration": 10039531000,
+              "status": "failed"
+            },
+            "line": 79,
+            "name": "I Click on oneWay RadioButton",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_oneWay_RadioButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 273000,
+              "status": "skipped"
+            },
+            "line": 80,
+            "name": "I should see oneWay RadioButton",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_oneWay_RadioButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T22:48:05.516Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2067709000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 83,
+        "name": "click joinIn",
+        "description": "",
+        "id": "explore-jetblue-page;click-joinin",
+        "after": [
+          {
+            "result": {
+              "duration": 125094000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1365000,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_JetBlue_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2716521000,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "I Click on joinIn in Menu Bar",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_joinIn_in_Menu_Bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 882000,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "I should see joinIn",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_joinIn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T22:48:10.432Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2108071000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 89,
+        "name": "click checkBox1",
+        "description": "",
+        "id": "explore-jetblue-page;click-checkbox1",
+        "after": [
+          {
+            "result": {
+              "duration": 112123000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 572000,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_JetBlue_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2165832000,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "I Click on checkBox1 in Menu Bar",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_checkBox1_in_Menu_Bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1239000,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "I should see checkBox1",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_checkBox1()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T22:48:14.824Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2127605000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 95,
+        "name": "click signIn",
+        "description": "",
+        "id": "explore-jetblue-page;click-signin",
+        "after": [
+          {
+            "result": {
+              "duration": 117739000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1473000,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_JetBlue_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3220201000,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "I Click on signIn in Menu Bar",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_signIn_in_Menu_Bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1026000,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "I should see signIn",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_signIn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T22:48:20.297Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2032174000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 101,
+        "name": "click FirstName",
+        "description": "",
+        "id": "explore-jetblue-page;click-firstname",
+        "after": [
+          {
+            "result": {
+              "duration": 116474000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1691000,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_JetBlue_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5011002000,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "I Click on firstName",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_firstName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 801000,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "I should see FirstName",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_FirstName()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T22:48:27.464Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2077482000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 107,
+        "name": "click lastName",
+        "description": "",
+        "id": "explore-jetblue-page;click-lastname",
+        "after": [
+          {
+            "result": {
+              "duration": 121996000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2390000,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_JetBlue_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5299310000,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "I Click on lastName",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_lastName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1007000,
+              "status": "passed"
+            },
+            "line": 110,
+            "name": "I should see lastName",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_lastName()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T22:48:34.972Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2075143000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 113,
+        "name": "put Confirmation",
+        "description": "",
+        "id": "explore-jetblue-page;put-confirmation",
+        "after": [
+          {
+            "result": {
+              "duration": 123636000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2822000,
+              "status": "passed"
+            },
+            "line": 114,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_JetBlue_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4804213000,
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "I Click on put Confirmation",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_put_Confirmation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1080000,
+              "status": "passed"
+            },
+            "line": 116,
+            "name": "I should see put Confirmation",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_put_Confirmation()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T22:48:42.000Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2081145000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 119,
+        "name": "signIn Email",
+        "description": "",
+        "id": "explore-jetblue-page;signin-email",
+        "after": [
+          {
+            "result": {
+              "duration": 84355000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1526000,
+              "status": "passed"
+            },
+            "line": 120,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_JetBlue_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 121,
+            "name": "I Click on signIn Email",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1338000,
+              "status": "skipped"
+            },
+            "line": 122,
+            "name": "I should see signInEmail",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_signInEmail()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T22:48:44.178Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2032417000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 125,
+        "name": "continue To FindFlights",
+        "description": "",
+        "id": "explore-jetblue-page;continue-to-findflights",
+        "after": [
+          {
+            "result": {
+              "duration": 170459000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1688000,
+              "status": "passed"
+            },
+            "line": 126,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_JetBlue_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4962873000,
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "I Click on continue To FindFlights",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_continue_To_FindFlights()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 974000,
+              "status": "passed"
+            },
+            "line": 128,
+            "name": "I should see continue To FindFlights",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_continue_To_FindFlights()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T22:48:51.352Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2076730000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 131,
+        "name": "checkIn Info",
+        "description": "",
+        "id": "explore-jetblue-page;checkin-info",
+        "after": [
+          {
+            "result": {
+              "duration": 114050000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1685000,
+              "status": "passed"
+            },
+            "line": 132,
+            "name": "I am at JetBlue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_JetBlue_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/jb-app/jb-header/jb-header-desktop/div[1]/div/ul/li[2]/a\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027iqras-MBP.home\u0027, ip: \u0027fd4b:8d38:69ba:1:90ac:b685:d48e:8ea5%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/3d/zj33kjy14r7...}, goog:chromeOptions: {debuggerAddress: localhost:50607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 911759fa1318c1a211765bc720191e9f\n*** Element info: {Using\u003dxpath, value\u003d/html/body/jb-app/jb-header/jb-header-desktop/div[1]/div/ul/li[2]/a}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\n\tat home.Homepage.clickCheckIn(Homepage.java:115)\n\tat home.Homepage.continueToFindFlights(Homepage.java:142)\n\tat home.Homepage.checkInInfo(Homepage.java:152)\n\tat stepdefinition.StepDefinition.i_Click_on_checkIn_Info(StepDefinition.java:307)\n\tat ✽.I Click on checkIn Info(file:///Users/iqrakhan/IdeaProjects/BDDFramework_WebAutomation_Winter2020_Team2/JetBlue/src/main/java/features/Homepage.feature:133)\n",
+              "duration": 12904712000,
+              "status": "failed"
+            },
+            "line": 133,
+            "name": "I Click on checkIn Info",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_checkIn_Info()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 331000,
+              "status": "skipped"
+            },
+            "line": 134,
+            "name": "I should see checkIn Info",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_checkIn_Info()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Explore JetBlue page",
+    "description": "",
+    "id": "explore-jetblue-page",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/Homepage.feature",
+    "tags": []
+  }
+]

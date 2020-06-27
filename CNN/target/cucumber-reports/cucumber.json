@@ -1,0 +1,179 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T19:11:47.085Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4028415000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Select Top Banner",
+        "description": "",
+        "id": "explore-cnn-home-page;select-top-banner",
+        "after": [
+          {
+            "result": {
+              "duration": 110368000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22171000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am at CNN Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2213000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Click on CNN Logo in Menu Bar",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_CNN_Logo_in_Menu_Bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2495915000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Click on Top Banner",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_Top_Banner()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 644000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see Top Banner",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Top_Banner()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T19:11:53.798Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1668351000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Select Logo Button",
+        "description": "",
+        "id": "explore-cnn-home-page;select-logo-button",
+        "after": [
+          {
+            "result": {
+              "duration": 81235000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1072000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am at CNN Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 897000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Click on Logo Button in menu bar",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Logo_Button_in_menu_bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 521000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see Logo Button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Logo_Button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Explore CNN Home page",
+    "description": "",
+    "id": "explore-cnn-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/CNNHomepage.feature",
+    "tags": []
+  }
+]

@@ -45,7 +45,7 @@ public class WebAPI {
                       String os, String os_version, String browserName,
                               String browserVersion, String url) throws IOException {
 
-        if (useCloudEnv == true) {
+        if (useCloudEnv == true ) {
             if (cloudEnvName.equalsIgnoreCase("browserstack")) {
                 getCloudDriver(cloudEnvName, browserstack_username, browserstack_accesskey, os, os_version, browserName, browserVersion);
             } else if (cloudEnvName.equalsIgnoreCase("saucelabs")) {
@@ -80,7 +80,7 @@ public class WebAPI {
             driver = new ChromeDriver(options);
         } else if (browserName.equalsIgnoreCase("firefox")) {
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.gecko.driver", "BrowserDriver/mac/geckodriver");
+                System.setProperty("webdriver.gecko.driver", "BrowserDriver/mac/chromedriver");
             } else if (OS.equalsIgnoreCase("Windows")) {
                 System.setProperty("webdriver.gecko.driver", "BrowserDriver/windows/geckodriver.exe");
             }
@@ -560,6 +560,12 @@ public class WebAPI {
         String text = webElement.getText();
         return text;
     }
+ public static void settingmyMac(String url){
+     System.setProperty("webdriver.chrome.driver","BrowserDriver/mac/chromedriver");
+     WebDriver driver=new ChromeDriver();
+     driver.get(url);
 
+
+ }
 
 }

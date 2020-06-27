@@ -11,7 +11,10 @@ import java.io.IOException;
 public class StepDefinition extends WebAPI {
     @Before
     public void openBrowser() throws IOException {
-        setUp(false, "browserstack", "windows", "10", "chrome", "83", "https://www.progressive.com/");
+        //setUp(false, "browserstack", "windows", "10", "chrome", "83", "https://www.progressive.com/");
+    settingmyMac("https://www.progressive.com/");
+
+
     }
     @After
     public void closeBrowser() {

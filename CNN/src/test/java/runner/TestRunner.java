@@ -5,7 +5,7 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = {"src/main/java/features"},
+@CucumberOptions(features = {"src/main/java/features/CNNHomepage.feature"},
         glue = "stepdefinition",
         plugin = {"pretty","json:target/cucumber-reports/cucumber.json","html:target/cucumber-reports"},
         strict =true ,
