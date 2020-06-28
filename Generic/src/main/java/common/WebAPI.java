@@ -568,4 +568,21 @@ public class WebAPI {
 
  }
 
+    public void dropDownByCSS(String locator, String value){
+
+        WebElement element=driver.findElement(By.cssSelector(locator));
+        Select select=new Select(element);
+        select.selectByVisibleText(value);
+
+    }
+    public void dropDownXpath(String locator, String value) throws InterruptedException {
+
+        WebElement element=driver.findElement(By.xpath(locator));
+        Select select=new Select(element);
+        select.selectByVisibleText(value);
+        sleepFor(2);
+
+    }
+
+
 }

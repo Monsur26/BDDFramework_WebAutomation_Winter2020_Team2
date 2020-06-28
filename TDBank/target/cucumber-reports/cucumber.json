@@ -11,11 +11,11 @@
         "steps": []
       },
       {
-        "start_timestamp": "2020-06-28T06:28:49.253Z",
+        "start_timestamp": "2020-06-28T14:28:51.785Z",
         "before": [
           {
             "result": {
-              "duration": 2162850000,
+              "duration": 2745610000,
               "status": "passed"
             },
             "match": {
@@ -30,7 +30,7 @@
         "after": [
           {
             "result": {
-              "duration": 101133000,
+              "duration": 105827000,
               "status": "passed"
             },
             "match": {
@@ -43,7 +43,7 @@
         "steps": [
           {
             "result": {
-              "duration": 20982000,
+              "duration": 38249000,
               "status": "passed"
             },
             "line": 6,
@@ -55,7 +55,7 @@
           },
           {
             "result": {
-              "duration": 3246139000,
+              "duration": 3232525000,
               "status": "passed"
             },
             "line": 7,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 1391000,
+              "duration": 1943000,
               "status": "passed"
             },
             "line": 8,
@@ -88,11 +88,11 @@
         "steps": []
       },
       {
-        "start_timestamp": "2020-06-28T06:28:54.853Z",
+        "start_timestamp": "2020-06-28T14:28:58.016Z",
         "before": [
           {
             "result": {
-              "duration": 1555273000,
+              "duration": 1612878000,
               "status": "passed"
             },
             "match": {
@@ -107,7 +107,7 @@
         "after": [
           {
             "result": {
-              "duration": 113280000,
+              "duration": 114452000,
               "status": "passed"
             },
             "match": {
@@ -120,7 +120,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1187000,
+              "duration": 1742000,
               "status": "passed"
             },
             "line": 11,
@@ -132,7 +132,7 @@
           },
           {
             "result": {
-              "duration": 7828583000,
+              "duration": 8096775000,
               "status": "passed"
             },
             "line": 12,
@@ -144,7 +144,7 @@
           },
           {
             "result": {
-              "duration": 2096000,
+              "duration": 1165000,
               "status": "passed"
             },
             "line": 13,
@@ -165,11 +165,11 @@
         "steps": []
       },
       {
-        "start_timestamp": "2020-06-28T06:29:04.363Z",
+        "start_timestamp": "2020-06-28T14:29:07.852Z",
         "before": [
           {
             "result": {
-              "duration": 1578564000,
+              "duration": 1629073000,
               "status": "passed"
             },
             "match": {
@@ -184,7 +184,7 @@
         "after": [
           {
             "result": {
-              "duration": 96999000,
+              "duration": 97303000,
               "status": "passed"
             },
             "match": {
@@ -197,7 +197,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1942000,
+              "duration": 1823000,
               "status": "passed"
             },
             "line": 16,
@@ -209,7 +209,7 @@
           },
           {
             "result": {
-              "duration": 3930647000,
+              "duration": 3955496000,
               "status": "passed"
             },
             "line": 17,
@@ -221,7 +221,7 @@
           },
           {
             "result": {
-              "duration": 1388000,
+              "duration": 1484000,
               "status": "passed"
             },
             "line": 18,
@@ -242,11 +242,11 @@
         "steps": []
       },
       {
-        "start_timestamp": "2020-06-28T06:29:09.980Z",
+        "start_timestamp": "2020-06-28T14:29:13.544Z",
         "before": [
           {
             "result": {
-              "duration": 1543491000,
+              "duration": 1630750000,
               "status": "passed"
             },
             "match": {
@@ -261,7 +261,7 @@
         "after": [
           {
             "result": {
-              "duration": 103199000,
+              "duration": 100897000,
               "status": "passed"
             },
             "match": {
@@ -274,7 +274,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1370000,
+              "duration": 1662000,
               "status": "passed"
             },
             "line": 21,
@@ -286,8 +286,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[2]/div[2]/header[1]/div[3]/div/div[2]/div/ul/li[1]/a/span[2]\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027iqras-MBP.home\u0027, ip: \u0027fd4b:8d38:69ba:1:39d3:c511:b733:3fb3%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/3d/zj33kjy14r7...}, goog:chromeOptions: {debuggerAddress: localhost:56855}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1aae15486aab908812a38b01d159bdcc\n*** Element info: {Using\u003dxpath, value\u003d/html/body/div[2]/div[2]/header[1]/div[3]/div/div[2]/div/ul/li[1]/a/span[2]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\n\tat home.Homepage.clickFindUs(Homepage.java:47)\n\tat stepdefinition.StepDefinition.i_Click_on_Find_Us(StepDefinition.java:69)\n\tat ✽.I Click on Find Us(file:///Users/iqrakhan/IdeaProjects/BDDFramework_WebAutomation_Winter2020_Team2/TDBank/src/main/java/features/Homepage.feature:22)\n",
-              "duration": 11063501000,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[2]/div[2]/header[1]/div[3]/div/div[2]/div/ul/li[1]/a/span[2]\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027iqras-MBP.home\u0027, ip: \u0027fd4b:8d38:69ba:1:a1b6:f73:2fd0:b821%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/3d/zj33kjy14r7...}, goog:chromeOptions: {debuggerAddress: localhost:58733}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 17f6d75c7e729cf541e7b3bdb8f2d636\n*** Element info: {Using\u003dxpath, value\u003d/html/body/div[2]/div[2]/header[1]/div[3]/div/div[2]/div/ul/li[1]/a/span[2]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\n\tat home.Homepage.clickFindUs(Homepage.java:47)\n\tat stepdefinition.StepDefinition.i_Click_on_Find_Us(StepDefinition.java:69)\n\tat ✽.I Click on Find Us(file:///Users/iqrakhan/IdeaProjects/BDDFramework_WebAutomation_Winter2020_Team2/TDBank/src/main/java/features/Homepage.feature:22)\n",
+              "duration": 11484340000,
               "status": "failed"
             },
             "line": 22,
@@ -299,7 +299,7 @@
           },
           {
             "result": {
-              "duration": 269000,
+              "duration": 272000,
               "status": "skipped"
             },
             "line": 23,
@@ -320,11 +320,11 @@
         "steps": []
       },
       {
-        "start_timestamp": "2020-06-28T06:29:22.706Z",
+        "start_timestamp": "2020-06-28T14:29:26.792Z",
         "before": [
           {
             "result": {
-              "duration": 1585474000,
+              "duration": 1615470000,
               "status": "passed"
             },
             "match": {
@@ -339,7 +339,7 @@
         "after": [
           {
             "result": {
-              "duration": 85247000,
+              "duration": 139357000,
               "status": "passed"
             },
             "match": {
@@ -352,7 +352,7 @@
         "steps": [
           {
             "result": {
-              "duration": 859000,
+              "duration": 1019000,
               "status": "passed"
             },
             "line": 26,
@@ -364,7 +364,7 @@
           },
           {
             "result": {
-              "duration": 246676000,
+              "duration": 311178000,
               "status": "passed"
             },
             "line": 27,
@@ -376,7 +376,7 @@
           },
           {
             "result": {
-              "duration": 1737000,
+              "duration": 1510000,
               "status": "passed"
             },
             "line": 28,
@@ -397,11 +397,11 @@
         "steps": []
       },
       {
-        "start_timestamp": "2020-06-28T06:29:24.633Z",
+        "start_timestamp": "2020-06-28T14:29:28.866Z",
         "before": [
           {
             "result": {
-              "duration": 1573438000,
+              "duration": 1586105000,
               "status": "passed"
             },
             "match": {
@@ -416,7 +416,7 @@
         "after": [
           {
             "result": {
-              "duration": 103877000,
+              "duration": 104328000,
               "status": "passed"
             },
             "match": {
@@ -429,7 +429,7 @@
         "steps": [
           {
             "result": {
-              "duration": 841000,
+              "duration": 940000,
               "status": "passed"
             },
             "line": 31,
@@ -441,8 +441,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d83.0.4103.116)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027iqras-MBP.home\u0027, ip: \u0027fd4b:8d38:69ba:1:39d3:c511:b733:3fb3%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/3d/zj33kjy14r7...}, goog:chromeOptions: {debuggerAddress: localhost:56993}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: ca6652f3a173f300b48e27f2df881fcd\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy19.sendKeys(Unknown Source)\n\tat home.Homepage.eneterKeyWords(Homepage.java:82)\n\tat stepdefinition.StepDefinition.i_Click_on_searchBox(StepDefinition.java:92)\n\tat ✽.I Click on searchBox(file:///Users/iqrakhan/IdeaProjects/BDDFramework_WebAutomation_Winter2020_Team2/TDBank/src/main/java/features/Homepage.feature:32)\n",
-              "duration": 10224043000,
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d83.0.4103.116)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027iqras-MBP.home\u0027, ip: \u0027fd4b:8d38:69ba:1:a1b6:f73:2fd0:b821%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/3d/zj33kjy14r7...}, goog:chromeOptions: {debuggerAddress: localhost:58870}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 6a343e6a10bd30331faa1b2c204e54da\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy19.sendKeys(Unknown Source)\n\tat home.Homepage.eneterKeyWords(Homepage.java:82)\n\tat stepdefinition.StepDefinition.i_Click_on_searchBox(StepDefinition.java:92)\n\tat ✽.I Click on searchBox(file:///Users/iqrakhan/IdeaProjects/BDDFramework_WebAutomation_Winter2020_Team2/TDBank/src/main/java/features/Homepage.feature:32)\n",
+              "duration": 10343755000,
               "status": "failed"
             },
             "line": 32,
@@ -454,7 +454,7 @@
           },
           {
             "result": {
-              "duration": 309000,
+              "duration": 649000,
               "status": "skipped"
             },
             "line": 33,
@@ -475,11 +475,11 @@
         "steps": []
       },
       {
-        "start_timestamp": "2020-06-28T06:29:36.544Z",
+        "start_timestamp": "2020-06-28T14:29:40.909Z",
         "before": [
           {
             "result": {
-              "duration": 1542273000,
+              "duration": 4205155000,
               "status": "passed"
             },
             "match": {
@@ -494,7 +494,7 @@
         "after": [
           {
             "result": {
-              "duration": 86083000,
+              "duration": 103456000,
               "status": "passed"
             },
             "match": {
@@ -507,7 +507,7 @@
         "steps": [
           {
             "result": {
-              "duration": 801000,
+              "duration": 1399000,
               "status": "passed"
             },
             "line": 36,
@@ -519,8 +519,9 @@
           },
           {
             "result": {
-              "duration": 155211000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[2]/div[2]/header[1]/div[2]/div/div[2]/div/ul/li[1]\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027iqras-MBP.home\u0027, ip: \u0027fd4b:8d38:69ba:1:a1b6:f73:2fd0:b821%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/3d/zj33kjy14r7...}, goog:chromeOptions: {debuggerAddress: localhost:58974}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 37597bf4eaa35ab74d1bf0769108307b\n*** Element info: {Using\u003dxpath, value\u003d/html/body/div[2]/div[2]/header[1]/div[2]/div/div[2]/div/ul/li[1]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\n\tat home.Homepage.clickFlag(Homepage.java:90)\n\tat stepdefinition.StepDefinition.i_Click_on_Flag(StepDefinition.java:103)\n\tat ✽.I Click on Flag(file:///Users/iqrakhan/IdeaProjects/BDDFramework_WebAutomation_Winter2020_Team2/TDBank/src/main/java/features/Homepage.feature:37)\n",
+              "duration": 10060868000,
+              "status": "failed"
             },
             "line": 37,
             "name": "I Click on Flag",
@@ -531,8 +532,8 @@
           },
           {
             "result": {
-              "duration": 1157000,
-              "status": "passed"
+              "duration": 280000,
+              "status": "skipped"
             },
             "line": 38,
             "name": "I should see Flag",
@@ -552,11 +553,11 @@
         "steps": []
       },
       {
-        "start_timestamp": "2020-06-28T06:29:38.337Z",
+        "start_timestamp": "2020-06-28T14:29:55.288Z",
         "before": [
           {
             "result": {
-              "duration": 1549360000,
+              "duration": 1864015000,
               "status": "passed"
             },
             "match": {
@@ -571,7 +572,7 @@
         "after": [
           {
             "result": {
-              "duration": 100449000,
+              "duration": 100578000,
               "status": "passed"
             },
             "match": {
@@ -584,7 +585,7 @@
         "steps": [
           {
             "result": {
-              "duration": 866000,
+              "duration": 893000,
               "status": "passed"
             },
             "line": 41,
@@ -596,7 +597,7 @@
           },
           {
             "result": {
-              "duration": 2177815000,
+              "duration": 2166621000,
               "status": "passed"
             },
             "line": 42,
@@ -608,7 +609,7 @@
           },
           {
             "result": {
-              "duration": 1139000,
+              "duration": 725000,
               "status": "passed"
             },
             "line": 43,
@@ -629,11 +630,11 @@
         "steps": []
       },
       {
-        "start_timestamp": "2020-06-28T06:29:42.174Z",
+        "start_timestamp": "2020-06-28T14:29:59.427Z",
         "before": [
           {
             "result": {
-              "duration": 1528914000,
+              "duration": 3477990000,
               "status": "passed"
             },
             "match": {
@@ -648,7 +649,7 @@
         "after": [
           {
             "result": {
-              "duration": 101420000,
+              "duration": 105883000,
               "status": "passed"
             },
             "match": {
@@ -661,7 +662,7 @@
         "steps": [
           {
             "result": {
-              "duration": 694000,
+              "duration": 1527000,
               "status": "passed"
             },
             "line": 46,
@@ -673,8 +674,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d83.0.4103.116)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027iqras-MBP.home\u0027, ip: \u0027fd4b:8d38:69ba:1:39d3:c511:b733:3fb3%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/3d/zj33kjy14r7...}, goog:chromeOptions: {debuggerAddress: localhost:57177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: d9756cfded3c40095e56819255803e5b\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy19.sendKeys(Unknown Source)\n\tat home.Homepage.eneterKeyWords(Homepage.java:82)\n\tat home.Homepage.searchBoxElement(Homepage.java:108)\n\tat stepdefinition.StepDefinition.i_Click_on_searchBox_Element(StepDefinition.java:125)\n\tat ✽.I Click on searchBox  Element(file:///Users/iqrakhan/IdeaProjects/BDDFramework_WebAutomation_Winter2020_Team2/TDBank/src/main/java/features/Homepage.feature:47)\n",
-              "duration": 10105018000,
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d83.0.4103.116)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027iqras-MBP.home\u0027, ip: \u0027fd4b:8d38:69ba:1:a1b6:f73:2fd0:b821%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/3d/zj33kjy14r7...}, goog:chromeOptions: {debuggerAddress: localhost:59147}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 65f3e73152e49080412a7b131d23a20a\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy19.sendKeys(Unknown Source)\n\tat home.Homepage.eneterKeyWords(Homepage.java:82)\n\tat home.Homepage.searchBoxElement(Homepage.java:108)\n\tat stepdefinition.StepDefinition.i_Click_on_searchBox_Element(StepDefinition.java:125)\n\tat ✽.I Click on searchBox  Element(file:///Users/iqrakhan/IdeaProjects/BDDFramework_WebAutomation_Winter2020_Team2/TDBank/src/main/java/features/Homepage.feature:47)\n",
+              "duration": 10354246000,
               "status": "failed"
             },
             "line": 47,
@@ -686,7 +687,7 @@
           },
           {
             "result": {
-              "duration": 250000,
+              "duration": 489000,
               "status": "skipped"
             },
             "line": 48,
@@ -707,11 +708,11 @@
         "steps": []
       },
       {
-        "start_timestamp": "2020-06-28T06:29:53.926Z",
+        "start_timestamp": "2020-06-28T14:30:13.374Z",
         "before": [
           {
             "result": {
-              "duration": 1525792000,
+              "duration": 1608475000,
               "status": "passed"
             },
             "match": {
@@ -726,7 +727,7 @@
         "after": [
           {
             "result": {
-              "duration": 97411000,
+              "duration": 100154000,
               "status": "passed"
             },
             "match": {
@@ -739,7 +740,7 @@
         "steps": [
           {
             "result": {
-              "duration": 885000,
+              "duration": 1043000,
               "status": "passed"
             },
             "line": 52,
@@ -751,7 +752,7 @@
           },
           {
             "result": {
-              "duration": 621000,
+              "duration": 748000,
               "status": "passed"
             },
             "line": 53,
@@ -763,7 +764,7 @@
           },
           {
             "result": {
-              "duration": 2206380000,
+              "duration": 2230916000,
               "status": "passed"
             },
             "line": 54,
@@ -775,7 +776,7 @@
           },
           {
             "result": {
-              "duration": 561000,
+              "duration": 1348000,
               "status": "passed"
             },
             "line": 55,
@@ -796,11 +797,11 @@
         "steps": []
       },
       {
-        "start_timestamp": "2020-06-28T06:29:57.764Z",
+        "start_timestamp": "2020-06-28T14:30:17.323Z",
         "before": [
           {
             "result": {
-              "duration": 1567029000,
+              "duration": 1576889000,
               "status": "passed"
             },
             "match": {
@@ -815,7 +816,7 @@
         "after": [
           {
             "result": {
-              "duration": 91470000,
+              "duration": 97891000,
               "status": "passed"
             },
             "match": {
@@ -828,7 +829,7 @@
         "steps": [
           {
             "result": {
-              "duration": 595000,
+              "duration": 1251000,
               "status": "passed"
             },
             "line": 59,
@@ -840,7 +841,7 @@
           },
           {
             "result": {
-              "duration": 367000,
+              "duration": 560000,
               "status": "passed"
             },
             "line": 60,
@@ -852,7 +853,7 @@
           },
           {
             "result": {
-              "duration": 2200924000,
+              "duration": 2207824000,
               "status": "passed"
             },
             "line": 61,
@@ -864,7 +865,7 @@
           },
           {
             "result": {
-              "duration": 594000,
+              "duration": 786000,
               "status": "passed"
             },
             "line": 62,
@@ -885,11 +886,11 @@
         "steps": []
       },
       {
-        "start_timestamp": "2020-06-28T06:30:01.631Z",
+        "start_timestamp": "2020-06-28T14:30:21.213Z",
         "before": [
           {
             "result": {
-              "duration": 1554209000,
+              "duration": 2009746000,
               "status": "passed"
             },
             "match": {
@@ -904,7 +905,7 @@
         "after": [
           {
             "result": {
-              "duration": 102277000,
+              "duration": 102419000,
               "status": "passed"
             },
             "match": {
@@ -917,7 +918,7 @@
         "steps": [
           {
             "result": {
-              "duration": 617000,
+              "duration": 854000,
               "status": "passed"
             },
             "line": 65,
@@ -929,7 +930,7 @@
           },
           {
             "result": {
-              "duration": 396000,
+              "duration": 473000,
               "status": "passed"
             },
             "line": 66,
@@ -941,7 +942,7 @@
           },
           {
             "result": {
-              "duration": 2216585000,
+              "duration": 2205371000,
               "status": "passed"
             },
             "line": 67,
@@ -953,7 +954,7 @@
           },
           {
             "result": {
-              "duration": 848000,
+              "duration": 756000,
               "status": "passed"
             },
             "line": 68,
@@ -974,11 +975,11 @@
         "steps": []
       },
       {
-        "start_timestamp": "2020-06-28T06:30:05.513Z",
+        "start_timestamp": "2020-06-28T14:30:25.537Z",
         "before": [
           {
             "result": {
-              "duration": 1501508000,
+              "duration": 1575435000,
               "status": "passed"
             },
             "match": {
@@ -993,7 +994,7 @@
         "after": [
           {
             "result": {
-              "duration": 99967000,
+              "duration": 100331000,
               "status": "passed"
             },
             "match": {
@@ -1006,7 +1007,7 @@
         "steps": [
           {
             "result": {
-              "duration": 718000,
+              "duration": 571000,
               "status": "passed"
             },
             "line": 71,
@@ -1018,7 +1019,7 @@
           },
           {
             "result": {
-              "duration": 331000,
+              "duration": 427000,
               "status": "passed"
             },
             "line": 72,
@@ -1030,7 +1031,7 @@
           },
           {
             "result": {
-              "duration": 2212216000,
+              "duration": 2230670000,
               "status": "passed"
             },
             "line": 73,
@@ -1042,7 +1043,7 @@
           },
           {
             "result": {
-              "duration": 581000,
+              "duration": 432000,
               "status": "passed"
             },
             "line": 74,
@@ -1063,11 +1064,11 @@
         "steps": []
       },
       {
-        "start_timestamp": "2020-06-28T06:30:09.334Z",
+        "start_timestamp": "2020-06-28T14:30:29.448Z",
         "before": [
           {
             "result": {
-              "duration": 1649701000,
+              "duration": 1547671000,
               "status": "passed"
             },
             "match": {
@@ -1082,7 +1083,7 @@
         "after": [
           {
             "result": {
-              "duration": 98585000,
+              "duration": 102009000,
               "status": "passed"
             },
             "match": {
@@ -1095,7 +1096,7 @@
         "steps": [
           {
             "result": {
-              "duration": 605000,
+              "duration": 561000,
               "status": "passed"
             },
             "line": 77,
@@ -1107,7 +1108,7 @@
           },
           {
             "result": {
-              "duration": 313000,
+              "duration": 479000,
               "status": "passed"
             },
             "line": 78,
@@ -1119,7 +1120,7 @@
           },
           {
             "result": {
-              "duration": 2227818000,
+              "duration": 2221834000,
               "status": "passed"
             },
             "line": 79,
@@ -1131,7 +1132,7 @@
           },
           {
             "result": {
-              "duration": 740000,
+              "duration": 641000,
               "status": "passed"
             },
             "line": 80,

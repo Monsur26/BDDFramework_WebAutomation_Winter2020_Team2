@@ -1,0 +1,872 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T14:42:38.117Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2663362000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "mouseHover Menu",
+        "description": "",
+        "id": "explore-trivago-home-page;mousehover-menu",
+        "after": [
+          {
+            "result": {
+              "duration": 92574000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20738000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am at Trivago Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Trivago_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1855000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I mouseHover on Menu in Menu Bar",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_mouseHover_on_Menu_in_Menu_Bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4465176000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I mouseHover on Menu",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_mouseHover_on_Menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1830000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see mouseHover on Menu",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_mouseHover_on_Menu()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T14:42:45.419Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2303040000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "click Language",
+        "description": "",
+        "id": "explore-trivago-home-page;click-language",
+        "after": [
+          {
+            "result": {
+              "duration": 96852000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1072000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am at Trivago Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Trivago_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4354586000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on Language",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Language()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1560000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should see Language",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Language()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T14:42:52.184Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2189709000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "click Currency",
+        "description": "",
+        "id": "explore-trivago-home-page;click-currency",
+        "after": [
+          {
+            "result": {
+              "duration": 94031000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1422000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am at Trivago Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Trivago_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4297906000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on Currency",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Currency()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1310000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see Currency",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Currency()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T14:42:58.774Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2025590000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "click LogIn",
+        "description": "",
+        "id": "explore-trivago-home-page;click-login",
+        "after": [
+          {
+            "result": {
+              "duration": 96720000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1420000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am at Trivago Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Trivago_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4445876000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on LogIn",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_LogIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1502000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should see LogIn",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_LogIn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T14:43:05.350Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2339000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "click LogIn",
+        "description": "",
+        "id": "explore-trivago-home-page;click-login",
+        "after": [
+          {
+            "result": {
+              "duration": 90394000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1293000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I am at Trivago Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Trivago_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4410056000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click on LogIn",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_LogIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1305000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I should see LogIn",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_LogIn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T14:43:12.197Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1979974000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "search Button",
+        "description": "",
+        "id": "explore-trivago-home-page;search-button",
+        "after": [
+          {
+            "result": {
+              "duration": 94847000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1559000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I am at Trivago Home page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Trivago_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4446060000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I Click on search Button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 911000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I should see search Button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_search_Button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T14:43:18.725Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2112480000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "search Place",
+        "description": "",
+        "id": "explore-trivago-home-page;search-place",
+        "after": [
+          {
+            "result": {
+              "duration": 111148000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1505000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I am at Trivago Home page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Trivago_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7682125000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I Click on search Place",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_search_Place()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1215000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I should see search Place",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_search_Place()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T14:43:28.640Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2296491000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "search PlBoston",
+        "description": "",
+        "id": "explore-trivago-home-page;search-plboston",
+        "after": [
+          {
+            "result": {
+              "duration": 109642000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1480000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I am at Trivago Home page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Trivago_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4464504000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I Click on search PlBoston",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_search_PlBoston()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1202000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I should see search PlBoston",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_search_PlBoston()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T14:43:35.518Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2150131000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "room Selection",
+        "description": "",
+        "id": "explore-trivago-home-page;room-selection",
+        "after": [
+          {
+            "result": {
+              "duration": 95837000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 915000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I am at Trivago Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Trivago_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4406954000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I click on room Selection",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_room_Selection()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1119000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I should see room Selection",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_room_Selection()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T14:43:42.177Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2231204000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "CheckOut Selection",
+        "description": "",
+        "id": "explore-trivago-home-page;checkout-selection",
+        "after": [
+          {
+            "result": {
+              "duration": 105903000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1144000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I am at Trivago Home page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Trivago_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7316696000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I Click on CheckOut Selection",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_CheckOut_Selection()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1196000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I should see CheckOut Selection",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_CheckOut_Selection()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T14:43:51.837Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2049094000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 56,
+        "name": "CheckIn Selection",
+        "description": "",
+        "id": "explore-trivago-home-page;checkin-selection",
+        "after": [
+          {
+            "result": {
+              "duration": 104443000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1355000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I am at Trivago Home page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Trivago_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7372009000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I Click on CheckIn Selection",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_CheckIn_Selection()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1077000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I should see CheckIn Selection",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_CheckIn_Selection()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Explore Trivago Home page",
+    "description": "",
+    "id": "explore-trivago-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/Homepage.feature",
+    "tags": []
+  }
+]
