@@ -1,0 +1,83 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Given  I am at JetBlue Homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T17:58:33.807Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7794321400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "Travel Info Link on JetBlue",
+        "description": "",
+        "id": "exploring-several-features-on-verizon-homepage.;travel-info-link-on-jetblue",
+        "after": [
+          {
+            "result": {
+              "duration": 771842800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1620997200,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Click the link travel info on Homepage",
+            "match": {
+              "location": "stepdefinition.StepDefinition.click_the_link_travel_info_on_Homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 975394300,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "The selected Travel Info link opened",
+            "match": {
+              "location": "stepdefinition.StepDefinition.the_selected_Travel_Info_link_opened()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Exploring several features on Verizon homepage.",
+    "description": "  I want to explore several features on Verizon homepage.",
+    "id": "exploring-several-features-on-verizon-homepage.",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/Homepage.feature",
+    "tags": []
+  }
+]

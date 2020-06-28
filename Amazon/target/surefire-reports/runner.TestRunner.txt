@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.8 s <<< FAILURE! - in runner.TestRunner
+runner.TestRunner.initializationError  Time elapsed: 0.015 s  <<< ERROR!
+io.cucumber.core.gherkin.FeatureParserException: Failed to parse resource at: file:///C:/Users/fskol/IdeaProjects/BDDFramework_WebAutomation_Winter2020_Team2/Amazon/src/main/java/features/Homepage.feature
+Caused by: io.cucumber.core.gherkin.vintage.internal.gherkin.ParserException$CompositeParserException: 
+Parser errors:
+(1:1): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'Feature Exploring several features on Amazon homepage.'
+(2:3): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'As a customer i want to explore several feature on amazon homepage.'
+(4:3): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'Scenario: amazon search bar check'
+(5:5): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'Given I am at amazon homepage'
+(6:5): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'And I put some input on amazon search box'
+(7:5): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'When I click amazon search button'
+(8:5): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'Then search result shows up'
+

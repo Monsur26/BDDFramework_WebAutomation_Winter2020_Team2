@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         strict =true ,
         monochrome =true ,
         dryRun = false,
-        tags = "")
+        tags = "@test")
 
 public class TestRunner {
 }
