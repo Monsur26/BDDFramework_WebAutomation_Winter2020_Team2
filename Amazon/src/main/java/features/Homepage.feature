@@ -4,6 +4,24 @@ Feature: Search products on amazon searchBox
   Background:
     Given I am at amazon Home Page 1
 
+  Scenario Outline: Search product using Parameter
+    And I Enter "<Items>" in search input field
+    When I Click search button
+    Then I should see "<ExpectedItems>"
+
+    Examples:
+      | Items                 | ExpectedItems        |
+      | hello kitty stickers  | "Hand Sanitizer"     |
+      | pink notebook         |"pink notebook"       |
+      | orange sandals        | "Hand soap"          |
+      | I Phone 11 Pro        | "I Phone 11 Pro"     |
+      | flowers               | "flowers"             |
+      | mirror                 | "mirror"              |
+      |rainbow pillow         | "rainbow pillow"      |
+      | feather pen           | "feather pen"         |
+      | pink headphones       | "pink headphones"     |
+
+
   @Test1
   Scenario: Search product
     And I Enter iphone 11 pro in search input field

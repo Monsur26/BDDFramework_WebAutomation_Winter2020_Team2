@@ -30,10 +30,10 @@ public class WebAPI {
 
     //Browser SetUp
     public static WebDriver driver = null;
-    public String browserstack_username = "monsurahmed1";
-    public String browserstack_accesskey = "VdzwavDy2G49LUuep9Sq";
-    public String saucelabs_username = "monsurahmed1";
-    public String saucelabs_accesskey = "48bd964a-506f-4ad1-a5f5-f37e060bbea5";
+    public String browserstack_username = "anikaislam2";
+    public String browserstack_accesskey = "qke7i757kjsuZiEKdNB7";
+    public String saucelabs_username = "anika11";
+    public String saucelabs_accesskey = "c1aaf33f-6f9c-492d-88ec-fa128e2727ab";
 
 
     public void cleanUp() {
@@ -561,6 +561,39 @@ public class WebAPI {
         String text = webElement.getText();
         return text;
     }
+    public static void mouseHover(WebElement element){
+        Actions actions=new Actions(driver);
+        actions.moveToElement(element).perform();
+    }
+    public static void implicitWait(int sec){
+        driver.manage().timeouts().implicitlyWait(sec,TimeUnit.SECONDS);
+    }
+    public static void selectDropDownByIndex(WebElement element,int value){
+        Select select=new Select(element);
+        select.selectByIndex(value);
+    }
+    public static void windowSwitch(){
+        for(String winHandle : driver.getWindowHandles()){
+            driver.switchTo().window(winHandle);
+        }
+    }
+    public static void switchToPreviousWindow(String winHandleBefore){
+        driver.switchTo().window(winHandleBefore);
+    }
+    public static void dragAndDrop(WebElement To, WebElement from){
+        Actions actions=new Actions(driver);
+        actions.dragAndDrop(To,from).build().perform();
+    }
+    public static void scrollUpDownByHeight(){
+        JavascriptExecutor js=(JavascriptExecutor) driver;
+        js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+    }
+    public static void windowMaximize() {
+        driver.manage().window().maximize();
+    }
 
+
+
+}
 
 }

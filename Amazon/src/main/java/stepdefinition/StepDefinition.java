@@ -12,6 +12,7 @@ import io.cucumber.messages.Messages;
 import org.openqa.selenium.support.PageFactory;
 
 import java.io.IOException;
+import java.util.List;
 
 public class StepDefinition extends WebAPI {
     @Before
@@ -261,7 +262,15 @@ public void i_Enter_mirror_in_search_input_field() throws InterruptedException {
 
     }
 
+    @Given("I Enter Items in search input field")
+    public void i_Enter_Items_in_search_input_field(List<String> items) {
 
+
+        getInitElements();
+    //    Homepage.validateSearchProduct();
+
+
+    }
 
 
 

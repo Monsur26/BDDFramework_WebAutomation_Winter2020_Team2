@@ -1,12 +1,27 @@
 package home;
 
+import common.WebAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 
 import java.util.concurrent.TimeUnit;
 
-public class Homepage {
+import static webelements.HomepageWebElements.*;
+
+public class Homepage extends WebAPI {
+    @FindBy(how = How.XPATH, using = insuranceWebElement) public WebElement insurance;
+    @FindBy(how = How.XPATH, using = employersWebElement) public WebElement employers;
+    @FindBy(how = How.XPATH, using = searchbarWebElement) public WebElement searchbar;
+    @FindBy(how = How.XPATH, using = planWebElement) public WebElement plan;
+    @FindBy(how = How.XPATH, using = medicareWebElement) public WebElement medicare;
+    @FindBy(how = How.XPATH, using = providersWebElement) public WebElement providers;
+    @FindBy(how = How.XPATH, using = signinWebElement) public WebElement signin;
+    @FindBy(how = How.XPATH, using = myuhcWebElement) public WebElement myuhc;
+    @FindBy(how = How.XPATH, using = loginWebElement) public WebElement login;
+    @FindBy(how = How.XPATH, using = buttonWebElement) public WebElement button;
 
     public void insurance() throws InterruptedException {
         mouseHoverByXpath(insuranceWebElement);
@@ -18,7 +33,6 @@ public class Homepage {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         System.out.println("link text is ".concat(employers.getText()));
         Actions a = new Actions(driver);
-
 a
                 .moveToElement(searchbar)
                 .click()
@@ -102,4 +116,3 @@ a
 
 
 
-}
