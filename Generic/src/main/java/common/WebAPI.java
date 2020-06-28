@@ -560,6 +560,37 @@ public class WebAPI {
         String text = webElement.getText();
         return text;
     }
+    public static void mouseHover(WebElement element){
+        Actions actions=new Actions(driver);
+        actions.moveToElement(element).perform();
+    }
+    public static void implicitWait(int sec){
+        driver.manage().timeouts().implicitlyWait(sec,TimeUnit.SECONDS);
+    }
+    public static void selectDropDownByIndex(WebElement element,int value){
+        Select select=new Select(element);
+        select.selectByIndex(value);
+    }
+    public static void windowSwitch(){
+        for(String winHandle : driver.getWindowHandles()){
+            driver.switchTo().window(winHandle);
+        }
+    }
+    public static void switchToPreviousWindow(String winHandleBefore){
+        driver.switchTo().window(winHandleBefore);
+    }
+    public static void dragAndDrop(WebElement To, WebElement from){
+        Actions actions=new Actions(driver);
+        actions.dragAndDrop(To,from).build().perform();
+    }
+    public static void scrollUpDownByHeight(){
+        JavascriptExecutor js=(JavascriptExecutor) driver;
+        js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+    }
+    public static void windowMaximize() {
+        driver.manage().window().maximize();
+    }
+
 
 
 }

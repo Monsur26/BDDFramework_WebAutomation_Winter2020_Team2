@@ -1,0 +1,84 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 36.369 s <<< FAILURE! - in runner.TestRunner
+Search product on amazon searchBox.Search product using Parameter  Time elapsed: 7.547 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I search for "Hand Sanitizer" in the search box" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I search for {string} in the search box")
+public void i_search_for_in_the_search_box(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Then("I should see \"\"Hand Sanitizer\"\"")
+public void i_should_see_Hand_Sanitizer() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Search product on amazon searchBox.Search product using Parameter  Time elapsed: 5.147 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I search for "T shirt" in the search box" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I search for {string} in the search box")
+public void i_search_for_in_the_search_box(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Then("I should see \"\"T shirt\"\"")
+public void i_should_see_T_shirt() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Search product on amazon searchBox.Search product using Parameter  Time elapsed: 6.804 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I search for "Hand soap" in the search box" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I search for {string} in the search box")
+public void i_search_for_in_the_search_box(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Then("I should see \"\"Hand soap\"\"")
+public void i_should_see_Hand_soap() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Search product on amazon searchBox.Search product using Parameter  Time elapsed: 7.318 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I search for "I Phone 11 Pro Max" in the search box" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I search for {string} in the search box")
+public void i_search_for_in_the_search_box(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Then("I should see \"\"I Phone {int} Pro Max\"\"")
+public void i_should_see_I_Phone_Pro_Max(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

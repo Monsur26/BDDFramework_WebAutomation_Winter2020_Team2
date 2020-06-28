@@ -1,0 +1,808 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Given i am at verizon homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T07:26:56.546Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5387465900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Hover Shop menu",
+        "description": "",
+        "id": "exploring-verizon-homepage;hover-shop-menu",
+        "after": [
+          {
+            "result": {
+              "duration": 670207900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.JavascriptException: javascript error: Failed to execute \u0027elementsFromPoint\u0027 on \u0027Document\u0027: The provided double value is non-finite.\n  (Session info: chrome\u003d83.0.4103.97)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-7MG7A7J\u0027, ip: \u0027192.168.1.201\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\Monsu\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63174}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 228087996eb86afa672a0ae0ab1480ed\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)\r\n\tat org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)\r\n\tat org.openqa.selenium.interactions.Actions.perform(Actions.java:595)\r\n\tat common.WebAPI.mouseHover(WebAPI.java:565)\r\n\tat home.Homepage.shopsHover(Homepage.java:36)\r\n\tat stepdefinition.StepDefinition.i_hover_over_shop_menu(StepDefinition.java:37)\r\n\tat ✽.i hover over shop menu(file:///C:/Users/Monsu/IdeaProjects/BDDFramework_WEM_Winter_2020_Team2/Verizon/src/main/java/features/Homepage.feature:7)\r\n",
+              "duration": 899593400,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "i hover over shop menu",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_hover_over_shop_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I click on interlinks",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_interlinks()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "internet link page show up",
+            "match": {
+              "location": "stepdefinition.StepDefinition.internet_link_page_show_up()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Given i am at verizon homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T07:27:03.635Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4597972300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "My Verizon Hover",
+        "description": "",
+        "id": "exploring-verizon-homepage;my-verizon-hover",
+        "after": [
+          {
+            "result": {
+              "duration": 715085500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 747997900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "hover over my verizon menu",
+            "match": {
+              "location": "stepdefinition.StepDefinition.hover_over_my_verizon_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1527912000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click profile link",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_profile_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 510633100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "profile link page shows up",
+            "match": {
+              "location": "stepdefinition.StepDefinition.profile_link_page_shows_up()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Given i am at verizon homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T07:27:11.745Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4633834300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Language switch",
+        "description": "",
+        "id": "exploring-verizon-homepage;language-switch",
+        "after": [
+          {
+            "result": {
+              "duration": 1407888600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2861848300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click for language change to Spanish",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_for_language_change_to_Spanish()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 699130800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the language changes",
+            "match": {
+              "location": "stepdefinition.StepDefinition.the_language_changes()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Given i am at verizon homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T07:27:21.355Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5177006100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "watch TV mouse hover",
+        "description": "",
+        "id": "exploring-verizon-homepage;watch-tv-mouse-hover",
+        "after": [
+          {
+            "result": {
+              "duration": 680158600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 278255600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I hover over watch TV menu",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_hover_over_watch_TV_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2538730700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I select guide line link",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_select_guide_line_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58842500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "guideline link page shows up",
+            "match": {
+              "location": "stepdefinition.StepDefinition.guideline_link_page_shows_up()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Given i am at verizon homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T07:27:30.095Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4958404500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "searching item",
+        "description": "",
+        "id": "exploring-verizon-homepage;searching-item",
+        "after": [
+          {
+            "result": {
+              "duration": 742597800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1808162600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I search for specific item",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_search_for_specific_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34908000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "search result shows up",
+            "match": {
+              "location": "stepdefinition.StepDefinition.search_result_shows_up()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Given i am at verizon homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T07:27:37.645Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4813218500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "scrolling down",
+        "description": "",
+        "id": "exploring-verizon-homepage;scrolling-down",
+        "after": [
+          {
+            "result": {
+              "duration": 717730900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2192137200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I scroll down homepage",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_scroll_down_homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60839300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the bottom of the page shows",
+            "match": {
+              "location": "stepdefinition.StepDefinition.the_bottom_of_the_page_shows()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Given i am at verizon homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T07:27:45.437Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4639278000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Facebook page",
+        "description": "",
+        "id": "exploring-verizon-homepage;facebook-page",
+        "after": [
+          {
+            "result": {
+              "duration": 710483900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4729352600,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click on the facebook page link on bottom",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_the_facebook_page_link_on_bottom()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1993300,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Facebook page of verizon shows up",
+            "match": {
+              "location": "stepdefinition.StepDefinition.facebook_page_of_verizon_shows_up()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Given i am at verizon homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T07:27:55.522Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4556328300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Store location",
+        "description": "",
+        "id": "exploring-verizon-homepage;store-location",
+        "after": [
+          {
+            "result": {
+              "duration": 646644800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3055335600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I click the store select link on the bottom",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_the_store_select_link_on_the_bottom()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1945309900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I select state from drop down menu and click submit button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_select_state_from_drop_down_menu_and_click_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 431844600,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "desired stores on state shows up",
+            "match": {
+              "location": "stepdefinition.StepDefinition.desired_stores_on_state_shows_up()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Given i am at verizon homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T07:28:06.160Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4531839700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "generating sign-in page",
+        "description": "",
+        "id": "exploring-verizon-homepage;generating-sign-in-page",
+        "after": [
+          {
+            "result": {
+              "duration": 677265200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 685171000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I go to sign-in hover menu",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_go_to_sign_in_hover_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3542525500,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I registration link",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_registration_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4203038800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I select identity drop down menu",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_select_identity_drop_down_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99733100,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I select user id and password generating box",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_select_user_id_and_password_generating_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33912200,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user id and password input box appears",
+            "match": {
+              "location": "stepdefinition.StepDefinition.user_id_and_password_input_box_appears()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Given i am at verizon homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T07:28:19.938Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5303885600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Complete sign-in",
+        "description": "",
+        "id": "exploring-verizon-homepage;complete-sign-in",
+        "after": [
+          {
+            "result": {
+              "duration": 681300900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 527601300,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I go to sign-in hover menu",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_go_to_sign_in_hover_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1444126600,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I registration link",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_registration_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9933440200,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I select identity drop down menu",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_select_identity_drop_down_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90746100,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I select user id and password generating box",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_select_user_id_and_password_generating_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 365025000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I input username and password",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_input_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73800000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I click submit button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33914000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "submission error massage shows up for negative info",
+            "match": {
+              "location": "stepdefinition.StepDefinition.submission_error_massage_shows_up_for_negative_info()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Exploring Verizon Homepage",
+    "description": "  As a customer I want to explore verizon homepage",
+    "id": "exploring-verizon-homepage",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/Homepage.feature",
+    "tags": []
+  }
+]
