@@ -64,30 +64,30 @@ public class WebAPI {
 
         if (browserName.equalsIgnoreCase("chrome")) {
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.chrome.driver", "BrowserDriver/mac/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/mac/chromedriver");
             } else if (OS.equalsIgnoreCase("Windows")) {
-                System.setProperty("webdriver.chrome.driver", "BrowserDriver/windows/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/windows/chromedriver.exe");
             }
             driver = new ChromeDriver();
         } else if (browserName.equalsIgnoreCase("chrome-options")) {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-notifications");
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.chrome.driver", "BrowserDriver/mac/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/mac/chromedriver");
             } else if (OS.equalsIgnoreCase("Windows")) {
-                System.setProperty("webdriver.chrome.driver", "BrowserDriver/windows/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/windows/chromedriver.exe");
             }
             driver = new ChromeDriver(options);
         } else if (browserName.equalsIgnoreCase("firefox")) {
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.gecko.driver", "BrowserDriver/mac/geckodriver");
+                System.setProperty("webdriver.gecko.driver", "../Generic/BrowserDriver/mac/geckodriver");
             } else if (OS.equalsIgnoreCase("Windows")) {
-                System.setProperty("webdriver.gecko.driver", "BrowserDriver/windows/geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver", "../Generic/BrowserDriver/windows/geckodriver.exe");
             }
             driver = new FirefoxDriver();
 
         } else if (browserName.equalsIgnoreCase("ie")) {
-            System.setProperty("webdriver.ie.driver", "BrowserDriver/windows/IEDriverServer.exe");
+            System.setProperty("webdriver.ie.driver", "../Generic/BrowserDriver/windows/IEDriverServer.exe");
             driver = new InternetExplorerDriver();
         }
         return driver;
@@ -560,6 +560,46 @@ public class WebAPI {
         String text = webElement.getText();
         return text;
     }
+    public static void setup(String url){
+        System.setProperty("webdriver.chrome.driver","BrowserDriver/mac/chromedriver");
+        WebDriver driver=new ChromeDriver();
+        driver.get(url);
+    }
 
+
+
+
+
+    public static void implicitWait(int sec){
+        driver.manage().timeouts().implicitlyWait(sec,TimeUnit.SECONDS);
+    }
+    public static void selectDropDownByIndex(WebElement element,int value){
+        Select select=new Select(element);
+        select.selectByIndex(value);
+    }
+    public static void windowSwitch(){
+        for(String winHandle : driver.getWindowHandles()){
+            driver.switchTo().window(winHandle);
+        }
+    }
+    public static void switchToPreviousWindow(String winHandleBefore){
+        driver.switchTo().window(winHandleBefore);
+    }
+    public static void dragAndDrop(WebElement To, WebElement from){
+        Actions actions=new Actions(driver);
+        actions.dragAndDrop(To,from).build().perform();
+    }
+    public static void scrollUpDownByHeight(){
+        JavascriptExecutor js=(JavascriptExecutor) driver;
+        js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+    }
+    public static void windowMaximize() {
+        driver.manage().window().maximize();
+    }
+
+    public static void mouseHover(WebElement element){
+        Actions actions=new Actions(driver);
+        actions.moveToElement(element).perform();
+    }
 
 }

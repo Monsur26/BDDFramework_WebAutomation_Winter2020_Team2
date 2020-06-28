@@ -1,0 +1,90 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "I am at Trivago Home Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T14:27:21.346Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7825988000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Serach Miami",
+        "description": "",
+        "id": "i-want-to-explore-variour-feature-of-trivago-home-page;serach-miami",
+        "after": [
+          {
+            "result": {
+              "duration": 193269000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 216571000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I eneter Miami in the search box",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_eneter_Miami_in_the_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 314566000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on search button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 350551000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see Miami",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Miami()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "I want to explore variour feature of Trivago Home Page",
+    "description": "  As a customer I want to explore various feature on Trivago Home Page",
+    "id": "i-want-to-explore-variour-feature-of-trivago-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/Homepage.feature",
+    "tags": []
+  }
+]
