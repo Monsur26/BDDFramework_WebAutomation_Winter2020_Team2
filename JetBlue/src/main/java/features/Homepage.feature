@@ -1,4 +1,5 @@
 Feature:Explore Jet Blue Home page
+  As a customer I want to explore JetBlue.com to search different services
 
   Background:
     Given I am at Jet Blue Home Page
@@ -35,9 +36,34 @@ Feature:Explore Jet Blue Home page
     When I click on Airport Alerts
     Then I should see all Airport Alerts
 
-  @SmokeTest
+  @Pending
   Scenario: Search Flight from NewYork to Florida
     Given I am at Jet Blue Home Page
     And I enter Airport Name in From box
 #    When I enter destination Airport name in To Box
 #    Then I should see all available flights
+
+  @Regression
+  Scenario: Explore all destinations
+    And I click on Explore
+    When I click on All Destinations
+    Then I should see all Destinations
+  @Regression
+  Scenario: Explore Flights to Miami area
+    And I click on Explore
+    And I click on All Destinations
+    When I click on Miami Area
+    Then I should see Flight to Miami area
+
+  @Regression
+  Scenario: Explore vacation deals
+    And I click on Explore
+    And I click on Vacation Deals
+    When I scroll down to check all over the page
+    Then I should see Start Planning button
+  @Regression
+  Scenario: Search for Hotels
+    And I click on Hotels
+    And I click on Explore Hotels
+    When I am navigated to a new window to Hotels
+    Then I should see Hotels search options

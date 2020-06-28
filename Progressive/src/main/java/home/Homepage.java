@@ -35,17 +35,15 @@ public class Homepage extends WebAPI {
     @FindBy(how = How.CSS,using = allProductsWebElement) public WebElement allProducts;
     @FindBy(how = How.XPATH,using = allProductsTextWebElement) public WebElement allProductsText;
     @FindBy(how = How.XPATH,using = allProductsScrollDownTextWebElement) public WebElement allProductsScrollDownText;
-//    @FindBy(how = How.XPATH,using = exploreOurProductsWebElement) public WebElement exploreOurProducts;
-//    @FindBy(how = How.XPATH,using = exploreOurProductsAutoWebElement) public WebElement exploreOurProductsAuto;
-//    @FindBy(how = How.CSS,using = exploreAutoMouseHoWebElement) public WebElement exploreAutoMouseHo;
-//    @FindBy(how = How.CSS,using = exploreAutoMouseHoTextWebElement) public WebElement exploreAutoMouseHoText;
     @FindBy(how = How.CSS,using = aboutUSWebElement) public WebElement aboutUs;
     @FindBy(how = How.CSS,using = aboutUSWhoweareWebElement) public WebElement aboutUsWhoweare;
     @FindBy(how = How.XPATH,using = aboutUSWhoweareTextWebElement) public WebElement aboutUsWhoweareText;
     @FindBy(how = How.XPATH,using = aboutUsLocalagentWebElement) public WebElement aboutUsLocalagent;
     @FindBy(how = How.CSS,using = aboutUsLocalagentTextWebElement) public WebElement aboutUsLocalagentText;
     @FindBy(how = How.CSS,using = autoNHomeWebElement) public WebElement autoNHome;
-    @FindBy(how = How.XPATH,using = autoNHomeLearnMoreWebElement) public WebElement autoNHomeLearnMore;
+    @FindBy(how = How.CSS,using = zipWebElement) public WebElement zip;
+    @FindBy(how = How.CSS,using = getAQuoteWebElement) public WebElement getAQuote;
+    @FindBy(how = How.CSS,using = getAQuoteTextWebElement) public WebElement getAQuoteText;
 
     public void windowHandle(){
         Set<String> windowIds =driver.getWindowHandles();
@@ -54,25 +52,7 @@ public class Homepage extends WebAPI {
         String childWindow=iter.next();
         driver.switchTo().window(childWindow);
     }
-//    public void PROExploreProducts(){ exploreProduct.click();}
-//    public void validateExploreProducts(String expectedResult){
-//        String actualResult=exploreProductsText.getText();
-//        Assert.assertEquals("Search Result not Displayed",expectedResult,actualResult);
-//    }
-//    public void ProgressiveAuto(){ progressiveAuto.click();}
-//    public void AutoLearnMore(){ AutoLearnMore.click();}
-//    public void validateAuto(String expectedResult){
-//        String actualResult=AutoLearnMoreText.getText();
-//        Assert.assertEquals("Search Result not Displayed",expectedResult,actualResult);
-//    }
-//    public void ProgressiveExploreProducts(){ progressiveExplore.click();}
-//    public void multiWindowsHandling(){
-//        Set<String> windowIds =driver.getWindowHandles();
-//        Iterator<String> iter=windowIds.iterator();
-//        String mainWindow=iter.next();
-//        String childWindow=iter.next();
-//        driver.switchTo().window(childWindow);
-//    }
+
     public void ProgressiveExplore() {   progressiveExplore.click();}
     public void ProgressiveExploreAuto() {  exploreAuto.click();}
     public void validateExploreAuto(String expectedResult){
@@ -149,9 +129,9 @@ public class Homepage extends WebAPI {
         Assert.assertEquals("Search Result not Displayed",expectedResult,actualResult);
     }
     public void autoNHome(){ autoNHome.click();}
-    public void autoNHomeLearnMore(){ autoNHomeLearnMore.click();}
-    public void autoQuote(){
-        auto.click();
-        implicitWait(10);
-    }
+    public void autoNHomeZip() { zip.sendKeys("23434"); }
+         public void autoNHomeGetAQuote(){ getAQuote.click();}
+         public void validateAutoNHomeGetQuote(){ validateTestCase(getAQuoteText,"Perfect timing. We’ve lowered rates in Virginia!");}
+
+
 }

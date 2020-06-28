@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 69813100,
+              "duration": 77791600,
               "status": "passed"
             },
             "line": 4,
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-06-20T04:09:30.620Z",
+        "start_timestamp": "2020-06-27T18:53:03.927Z",
         "before": [
           {
             "result": {
-              "duration": 7161847100,
+              "duration": 15668100400,
               "status": "passed"
             },
             "match": {
@@ -43,7 +43,7 @@
         "after": [
           {
             "result": {
-              "duration": 1818137300,
+              "duration": 1302567100,
               "status": "passed"
             },
             "match": {
@@ -56,7 +56,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11895188300,
+              "duration": 664223100,
               "status": "passed"
             },
             "line": 8,
@@ -68,9 +68,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Individual and family plans\"}\n  (Session info: chrome\u003d83.0.4103.106)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-I809MD1\u0027, ip: \u0027192.168.106.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\maruf\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c052fbbe1837c3c685bd5237368a04a9\n*** Element info: {Using\u003dlink text, value\u003dIndividual and family plans}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:220)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\r\n\tat home.Homepage.UHCInIndividualFamily(Homepage.java:43)\r\n\tat stepdefinition.StepDefinition.i_click_on_Individual_and_Family_Plans(StepDefinition.java:38)\r\n\tat ✽.I click on Individual and Family Plans(file:///C:/Users/maruf/Desktop/Selenium_group_2/BDD%20group%20project/BDDFramework_WebAutomation_Winter2020_Team2/UnitedHealthCare/src/main/java/features/Homepage.feature:9)\r\n",
-              "duration": 10184762600,
-              "status": "failed"
+              "duration": 3221384900,
+              "status": "passed"
             },
             "line": 9,
             "name": "I click on Individual and Family Plans",
@@ -81,8 +80,8 @@
           },
           {
             "result": {
-              "duration": 1001200,
-              "status": "skipped"
+              "duration": 86767800,
+              "status": "passed"
             },
             "line": 10,
             "name": "I should see All Health Insurance for Individuals and Family",
@@ -107,7 +106,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2991900,
+              "duration": 3989000,
               "status": "passed"
             },
             "line": 4,
@@ -120,11 +119,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-06-20T04:10:02.220Z",
+        "start_timestamp": "2020-06-27T18:53:25.357Z",
         "before": [
           {
             "result": {
-              "duration": 5922163200,
+              "duration": 38770878800,
               "status": "passed"
             },
             "match": {
@@ -139,7 +138,7 @@
         "after": [
           {
             "result": {
-              "duration": 1407235200,
+              "duration": 1659560700,
               "status": "passed"
             },
             "match": {
@@ -152,7 +151,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11400513700,
+              "duration": 2384622200,
               "status": "passed"
             },
             "line": 14,
@@ -164,7 +163,7 @@
           },
           {
             "result": {
-              "duration": 4938791800,
+              "duration": 3637272900,
               "status": "passed"
             },
             "line": 15,
@@ -176,7 +175,7 @@
           },
           {
             "result": {
-              "duration": 71808400,
+              "duration": 150596700,
               "status": "passed"
             },
             "line": 16,
@@ -202,7 +201,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1997900,
+              "duration": 2991300,
               "status": "passed"
             },
             "line": 4,
@@ -215,11 +214,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-06-20T04:10:25.978Z",
+        "start_timestamp": "2020-06-27T18:54:11.983Z",
         "before": [
           {
             "result": {
-              "duration": 6177864300,
+              "duration": 16350275700,
               "status": "passed"
             },
             "match": {
@@ -234,7 +233,7 @@
         "after": [
           {
             "result": {
-              "duration": 1451118100,
+              "duration": 1150822700,
               "status": "passed"
             },
             "match": {
@@ -247,7 +246,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10450053700,
+              "duration": 817812600,
               "status": "passed"
             },
             "line": 20,
@@ -259,7 +258,7 @@
           },
           {
             "result": {
-              "duration": 8371609500,
+              "duration": 5147236400,
               "status": "passed"
             },
             "line": 21,
@@ -271,7 +270,7 @@
           },
           {
             "result": {
-              "duration": 255319200,
+              "duration": 250334000,
               "status": "passed"
             },
             "line": 22,
@@ -297,7 +296,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1994400,
+              "duration": 1994100,
               "status": "passed"
             },
             "line": 4,
@@ -310,11 +309,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-06-20T04:10:52.697Z",
+        "start_timestamp": "2020-06-27T18:54:35.714Z",
         "before": [
           {
             "result": {
-              "duration": 7001277300,
+              "duration": 16226928100,
               "status": "passed"
             },
             "match": {
@@ -329,7 +328,7 @@
         "after": [
           {
             "result": {
-              "duration": 970880900,
+              "duration": 1070136500,
               "status": "passed"
             },
             "match": {
@@ -342,7 +341,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12601301400,
+              "duration": 5578082900,
               "status": "passed"
             },
             "line": 26,
@@ -354,7 +353,7 @@
           },
           {
             "result": {
-              "duration": 3372087200,
+              "duration": 4775317200,
               "status": "passed"
             },
             "line": 27,
@@ -366,7 +365,7 @@
           },
           {
             "result": {
-              "duration": 117682900,
+              "duration": 66822300,
               "status": "passed"
             },
             "line": 28,
@@ -392,7 +391,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3989700,
+              "duration": 997100,
               "status": "passed"
             },
             "line": 4,
@@ -405,11 +404,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-06-20T04:11:16.779Z",
+        "start_timestamp": "2020-06-27T18:55:03.443Z",
         "before": [
           {
             "result": {
-              "duration": 10499215000,
+              "duration": 11595076200,
               "status": "passed"
             },
             "match": {
@@ -424,7 +423,7 @@
         "after": [
           {
             "result": {
-              "duration": 1383342300,
+              "duration": 1279579100,
               "status": "passed"
             },
             "match": {
@@ -437,7 +436,7 @@
         "steps": [
           {
             "result": {
-              "duration": 209439000,
+              "duration": 225399600,
               "status": "passed"
             },
             "line": 32,
@@ -449,7 +448,7 @@
           },
           {
             "result": {
-              "duration": 425871300,
+              "duration": 420872900,
               "status": "passed"
             },
             "line": 33,
@@ -461,7 +460,7 @@
           },
           {
             "result": {
-              "duration": 55840400,
+              "duration": 38919000,
               "status": "passed"
             },
             "line": 34,
@@ -473,7 +472,7 @@
           },
           {
             "result": {
-              "duration": 2945124100,
+              "duration": 4217720400,
               "status": "passed"
             },
             "line": 35,
@@ -499,7 +498,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1993800,
+              "duration": 1994600,
               "status": "passed"
             },
             "line": 4,
@@ -512,11 +511,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-06-20T04:11:32.315Z",
+        "start_timestamp": "2020-06-27T18:55:21.234Z",
         "before": [
           {
             "result": {
-              "duration": 8481357000,
+              "duration": 12362752400,
               "status": "passed"
             },
             "match": {
@@ -531,7 +530,7 @@
         "after": [
           {
             "result": {
-              "duration": 928536000,
+              "duration": 933299600,
               "status": "passed"
             },
             "match": {
@@ -544,7 +543,7 @@
         "steps": [
           {
             "result": {
-              "duration": 704117700,
+              "duration": 231374800,
               "status": "passed"
             },
             "line": 39,
@@ -556,7 +555,7 @@
           },
           {
             "result": {
-              "duration": 5613961000,
+              "duration": 4066130100,
               "status": "passed"
             },
             "line": 40,
@@ -568,7 +567,7 @@
           },
           {
             "result": {
-              "duration": 3425838700,
+              "duration": 3148529000,
               "status": "passed"
             },
             "line": 41,
@@ -580,7 +579,7 @@
           },
           {
             "result": {
-              "duration": 57849300,
+              "duration": 48871900,
               "status": "passed"
             },
             "line": 42,
@@ -606,7 +605,7 @@
         "steps": [
           {
             "result": {
-              "duration": 997900,
+              "duration": 996000,
               "status": "passed"
             },
             "line": 4,
@@ -619,11 +618,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-06-20T04:11:51.554Z",
+        "start_timestamp": "2020-06-27T18:55:42.041Z",
         "before": [
           {
             "result": {
-              "duration": 5063208100,
+              "duration": 10773730600,
               "status": "passed"
             },
             "match": {
@@ -638,7 +637,7 @@
         "after": [
           {
             "result": {
-              "duration": 955940500,
+              "duration": 944759500,
               "status": "passed"
             },
             "match": {
@@ -651,7 +650,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7441106300,
+              "duration": 207447500,
               "status": "passed"
             },
             "line": 46,
@@ -663,7 +662,7 @@
           },
           {
             "result": {
-              "duration": 3826766000,
+              "duration": 3552498300,
               "status": "passed"
             },
             "line": 47,
@@ -675,7 +674,7 @@
           },
           {
             "result": {
-              "duration": 3740995200,
+              "duration": 2841400700,
               "status": "passed"
             },
             "line": 48,
@@ -687,7 +686,7 @@
           },
           {
             "result": {
-              "duration": 51869300,
+              "duration": 59841800,
               "status": "passed"
             },
             "line": 49,
@@ -713,7 +712,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1994000,
+              "duration": 996200,
               "status": "passed"
             },
             "line": 4,
@@ -726,11 +725,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-06-20T04:12:12.649Z",
+        "start_timestamp": "2020-06-27T18:56:00.435Z",
         "before": [
           {
             "result": {
-              "duration": 5010322400,
+              "duration": 10367875500,
               "status": "passed"
             },
             "match": {
@@ -745,7 +744,7 @@
         "after": [
           {
             "result": {
-              "duration": 1040216600,
+              "duration": 1252105700,
               "status": "passed"
             },
             "match": {
@@ -758,7 +757,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6914513600,
+              "duration": 284241100,
               "status": "passed"
             },
             "line": 53,
@@ -770,7 +769,7 @@
           },
           {
             "result": {
-              "duration": 72800500,
+              "duration": 21951400,
               "status": "passed"
             },
             "line": 54,
@@ -782,7 +781,7 @@
           },
           {
             "result": {
-              "duration": 3057822100,
+              "duration": 2929128500,
               "status": "passed"
             },
             "line": 55,
@@ -794,13 +793,251 @@
           },
           {
             "result": {
-              "duration": 2284890200,
+              "duration": 1884959900,
               "status": "passed"
             },
             "line": 56,
             "name": "I should see New User Registration",
             "match": {
               "location": "stepdefinition.StepDefinition.i_should_see_New_User_Registration()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 996900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at UHC Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_UHC_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T18:56:17.206Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10708960900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 59,
+        "name": "Search For Medicaid Eligibility Information",
+        "description": "",
+        "id": "explore-uhc-home-page;search-for-medicaid-eligibility-information",
+        "after": [
+          {
+            "result": {
+              "duration": 1613684300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 317150900,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I click on Insurance",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Insurance()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 326128400,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I click on Medicaid",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Medicaid()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29921000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I am at new Window",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_new_Window()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4856013500,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I click on Eligibility",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Eligibility()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 583439800,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I am at Eligibility page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Eligibility_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 997500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at UHC Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_UHC_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T18:56:35.657Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11348432400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 67,
+        "name": "Search For Medicaid Eligibility Information",
+        "description": "",
+        "id": "explore-uhc-home-page;search-for-medicaid-eligibility-information",
+        "after": [
+          {
+            "result": {
+              "duration": 1102669800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 496671800,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I click on Insurance",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Insurance()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 398947500,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I click on Medicaid",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Medicaid()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29934200,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I am at new Window",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_new_Window()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54852800,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I switch back to Main Window",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_switch_back_to_Main_Window()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115690700,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I am at Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Home_Page()"
             },
             "keyword": "Then "
           }

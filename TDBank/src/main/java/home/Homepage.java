@@ -41,23 +41,15 @@ public class Homepage extends WebAPI {
     @FindBy(how = How.XPATH, using = individualsWebelement) public WebElement individual;
     @FindBy(how = How.XPATH, using = individualsTextWebelement) public WebElement individualText;
 
-    public void mouseHoverbyCSSNew(WebElement we1, WebElement we2){
-//        WebElement element1 = driver.findElement(By.xpath(locator1));
-//        WebElement element2 = driver.findElement(By.xpath(locator2));
-        Actions action = new Actions(driver);
-        Actions hover = action.moveToElement(we1);
-        hover.moveToElement(we1).moveToElement(we2).click().build().perform();
-    }
-    public void clickOnElementbyMouseHover(){
-        mouseHoverbyCSSNew(productlink,creditcards);
-    }
+
     public void Scrolldown() {        JavascriptExecutor js = (JavascriptExecutor)driver;
         js.executeScript("scrollBy(0, 4500)");
     }
     public void MouseHoverOnProducts() throws InterruptedException {
         mouseHoverByCSS("#td-desktop-nav-dropdown-link-2");
         sleepFor(10);
-       }
+//        productlink.click();
+    }
 
     public void MouseHoverOnProductsToServices() throws InterruptedException {
         mouseHoverByCSS("#td-desktop-nav-dropdown-link-2");
@@ -90,8 +82,8 @@ public class Homepage extends WebAPI {
         Assert.assertEquals("Search Result not Displayed",expectedResult,actualResult);
     }
     public void MouseHoverOnLogIn() throws InterruptedException {
-        mouseHoverByCSS("li[class='login td-us-public-login td-dropdown']");
-        sleepFor(1);
+        mouseHoverByCSS("#td-desktop-nav-dropdown-link-4");
+//     sleepFor(1);
     }
     public void validateTDBankLogIn(String expectedResult){
         String actualResult=login.getText();

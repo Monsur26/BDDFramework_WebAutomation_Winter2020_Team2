@@ -35,6 +35,10 @@ public class Homepage extends WebAPI {
     @FindBy(how = How.LINK_TEXT,using = ForProdiversWebElement) public WebElement forProviders;
     @FindBy(how = How.XPATH,using = ForProdiversNewUserWebElement) public WebElement forProvidersNewUser;
     @FindBy(how = How.XPATH,using = ForProdiversNewUserTextWebElement) public WebElement forProvidersNewUserText;
+    @FindBy(how = How.XPATH,using = InsMedicaidWebElement) public WebElement medicaid;
+    @FindBy(how = How.LINK_TEXT,using = eligibilityWebElement) public WebElement eligibility;
+    @FindBy(how = How.XPATH,using = eligibilityTextWebElement) public WebElement eligibilityText;
+    @FindBy(how = How.LINK_TEXT,using = homeTextWebElement) public WebElement homeText;
 
     public void UHCHomePage(){
         String title= driver.getTitle();
@@ -96,4 +100,18 @@ public class Homepage extends WebAPI {
         String actualResult=forProvidersNewUserText.getText();
         Assert.assertEquals("Search Result not Displayed",expectedResult,actualResult);
     }
+    public void insuranceMedicaid(){ medicaid.click();}
+    public void medicaidNewWindow(){ windowHandle();}
+    public void medicaidEligibility(){ eligibility.click();}
+    public void validateMedicaidEligInfo(){ validateTestCase(eligibilityText,"Eligibility");}
+    public void backtoParentWindow(){
+        Set<String> windowIds =driver.getWindowHandles();
+        Iterator<String> iter=windowIds.iterator();
+        String mainWindow=iter.next();
+        String childWindow=iter.next();
+        driver.switchTo().window(childWindow);
+        driver.switchTo().window(mainWindow);
+    }
+    public void validateParentWindow(){ validateTestCase(homeText,"Home");    }
+
 }

@@ -21,9 +21,7 @@ import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 public class WebAPI {
@@ -586,5 +584,11 @@ public class WebAPI {
         String actualResult=element.getText();
         Assert.assertEquals("Search Result not Displayed",expectedResult,actualResult);
     }
-
+    public void windowHandle(){
+        Set<String> windowIds =driver.getWindowHandles();
+        Iterator<String> iter=windowIds.iterator();
+        String mainWindow=iter.next();
+        String childWindow=iter.next();
+        driver.switchTo().window(childWindow);
+    }
 }

@@ -31,6 +31,17 @@ public class Homepage extends WebAPI {
     @FindBy(how = How.XPATH, using=airportAlertTextWebElement) public WebElement airportAlertText;
     @FindBy(how = How.XPATH, using=fromWhereWebElement) public WebElement fromWhere;
     @FindBy(how = How.XPATH, using=whereToWebElement) public WebElement whereTo;
+    @FindBy(how = How.LINK_TEXT, using=allDestinationWebElement) public WebElement allDestination;
+    @FindBy(how = How.XPATH, using=allDestinationTextWebElement) public WebElement allDestinationText;
+    @FindBy(how = How.LINK_TEXT, using=miamiAreaWebElement) public WebElement miamiArea;
+    @FindBy(how = How.XPATH, using=miamiAreaTextWebElement) public WebElement miamiAreaText;
+    @FindBy(how = How.XPATH, using=travelAlertsaWebElement) public WebElement travelAlerts;
+    @FindBy(how = How.LINK_TEXT, using=airportAlertsWebElement) public WebElement airportAlerts;
+    @FindBy(how = How.LINK_TEXT, using=vacationDealsWebElement) public WebElement vacationDeals;
+    @FindBy(how = How.CSS, using=vacationDealsTextWebElement) public WebElement vacationDealsText;
+    @FindBy(how = How.CSS, using=HotelsWebElement) public WebElement Hotels;
+    @FindBy(how = How.CSS, using=exploreHotelsWebElement) public WebElement exploreHotels;
+    @FindBy(how = How.CSS, using=exploreHotelsTextWebElement) public WebElement exploreHotelsText;
 
 
     public void jetBlueBook(){book.click();}
@@ -77,5 +88,17 @@ public class Homepage extends WebAPI {
         windowHandle();
         sleepFor(10);
     }
+    public void exploreAllDestination(){ allDestination.click(); }
+    public void validateAllDestination(){ validateTestCase(allDestinationText,"Destinations");}
+    public void destinationMiamiarea(){ miamiArea.click(); }
+    public void validateMiamiarea(){ validateTestCase(miamiAreaText,"Flights to Miami area");}
+    public void vacationDeals(){ vacationDeals.click();}
+    public void scrolldown(){ scrollDownVertically(); }
+//    public void validateVacationDeals(){validateTestCase(vacationDealsText,"Start planning your trip.");}
+    public void validateVacationDeals(){validateTestCase(vacationDealsText,"");}
+    public void hotels(){ Hotels.click();}
+    public void exploreHotels(){ exploreHotels.click();}
+    public void newHotelsWindow(){ windowHandle();}
+    public void validateHotelsSearchPage(){ validateTestCase(exploreHotelsText,"Hotels");}
 
 }

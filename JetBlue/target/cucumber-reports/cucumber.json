@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
+        "line": 4,
         "name": "",
         "description": "",
         "type": "background",
@@ -11,10 +11,10 @@
         "steps": [
           {
             "result": {
-              "duration": 57844100,
+              "duration": 133643000,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "I am at Jet Blue Home Page",
             "match": {
               "location": "stepdefinition.StepDefinition.i_am_at_Jet_Blue_Home_Page()"
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-06-20T03:48:46.368Z",
+        "start_timestamp": "2020-06-27T17:05:17.833Z",
         "before": [
           {
             "result": {
-              "duration": 8669812900,
+              "duration": 14408467300,
               "status": "passed"
             },
             "match": {
@@ -36,14 +36,14 @@
             }
           }
         ],
-        "line": 7,
+        "line": 8,
         "name": "Search Flight to Book",
         "description": "",
         "id": "explore-jet-blue-home-page;search-flight-to-book",
         "after": [
           {
             "result": {
-              "duration": 2139278600,
+              "duration": 1241951100,
               "status": "passed"
             },
             "match": {
@@ -56,10 +56,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2862345900,
+              "duration": 4438131100,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "I click on Book",
             "match": {
               "location": "stepdefinition.StepDefinition.i_click_on_Book()"
@@ -68,10 +68,10 @@
           },
           {
             "result": {
-              "duration": 2288879200,
+              "duration": 423867000,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "I click on Flights",
             "match": {
               "location": "stepdefinition.StepDefinition.i_click_on_Flights()"
@@ -80,10 +80,10 @@
           },
           {
             "result": {
-              "duration": 3407885900,
+              "duration": 1120005000,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "I should see Search Flights Page",
             "match": {
               "location": "stepdefinition.StepDefinition.i_should_see_Search_Flights_Page()"
@@ -98,7 +98,7 @@
         ]
       },
       {
-        "line": 3,
+        "line": 4,
         "name": "",
         "description": "",
         "type": "background",
@@ -106,10 +106,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2991200,
+              "duration": 3990200,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "I am at Jet Blue Home Page",
             "match": {
               "location": "stepdefinition.StepDefinition.i_am_at_Jet_Blue_Home_Page()"
@@ -119,11 +119,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-06-20T03:49:06.185Z",
+        "start_timestamp": "2020-06-27T17:05:40.094Z",
         "before": [
           {
             "result": {
-              "duration": 7862529200,
+              "duration": 10223247400,
               "status": "passed"
             },
             "match": {
@@ -131,14 +131,14 @@
             }
           }
         ],
-        "line": 13,
+        "line": 14,
         "name": "Search Flights to NewYork",
         "description": "",
         "id": "explore-jet-blue-home-page;search-flights-to-newyork",
         "after": [
           {
             "result": {
-              "duration": 1045529800,
+              "duration": 1092079200,
               "status": "passed"
             },
             "match": {
@@ -151,10 +151,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2829433000,
+              "duration": 2221059700,
               "status": "passed"
             },
-            "line": 14,
+            "line": 15,
             "name": "I click on Explore",
             "match": {
               "location": "stepdefinition.StepDefinition.i_click_on_Explore()"
@@ -163,10 +163,10 @@
           },
           {
             "result": {
-              "duration": 1629642300,
+              "duration": 6570224800,
               "status": "passed"
             },
-            "line": 15,
+            "line": 16,
             "name": "I click on NewYork",
             "match": {
               "location": "stepdefinition.StepDefinition.i_click_on_NewYork()"
@@ -175,10 +175,10 @@
           },
           {
             "result": {
-              "duration": 5617973200,
+              "duration": 65823200,
               "status": "passed"
             },
-            "line": 16,
+            "line": 17,
             "name": "I should see Flights to NewYork search Page",
             "match": {
               "location": "stepdefinition.StepDefinition.i_should_see_Flights_to_NewYork_search_Page()"
@@ -193,7 +193,7 @@
         ]
       },
       {
-        "line": 3,
+        "line": 4,
         "name": "",
         "description": "",
         "type": "background",
@@ -201,10 +201,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2991500,
+              "duration": 2991800,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "I am at Jet Blue Home Page",
             "match": {
               "location": "stepdefinition.StepDefinition.i_am_at_Jet_Blue_Home_Page()"
@@ -214,11 +214,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-06-20T03:49:25.195Z",
+        "start_timestamp": "2020-06-27T17:06:00.286Z",
         "before": [
           {
             "result": {
-              "duration": 7420797900,
+              "duration": 9768449400,
               "status": "passed"
             },
             "match": {
@@ -226,14 +226,14 @@
             }
           }
         ],
-        "line": 19,
+        "line": 20,
         "name": "Search Flight from NewYork to Los Angeles",
         "description": "",
         "id": "explore-jet-blue-home-page;search-flight-from-newyork-to-los-angeles",
         "after": [
           {
             "result": {
-              "duration": 1060258000,
+              "duration": 1094724200,
               "status": "passed"
             },
             "match": {
@@ -246,10 +246,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2542201800,
+              "duration": 3134605300,
               "status": "passed"
             },
-            "line": 20,
+            "line": 21,
             "name": "I click on Explore",
             "match": {
               "location": "stepdefinition.StepDefinition.i_click_on_Explore()"
@@ -258,10 +258,10 @@
           },
           {
             "result": {
-              "duration": 1837091000,
+              "duration": 6644230700,
               "status": "passed"
             },
-            "line": 21,
+            "line": 22,
             "name": "I click on Los Angeles",
             "match": {
               "location": "stepdefinition.StepDefinition.i_click_on_Los_Angeles()"
@@ -270,10 +270,10 @@
           },
           {
             "result": {
-              "duration": 6646226500,
+              "duration": 2323785200,
               "status": "passed"
             },
-            "line": 22,
+            "line": 23,
             "name": "I click on NewYork to Los Angeles",
             "match": {
               "location": "stepdefinition.StepDefinition.i_click_on_NewYork_to_Los_Angeles()"
@@ -282,10 +282,10 @@
           },
           {
             "result": {
-              "duration": 2061486900,
+              "duration": 246342200,
               "status": "passed"
             },
-            "line": 23,
+            "line": 24,
             "name": "I should see Best Flight Finder",
             "match": {
               "location": "stepdefinition.StepDefinition.i_should_see_Best_Flight_Finder()"
@@ -300,7 +300,7 @@
         ]
       },
       {
-        "line": 3,
+        "line": 4,
         "name": "",
         "description": "",
         "type": "background",
@@ -308,10 +308,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1994500,
+              "duration": 1994800,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "I am at Jet Blue Home Page",
             "match": {
               "location": "stepdefinition.StepDefinition.i_am_at_Jet_Blue_Home_Page()"
@@ -321,11 +321,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-06-20T03:49:46.787Z",
+        "start_timestamp": "2020-06-27T17:06:23.535Z",
         "before": [
           {
             "result": {
-              "duration": 7394199000,
+              "duration": 10701837200,
               "status": "passed"
             },
             "match": {
@@ -333,14 +333,14 @@
             }
           }
         ],
-        "line": 26,
+        "line": 27,
         "name": "Jet Blue Sign In",
         "description": "",
         "id": "explore-jet-blue-home-page;jet-blue-sign-in",
         "after": [
           {
             "result": {
-              "duration": 1137720500,
+              "duration": 1208153600,
               "status": "passed"
             },
             "match": {
@@ -353,10 +353,10 @@
         "steps": [
           {
             "result": {
-              "duration": 3073777200,
+              "duration": 4163864400,
               "status": "passed"
             },
-            "line": 27,
+            "line": 28,
             "name": "I click on Sign in",
             "match": {
               "location": "stepdefinition.StepDefinition.i_click_on_Sign_in()"
@@ -365,10 +365,10 @@
           },
           {
             "result": {
-              "duration": 1855039100,
+              "duration": 1606703300,
               "status": "passed"
             },
-            "line": 28,
+            "line": 29,
             "name": "I enter email id",
             "match": {
               "location": "stepdefinition.StepDefinition.i_enter_email_id()"
@@ -377,10 +377,10 @@
           },
           {
             "result": {
-              "duration": 657242800,
+              "duration": 550527200,
               "status": "passed"
             },
-            "line": 29,
+            "line": 30,
             "name": "I enter password",
             "match": {
               "location": "stepdefinition.StepDefinition.i_enter_password()"
@@ -389,10 +389,10 @@
           },
           {
             "result": {
-              "duration": 86766700,
+              "duration": 79785800,
               "status": "passed"
             },
-            "line": 30,
+            "line": 31,
             "name": "I should see Sign in completed",
             "match": {
               "location": "stepdefinition.StepDefinition.i_should_see_Sign_in_completed()"
@@ -407,7 +407,7 @@
         ]
       },
       {
-        "line": 3,
+        "line": 4,
         "name": "",
         "description": "",
         "type": "background",
@@ -415,10 +415,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1994000,
+              "duration": 2991600,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "I am at Jet Blue Home Page",
             "match": {
               "location": "stepdefinition.StepDefinition.i_am_at_Jet_Blue_Home_Page()"
@@ -428,11 +428,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-06-20T03:50:01.016Z",
+        "start_timestamp": "2020-06-27T17:06:41.861Z",
         "before": [
           {
             "result": {
-              "duration": 7448878400,
+              "duration": 9943641900,
               "status": "passed"
             },
             "match": {
@@ -440,14 +440,14 @@
             }
           }
         ],
-        "line": 33,
+        "line": 34,
         "name": "Jet Blue Travel Alerts",
         "description": "",
         "id": "explore-jet-blue-home-page;jet-blue-travel-alerts",
         "after": [
           {
             "result": {
-              "duration": 932879500,
+              "duration": 1635253800,
               "status": "passed"
             },
             "match": {
@@ -460,10 +460,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1886956600,
+              "duration": 662234900,
               "status": "passed"
             },
-            "line": 34,
+            "line": 35,
             "name": "I click on Travel Alerts",
             "match": {
               "location": "stepdefinition.StepDefinition.i_click_on_Travel_Alerts()"
@@ -472,10 +472,10 @@
           },
           {
             "result": {
-              "duration": 4557810700,
+              "duration": 2126314700,
               "status": "passed"
             },
-            "line": 35,
+            "line": 36,
             "name": "I click on Airport Alerts",
             "match": {
               "location": "stepdefinition.StepDefinition.i_click_on_Airport_Alerts()"
@@ -484,10 +484,10 @@
           },
           {
             "result": {
-              "duration": 67819800,
+              "duration": 46873200,
               "status": "passed"
             },
-            "line": 36,
+            "line": 37,
             "name": "I should see all Airport Alerts",
             "match": {
               "location": "stepdefinition.StepDefinition.i_should_see_all_Airport_Alerts()"
@@ -502,7 +502,7 @@
         ]
       },
       {
-        "line": 3,
+        "line": 4,
         "name": "",
         "description": "",
         "type": "background",
@@ -510,10 +510,10 @@
         "steps": [
           {
             "result": {
-              "duration": 997000,
+              "duration": 1992900,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "I am at Jet Blue Home Page",
             "match": {
               "location": "stepdefinition.StepDefinition.i_am_at_Jet_Blue_Home_Page()"
@@ -523,11 +523,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-06-20T03:50:15.929Z",
+        "start_timestamp": "2020-06-27T17:06:56.296Z",
         "before": [
           {
             "result": {
-              "duration": 6993177100,
+              "duration": 9439529800,
               "status": "passed"
             },
             "match": {
@@ -535,14 +535,14 @@
             }
           }
         ],
-        "line": 39,
-        "name": "Search Flight from NewYork to Florida",
+        "line": 47,
+        "name": "Explore all destinations",
         "description": "",
-        "id": "explore-jet-blue-home-page;search-flight-from-newyork-to-florida",
+        "id": "explore-jet-blue-home-page;explore-all-destinations",
         "after": [
           {
             "result": {
-              "duration": 1506968700,
+              "duration": 1518938300,
               "status": "passed"
             },
             "match": {
@@ -555,39 +555,372 @@
         "steps": [
           {
             "result": {
-              "duration": 1994500,
+              "duration": 2900245300,
               "status": "passed"
             },
-            "line": 40,
+            "line": 48,
+            "name": "I click on Explore",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Explore()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 497668200,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I click on All Destinations",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_All_Destinations()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2554169400,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I should see all Destinations",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_all_Destinations()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1994000,
+              "status": "passed"
+            },
+            "line": 5,
             "name": "I am at Jet Blue Home Page",
             "match": {
               "location": "stepdefinition.StepDefinition.i_am_at_Jet_Blue_Home_Page()"
             },
             "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T17:07:13.221Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9762488000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "Explore Flights to Miami area",
+        "description": "",
+        "id": "explore-jet-blue-home-page;explore-flights-to-miami-area",
+        "after": [
+          {
+            "result": {
+              "duration": 1055851700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2628842100,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I click on Explore",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Explore()"
+            },
+            "keyword": "And "
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression #city-selector_2yf5x23vx because of the following error:\nSyntaxError: Failed to execute \u0027evaluate\u0027 on \u0027Document\u0027: The string \u0027#city-selector_2yf5x23vx\u0027 is not a valid XPath expression.\n  (Session info: chrome\u003d83.0.4103.106)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-I809MD1\u0027, ip: \u0027192.168.106.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\maruf\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61200}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: fbc7f4f050676b932757f17027be91a2\n*** Element info: {Using\u003dxpath, value\u003d#city-selector_2yf5x23vx}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat home.Homepage.flightFromWhere(Homepage.java:74)\r\n\tat stepdefinition.StepDefinition.i_enter_Airport_Name_in_From_box(StepDefinition.java:125)\r\n\tat ✽.I enter Airport Name in From box(file:///C:/Users/maruf/Desktop/Selenium_group_2/BDD%20group%20project/BDDFramework_WebAutomation_Winter2020_Team2/JetBlue/src/main/java/features/Homepage.feature:41)\r\n",
-              "duration": 140621900,
-              "status": "failed"
+              "duration": 502655900,
+              "status": "passed"
             },
-            "line": 41,
-            "name": "I enter Airport Name in From box",
+            "line": 54,
+            "name": "I click on All Destinations",
             "match": {
-              "location": "stepdefinition.StepDefinition.i_enter_Airport_Name_in_From_box()"
+              "location": "stepdefinition.StepDefinition.i_click_on_All_Destinations()"
             },
             "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9292150200,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I click on Miami Area",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Miami_Area()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58840800,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I should see Flight to Miami area",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Flight_to_Miami_area()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@SmokeTest"
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1994500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at Jet Blue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Jet_Blue_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T17:07:36.538Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10529826900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 59,
+        "name": "Explore vacation deals",
+        "description": "",
+        "id": "explore-jet-blue-home-page;explore-vacation-deals",
+        "after": [
+          {
+            "result": {
+              "duration": 969202400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2372654500,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I click on Explore",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Explore()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5594433800,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I click on Vacation Deals",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Vacation_Deals()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63828400,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I scroll down to check all over the page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_scroll_down_to_check_all_over_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1496747800,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I should see Start Planning button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Start_Planning_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1993600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at Jet Blue Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Jet_Blue_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T17:07:57.586Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10179909400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 65,
+        "name": "Search for Hotels",
+        "description": "",
+        "id": "explore-jet-blue-home-page;search-for-hotels",
+        "after": [
+          {
+            "result": {
+              "duration": 1274591600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1259631900,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I click on Hotels",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Hotels()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#jb-tabpanel-id-2 \u003e jb-booker-tabs-wrapper \u003e div \u003e jb-static-booker-pod \u003e div \u003e a\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-I809MD1\u0027, ip: \u0027192.168.106.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\maruf\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58157}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 07ec78cd0f932668c80c3d2028b06477\n*** Element info: {Using\u003dcss selector, value\u003d#jb-tabpanel-id-2 \u003e jb-booker-tabs-wrapper \u003e div \u003e jb-static-booker-pod \u003e div \u003e a}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat home.Homepage.exploreHotels(Homepage.java:100)\r\n\tat stepdefinition.StepDefinition.i_click_on_Explore_Hotels(StepDefinition.java:188)\r\n\tat ✽.I click on Explore Hotels(file:///C:/Users/maruf/Desktop/Selenium_group_2/BDD%20group%20project/BDDFramework_WebAutomation_Winter2020_Team2/JetBlue/src/main/java/features/Homepage.feature:67)\r\n",
+              "duration": 10099082900,
+              "status": "failed"
+            },
+            "line": 67,
+            "name": "I click on Explore Hotels",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Explore_Hotels()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998200,
+              "status": "skipped"
+            },
+            "line": 68,
+            "name": "I am navigated to a new window to Hotels",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_navigated_to_a_new_window_to_Hotels()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 992800,
+              "status": "skipped"
+            },
+            "line": 69,
+            "name": "I should see Hotels search options",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Hotels_search_options()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
           }
         ]
       }
     ],
     "name": "Explore Jet Blue Home page",
-    "description": "",
+    "description": "  As a customer I want to explore JetBlue.com to search different services",
     "id": "explore-jet-blue-home-page",
     "keyword": "Feature",
     "uri": "file:src/main/java/features/Homepage.feature",

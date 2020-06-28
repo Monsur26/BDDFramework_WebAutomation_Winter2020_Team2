@@ -38,6 +38,11 @@ public class StepDefinition extends WebAPI {
         getInitElements();
         homepage.MouseHoverOnProducts();
     }
+    @Then("I should see All Products on the menu")
+    public void i_should_see_All_Products_on_the_menu() {
+        getInitElements();
+        homepage.validateTDBankProductsmenu("Products");
+    }
     @Then("I click on Products")
     public void i_click_on_Products() {
         getInitElements();
@@ -47,8 +52,8 @@ public class StepDefinition extends WebAPI {
     @When("I click on Credit Cards")
     public void i_click_on_Credit_Cards() {
         getInitElements();
-        homepage.clickOnElementbyMouseHover();
-//        homepage.creditCardsProducts();
+//        homepage.clickOnElementbyMouseHover();
+        homepage.creditCardsProducts();
     }
 
     @Then("I should see All type of Credit Cards")
@@ -57,11 +62,7 @@ public class StepDefinition extends WebAPI {
         throw new io.cucumber.java.PendingException();
     }
 
-    @Then("I should see All Products on the menu")
-    public void i_should_see_All_Products_on_the_menu() {
-        getInitElements();
-        homepage.validateTDBankProductsmenu("Products");
-    }
+
 
     @Given("I bring mouse on Services")
     public void i_bring_mouse_on_Services() throws InterruptedException {
@@ -173,7 +174,7 @@ public class StepDefinition extends WebAPI {
     @Then("I should be in TD Bank Canada Home Page")
     public void i_should_be_in_TD_Bank_Canada_Home_Page() {
         getInitElements();
-        homepage.validateTDBankCountry("Canada");
+        homepage.validateTDBankCountry("");
     }
     @Given("I click on help")
     public void i_click_on_help() {

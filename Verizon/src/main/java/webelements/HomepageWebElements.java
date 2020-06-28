@@ -10,14 +10,13 @@ public class HomepageWebElements {
     public static final String tabletTextWebElement="input[value='Tablet']";
 
     public static final String shopWebElement="//li[@id='secondLevel3']//span//button";
-    public static final String shopTextWebElement="//h1[contains(text(),'Phones & Devices')]";
+    public static final String shopTextWebElement="//*[@id=\"section_1061951350\"]/div/div/div/div[1]/div/h1";
     public static final String inHomeWebElement="In Home";
     public static final String inHomeShopWebElement="//*[@id=\"vcm_menu1\"]/a";
     public static final String shopDealWebElement="#vcm_shop_deals > a";
     public static final String shopDealTextWebElement="//h4[contains(text(),'Your deals')]";
     public static final String inHomeInternetWebElement="//*[@id=\"app\"]/div[2]/div/div/div/div/div/div/div/div/ul/li[2]/div/a";
     public static final String inHomeInternetTextWebElement="//h3[contains(text(),'Ready to order?')]";
-
     public static final String inHomeWatchTVWebElement="Shop";
     public static final String wirelessPhonesWebElement="#secondLevel0 > span > button";
     public static final String wirelessPhonesTextWebElement="#content > div > div.header > div > div.clearFixBanner.pad20.onlyTopPad > div > div.gw-header > h1";

@@ -18,8 +18,6 @@ public class Homepage extends WebAPI {
     @FindBy(how = How.CSS, using = WirelessSearchBoxWebElement) public WebElement searchBox;
     @FindBy(how = How.CSS, using = iPhone11ProTextWebElement) public WebElement iPhone11ProText;
     @FindBy(how = How.CSS, using = tabletTextWebElement) public WebElement tabletText;
-
-
     @FindBy(how = How.XPATH,using = shopWebElement) public WebElement shop;
     @FindBy(how = How.XPATH,using = shopTextWebElement) public WebElement shopText;
     @FindBy(how = How.LINK_TEXT,using = inHomeWebElement) public WebElement inHome;
@@ -28,10 +26,8 @@ public class Homepage extends WebAPI {
     @FindBy(how = How.XPATH,using = shopDealTextWebElement) public WebElement shopDealText;
     @FindBy(how = How.XPATH,using = inHomeInternetWebElement) public WebElement inHomeInternet;
     @FindBy(how = How.XPATH,using = inHomeInternetTextWebElement) public WebElement inHomeInternetText;
-
     @FindBy(how = How.CSS,using = wirelessPhonesWebElement) public WebElement wirelessPhones;
     @FindBy(how = How.CSS,using = wirelessPhonesTextWebElement) public WebElement wirelessPhonesText;
-
     @FindBy(how = How.CSS,using = wirelessPhonesFilterBrandsWebElement) public WebElement wirelessPhonesFilterBrands;
     @FindBy(how = How.CSS,using = wirelessPhonesfilterBrandnameWebElement) public WebElement wirelessPhonesfilterBrandname;
     @FindBy(how = How.CSS,using = inHomewatchTVWebElement) public WebElement inHomeWatchTV;

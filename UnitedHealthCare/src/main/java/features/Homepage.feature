@@ -1,4 +1,5 @@
 Feature:Explore UHC Home Page
+  As a customer I want to explore UHC.com to search different services
 
   Background:
     Given I am at UHC Home Page
@@ -54,3 +55,19 @@ Feature:Explore UHC Home Page
     And I am on UHC Providers Page
     When I click on New User
     Then I should see New User Registration
+
+  @Regression
+  Scenario: Search For Medicaid Eligibility Information
+    Given I click on Insurance
+    And I click on Medicaid
+    And I am at new Window
+    When I click on Eligibility
+    Then I am at Eligibility page
+
+  @Regression
+  Scenario: Search For Medicaid Eligibility Information
+    Given I click on Insurance
+    And I click on Medicaid
+    And I am at new Window
+    When I switch back to Main Window
+    Then I am at Home Page

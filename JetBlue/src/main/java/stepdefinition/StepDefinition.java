@@ -137,4 +137,66 @@ public class StepDefinition extends WebAPI {
         // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
+    @When("I click on All Destinations")
+    public void i_click_on_All_Destinations() {
+       getInitElements();
+       homepage.exploreAllDestination();
+    }
+
+    @Then("I should see all Destinations")
+    public void i_should_see_all_Destinations() {
+        getInitElements();
+        homepage.validateAllDestination();
+    }
+    @When("I click on Miami Area")
+    public void i_click_on_Miami_Area() {
+       getInitElements();
+       homepage.destinationMiamiarea();
+    }
+
+    @Then("I should see Flight to Miami area")
+    public void i_should_see_Flight_to_Miami_area() {
+       getInitElements();
+       homepage.validateMiamiarea();
+    }
+    @Given("I click on Vacation Deals")
+    public void i_click_on_Vacation_Deals() {
+       getInitElements();
+       homepage.vacationDeals();
+    }
+
+    @When("I scroll down to check all over the page")
+    public void i_scroll_down_to_check_all_over_the_page() {
+        getInitElements();
+        homepage.scrolldown();
+    }
+
+    @Then("I should see Start Planning button")
+    public void i_should_see_Start_Planning_button() {
+       getInitElements();
+       homepage.validateVacationDeals();
+    }
+    @Given("I click on Hotels")
+    public void i_click_on_Hotels() {
+       getInitElements();
+       homepage.hotels();
+    }
+
+    @Given("I click on Explore Hotels")
+    public void i_click_on_Explore_Hotels() {
+       getInitElements();
+       homepage.exploreHotels();
+    }
+
+    @When("I am navigated to a new window to Hotels")
+    public void i_am_navigated_to_a_new_window_to_Hotels() {
+       getInitElements();
+       homepage.newHotelsWindow();
+    }
+    @Then("I should see Hotels search options")
+    public void i_should_see_Hotels_search_options() {
+        getInitElements();
+        homepage.validateHotelsSearchPage();
+    }
+
 }

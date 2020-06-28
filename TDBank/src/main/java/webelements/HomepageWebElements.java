@@ -9,7 +9,7 @@ public class HomepageWebElements {
     public static final String searchBoxWebElement="#q";
     public static final String searchResultTextWebElement="#js-locator > div.Locator-top > h1";
     public static final String submitButtonWebelement="button.Locator-button--search";
-    public static final String loginWebelement="li[class='login td-us-public-login td-dropdown']";
+    public static final String loginWebelement="#td-desktop-nav-dropdown-link-4";
     public static final String loginAccWebelement="button[class='td-button td-button-secondary td-button-large td-copy-nowrap loginout']";
     public static final String userWebelement="input[name='psudoUsername']";
     public static final String passwordWebelement="input[name='password']";
@@ -22,7 +22,7 @@ public class HomepageWebElements {
     public static final String countryWebelement="//a[@id='td-desktop-nav-dropdown-link-0']//span[@class='td-icon expand']";
     public static final String countryNameWebelement="//ul[@class='td-dropdown-content']//a[contains(text(),'Canada')]";
     public static final String countryFlagWebelement="//*[@id=\"td-desktop-nav-dropdown-link-0\"]/img";
-    public static final String helpsearchWebelement="/html/body/div[2]/div[2]/header[1]/div[3]/div/div[2]/div/ul/li[2]/a/span[2]";
+    public static final String helpsearchWebelement="//body/div/div/header/div/div/div[2]/div[1]/ul[1]/li[2]/a[1]";
     public static final String helpsearchBoxWebelement="//*[@id=\"question\"]";
     public static final String helpsearchSubmitWebelement="//*[@id=\"aBanner0\"]/div[2]/div/div/suggestions/div/div/div";
     public static final String helpsearchResultTextWebelement="//*[@id=\"main\"]/search/div[1]/div/div/h1";

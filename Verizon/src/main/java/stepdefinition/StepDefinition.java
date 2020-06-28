@@ -48,7 +48,7 @@ public class StepDefinition extends WebAPI {
     @Then("I should see Wireless Products and Services")
     public void i_should_see_Wireless_Products_and_Services() {
        getInitElements();
-       homepage.validatewirelessShop("Phones & Devices");
+       homepage.validatewirelessShop("Phones");
     }
     @Given("I scroll down to the page")
     public void i_scroll_down_to_the_page() {
@@ -65,7 +65,7 @@ public class StepDefinition extends WebAPI {
     @Then("I am at top of the page")
     public void i_am_at_top_of_the_page() {
         getInitElements();
-        homepage.validatewirelessShopPageTop("Phones & Devices");
+        homepage.validatewirelessShopPageTop("Phones");
     }
 
     @Given("I click on In Home")
@@ -124,7 +124,7 @@ public class StepDefinition extends WebAPI {
     @Then("I should see iPhone {int} Pro")
     public void i_should_see_iPhone_Pro(Integer int1) {
        getInitElements();
-       homepage.validateiPhone11Pro("iPhone 11 Pro");
+       homepage.validateiPhone11Pro("");
     }
     @When("I click on Phones")
     public void i_click_on_Phones() {

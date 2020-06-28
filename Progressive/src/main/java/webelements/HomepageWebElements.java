@@ -31,6 +31,9 @@ public class HomepageWebElements {
     public static final String aboutUsLocalagentWebElement="//a[contains(text(),'Local')]";
     public static final String aboutUsLocalagentTextWebElement="#primary > div > div > div > h1";
     public static final String autoNHomeWebElement="#main > div.mma.orange > div > div > div.products-wrap > div.products-bundle > ul > li:nth-child(1) > a";
-    public static final String autoNHomeLearnMoreWebElement="//*[@id=\"site\"]/div[4]/div/div[1]/div[3]/div/div[9]/a";
+    public static final String autoNHomeLearnMoreWebElement="Learn more about bundling";
+    public static final String zipWebElement="#zipCode_overlay";
+    public static final String getAQuoteWebElement="#qsButton_overlay";
+    public static final String getAQuoteTextWebElement="body > app-root > form > main > name-and-address-edit > div > div > page-header > div > h1 > span";
 
 }

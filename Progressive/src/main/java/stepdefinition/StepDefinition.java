@@ -185,10 +185,23 @@ public class StepDefinition extends WebAPI {
        getInitElements();
        homepage.autoNHome();
     }
-    @When("I click on Learn more about bundle")
-    public void i_click_on_Learn_more_about_bundle() {
+
+    @Given("I enter Zip")
+    public void i_enter_Zip() {
         getInitElements();
-        homepage.autoNHomeLearnMore();
+        homepage.autoNHomeZip();
+    }
+
+    @When("I click on Get a quote")
+    public void i_click_on_Get_a_quote() {
+      getInitElements();
+      homepage.autoNHomeGetAQuote();
+    }
+
+    @Then("I should see Start the Quote page")
+    public void i_should_see_Start_the_Quote_page() {
+        getInitElements();
+        homepage.validateAutoNHomeGetQuote();
     }
 
 }

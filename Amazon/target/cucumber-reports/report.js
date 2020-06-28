@@ -121,7 +121,8 @@ formatter.match({
   "location": "stepdefinition.StepDefinition.i_select_Modenna_Face_mask()"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"search\"]/div[1]/div[2]/div/span[3]/div[2]/div[9]/div/span/div/div/div[2]/h2/a/span\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-I809MD1\u0027, ip: \u0027192.168.106.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\maruf\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62208}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 6807503e93911cd61e732723a7049004\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"search\"]/div[1]/div[2]/div/span[3]/div[2]/div[9]/div/span/div/div/div[2]/h2/a/span}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\r\n\tat home.Homepage.clickProduct(Homepage.java:53)\r\n\tat stepdefinition.StepDefinition.i_select_Modenna_Face_mask(StepDefinition.java:122)\r\n\tat ✽.I select Modenna Face mask(file:///C:/Users/maruf/Desktop/Selenium_group_2/BDD%20group%20project/BDDFramework_WebAutomation_Winter2020_Team2/Amazon/src/main/java/features/Homepage.feature:15)\r\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "I add in cart",
@@ -131,7 +132,7 @@ formatter.match({
   "location": "stepdefinition.StepDefinition.i_add_in_cart()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "I should see Face mask in cart",
@@ -141,7 +142,7 @@ formatter.match({
   "location": "stepdefinition.StepDefinition.i_should_see_Face_mask_in_cart()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
   "status": "passed"
@@ -543,6 +544,65 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.scenarioOutline({
+  "name": "Search product using Parameter",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@Regression"
+    }
+  ]
+});
+formatter.step({
+  "name": "I Enter \"\u003cItems\u003e\" in search input field",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I Click search button",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "I should see \"\u003cExpectedItems\u003e\"",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "Items",
+        "ExpectedItems"
+      ]
+    },
+    {
+      "cells": [
+        "Face Mask",
+        "\"Face Mask\""
+      ]
+    },
+    {
+      "cells": [
+        "Tablet",
+        "\"Tablet\""
+      ]
+    },
+    {
+      "cells": [
+        "Hand soap",
+        "\"Hand soap\""
+      ]
+    },
+    {
+      "cells": [
+        "I Phone 11 Pro",
+        "\"I Phone 11 Pro\""
+      ]
+    }
+  ]
+});
 formatter.background({
   "name": "",
   "description": "",
@@ -562,9 +622,9 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Search Amazon Main Menu",
+  "name": "Search product using Parameter",
   "description": "",
-  "keyword": "Scenario",
+  "keyword": "Scenario Outline",
   "tags": [
     {
       "name": "@Regression"
@@ -572,21 +632,214 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "I click on Amazon Main Menu",
-  "keyword": "When "
+  "name": "I Enter \"Face Mask\" in search input field",
+  "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_click_on_Amazon_Main_Menu()"
+  "location": "stepdefinition.StepDefinition.i_Enter_in_search_input_field(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I should see all Category",
+  "name": "I Click search button",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "stepdefinition.StepDefinition.i_Click_search_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should see \"\"Face Mask\"\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_should_see_all_Category()"
+  "location": "stepdefinition.StepDefinition.i_should_see_Face_Mask()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am at Amazon Home Page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepdefinition.StepDefinition.i_am_at_Amazon_Home_Page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Search product using Parameter",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@Regression"
+    }
+  ]
+});
+formatter.step({
+  "name": "I Enter \"Tablet\" in search input field",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinition.StepDefinition.i_Enter_in_search_input_field(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I Click search button",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "stepdefinition.StepDefinition.i_Click_search_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should see \"\"Tablet\"\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepdefinition.StepDefinition.i_should_see_Tablet()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am at Amazon Home Page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepdefinition.StepDefinition.i_am_at_Amazon_Home_Page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Search product using Parameter",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@Regression"
+    }
+  ]
+});
+formatter.step({
+  "name": "I Enter \"Hand soap\" in search input field",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinition.StepDefinition.i_Enter_in_search_input_field(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I Click search button",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "stepdefinition.StepDefinition.i_Click_search_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should see \"\"Hand soap\"\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepdefinition.StepDefinition.i_should_see_Hand_soap()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am at Amazon Home Page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepdefinition.StepDefinition.i_am_at_Amazon_Home_Page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Search product using Parameter",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@Regression"
+    }
+  ]
+});
+formatter.step({
+  "name": "I Enter \"I Phone 11 Pro\" in search input field",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinition.StepDefinition.i_Enter_in_search_input_field(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I Click search button",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "stepdefinition.StepDefinition.i_Click_search_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should see \"\"I Phone 11 Pro\"\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepdefinition.StepDefinition.i_should_see_I_Phone_Pro(java.lang.Integer)"
 });
 formatter.result({
   "status": "passed"

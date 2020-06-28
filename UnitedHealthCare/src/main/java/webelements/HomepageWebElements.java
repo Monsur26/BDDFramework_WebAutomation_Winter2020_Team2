@@ -28,6 +28,10 @@ public class HomepageWebElements {
     public static final String ForProdiversWebElement="For Providers";
     public static final String ForProdiversNewUserWebElement="//*[@id=\"header\"]/div[1]/nav/div[1]/ul/li[7]/a";
     public static final String ForProdiversNewUserTextWebElement="//*[@id=\"rightcontent\"]/div[2]/h1";
+    public static final String InsMedicaidWebElement="//div//div//div//div//div//div//div//div//div//div[1]//nav[1]//ul[1]//li[2]//ul[1]//li[1]//div[1]//div[1]//div[1]//div[4]//div[1]//div[1]//ul[1]//li[3]//a[1]";
+    public static final String eligibilityWebElement="Eligibility";
+    public static final String eligibilityTextWebElement="//h1[contains(text(),'Eligibility')]";
+    public static final String homeTextWebElement="Home";
 
 
 }

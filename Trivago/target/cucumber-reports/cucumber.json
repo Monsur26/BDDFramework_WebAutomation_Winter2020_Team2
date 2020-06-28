@@ -1,0 +1,1312 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 57845800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Trivago Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Trivago_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T18:44:57.863Z",
+        "before": [
+          {
+            "result": {
+              "duration": 21334966200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Search Hotel in Trivago home page",
+        "description": "",
+        "id": "explore-trivago-home-page;search-hotel-in-trivago-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 960045800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 313162500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter Los Angeles, CA in search box",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_enter_Los_Angeles_CA_in_search_box()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 314160700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on search button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#js_price_disclaimer \u003e div \u003e div \u003e span.sort-by__text\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-I809MD1\u0027, ip: \u0027192.168.106.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\maruf\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51668}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 44824e4a80d931fbd75655252ea7c58b\n*** Element info: {Using\u003dcss selector, value\u003d#js_price_disclaimer \u003e div \u003e div \u003e span.sort-by__text}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.getText(Unknown Source)\r\n\tat home.Homepage.validateHotelSearch(Homepage.java:51)\r\n\tat stepdefinition.StepDefinition.i_should_see_all_hotels_in_Los_Angeles(StepDefinition.java:45)\r\n\tat ✽.I should see all hotels in Los Angeles(file:///C:/Users/maruf/Desktop/Selenium_group_2/BDD%20group%20project/BDDFramework_WebAutomation_Winter2020_Team2/Trivago/src/main/java/features/Homepage.feature:10)\r\n",
+              "duration": 10120878600,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "I should see all hotels in Los Angeles",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_all_hotels_in_Los_Angeles()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1994600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Trivago Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Trivago_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T18:45:31.569Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9626276900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Explore Trivago menu",
+        "description": "",
+        "id": "explore-trivago-home-page;explore-trivago-menu",
+        "after": [
+          {
+            "result": {
+              "duration": 952459500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 168549800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I hover mouse on Menu",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_hover_mouse_on_Menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56844400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see full Menu",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_full_Menu()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2990900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Trivago Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Trivago_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T18:45:42.390Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9773285000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Search Hotel in Trivago and select check in date",
+        "description": "",
+        "id": "explore-trivago-home-page;search-hotel-in-trivago-and-select-check-in-date",
+        "after": [
+          {
+            "result": {
+              "duration": 954409400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 369013900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I enter Los Angeles, CA in search box",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_enter_Los_Angeles_CA_in_search_box()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 425860500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I click on check in",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_check_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1113022400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I select date",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_select_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 786895500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click on search button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 630308600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I should see check in date",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_check_in_date()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1996000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Trivago Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Trivago_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T18:45:56.468Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9401611600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "Enter check in and check out date in hotel Search",
+        "description": "",
+        "id": "explore-trivago-home-page;enter-check-in-and-check-out-date-in-hotel-search",
+        "after": [
+          {
+            "result": {
+              "duration": 1161890400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 320143700,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I enter Los Angeles, CA in search box",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_enter_Los_Angeles_CA_in_search_box()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 478719300,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I click on check in",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_check_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1268608400,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I select date",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_select_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 946468400,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I click on Check out",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Check_out()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 243350500,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I select check out date",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_select_check_out_date()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77792200,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I should see selected check out date",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_selected_check_out_date()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 995800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Trivago Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Trivago_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T18:46:10.387Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9839113500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "Search Hotel in Trivago with check in and check out date",
+        "description": "",
+        "id": "explore-trivago-home-page;search-hotel-in-trivago-with-check-in-and-check-out-date",
+        "after": [
+          {
+            "result": {
+              "duration": 906538200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 356047600,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I enter Los Angeles, CA in search box",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_enter_Los_Angeles_CA_in_search_box()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 393946800,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I click on check in",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_check_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1078117300,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I select date",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_select_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 273268400,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I click on Check out",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Check_out()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 354053600,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I select check out date",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_select_check_out_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 568479700,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I click on search button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 579450400,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I should see hotels in Los Angeles",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_hotels_in_Los_Angeles()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1995100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Trivago Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Trivago_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T18:46:24.762Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9633217200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "Scroll down to check all Hotel search",
+        "description": "",
+        "id": "explore-trivago-home-page;scroll-down-to-check-all-hotel-search",
+        "after": [
+          {
+            "result": {
+              "duration": 884716200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 289219800,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I enter Los Angeles, CA in search box",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_enter_Los_Angeles_CA_in_search_box()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 423865600,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I click on check in",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_check_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 766948500,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I select date",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_select_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 294212600,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I click on Check out",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Check_out()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 419875500,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I select check out date",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_select_check_out_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 690156400,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I click on search button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 620340300,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I scroll down to the bottom of page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_scroll_down_to_the_bottom_of_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 221409000,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I should see all hotels in the search page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_all_hotels_in_the_search_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1995200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Trivago Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Trivago_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T18:46:39.033Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8974139900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 68,
+        "name": "Add more Filter in Hotel Search",
+        "description": "",
+        "id": "explore-trivago-home-page;add-more-filter-in-hotel-search",
+        "after": [
+          {
+            "result": {
+              "duration": 1391280600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 279254100,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I enter Los Angeles, CA in search box",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_enter_Los_Angeles_CA_in_search_box()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 308177800,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I click on check in",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_check_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 759967100,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I select date",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_select_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 618345400,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I click on search button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1855049000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I click on More filters",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_More_filters()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1743338200,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I click on Car park Check Box",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Car_park_Check_Box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1746329000,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "I should see Car park is selected",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Car_park_is_selected()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1989700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Trivago Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Trivago_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T18:46:56.734Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9502432500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 78,
+        "name": "Check Hotel Facilities in Hotel Search",
+        "description": "",
+        "id": "explore-trivago-home-page;check-hotel-facilities-in-hotel-search",
+        "after": [
+          {
+            "result": {
+              "duration": 1029058700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 243350200,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "I enter London, UK in search box",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_enter_London_UK_in_search_box()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 450794900,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "I click on check in",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_check_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1024260600,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "I select date",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_select_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1344405200,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "I click on search button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1230708400,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "I click on More filters",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_More_filters()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 417883400,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "I click on Hotel Facilities",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Hotel_Facilities()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57845100,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "I should see all available Facilities",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_all_available_Facilities()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 997700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Trivago Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Trivago_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T18:47:12.057Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9950236300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 88,
+        "name": "Add accommodation option in Hotels search",
+        "description": "",
+        "id": "explore-trivago-home-page;add-accommodation-option-in-hotels-search",
+        "after": [
+          {
+            "result": {
+              "duration": 1003877000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 257302600,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "I enter London, UK in search box",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_enter_London_UK_in_search_box()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 447802000,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "I click on check in",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_check_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 765950400,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "I select date",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_select_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1113024100,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "I click on search button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1013289900,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "I click on Accommodation",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Accommodation()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2940135200,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "I click on Hotels only",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Hotels_only()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1043221000,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "I should see Hotel option is selected",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Hotel_option_is_selected()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 997000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at Trivago Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_Trivago_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T18:47:30.615Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9360472500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 98,
+        "name": "Add accommodation option in Hotels search",
+        "description": "",
+        "id": "explore-trivago-home-page;add-accommodation-option-in-hotels-search",
+        "after": [
+          {
+            "result": {
+              "duration": 1291073400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 242352300,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "I enter London, UK in search box",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_enter_London_UK_in_search_box()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 432842300,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "I click on check in",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_check_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 946468200,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "I select date",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_select_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 906575000,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "I click on search button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4802157100,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "I click on Guest rating",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Guest_rating()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 852726400,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "I select Very good rating",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_select_Very_good_rating()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 150593200,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "I should see Very good Rating Hotels",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Very_good_Rating_Hotels()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Explore Trivago Home page",
+    "description": "",
+    "id": "explore-trivago-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/Homepage.feature",
+    "tags": []
+  }
+]

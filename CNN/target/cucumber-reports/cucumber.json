@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "line": 4,
+        "line": 3,
         "name": "",
         "description": "",
         "type": "background",
@@ -11,24 +11,24 @@
         "steps": [
           {
             "result": {
-              "duration": 66822100,
+              "duration": 80785000,
               "status": "passed"
             },
-            "line": 5,
-            "name": "I am at TD Bank Home Page",
+            "line": 4,
+            "name": "I am at CNN Home Page",
             "match": {
-              "location": "stepdefinition.StepDefinition.i_am_at_TD_Bank_Home_Page()"
+              "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-06-27T18:38:19.774Z",
+        "start_timestamp": "2020-06-27T19:48:08.933Z",
         "before": [
           {
             "result": {
-              "duration": 15609255800,
+              "duration": 21590975000,
               "status": "passed"
             },
             "match": {
@@ -36,14 +36,14 @@
             }
           }
         ],
-        "line": 8,
-        "name": "Search Products menu",
+        "line": 7,
+        "name": "Check CNN US page",
         "description": "",
-        "id": "explore-td-bank-home-page;search-products-menu",
+        "id": "explore-cnn-home-page;check-cnn-us-page",
         "after": [
           {
             "result": {
-              "duration": 1735359600,
+              "duration": 1296578800,
               "status": "passed"
             },
             "match": {
@@ -56,25 +56,25 @@
         "steps": [
           {
             "result": {
-              "duration": 10239615800,
+              "duration": 756975100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Click on US on CNN submenu",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_US_on_CNN_submenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3202437400,
               "status": "passed"
             },
             "line": 9,
-            "name": "I bring mouse on Products",
+            "name": "I should see CNN US page",
             "match": {
-              "location": "stepdefinition.StepDefinition.i_bring_mouse_on_Products()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 72804600,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I should see All Products on the menu",
-            "match": {
-              "location": "stepdefinition.StepDefinition.i_should_see_All_Products_on_the_menu()"
+              "location": "stepdefinition.StepDefinition.i_should_see_CNN_US_page()"
             },
             "keyword": "Then "
           }
@@ -86,7 +86,7 @@
         ]
       },
       {
-        "line": 4,
+        "line": 3,
         "name": "",
         "description": "",
         "type": "background",
@@ -94,24 +94,24 @@
         "steps": [
           {
             "result": {
-              "duration": 3990300,
+              "duration": 2991400,
               "status": "passed"
             },
-            "line": 5,
-            "name": "I am at TD Bank Home Page",
+            "line": 4,
+            "name": "I am at CNN Home Page",
             "match": {
-              "location": "stepdefinition.StepDefinition.i_am_at_TD_Bank_Home_Page()"
+              "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-06-27T18:38:48.026Z",
+        "start_timestamp": "2020-06-27T19:48:36.365Z",
         "before": [
           {
             "result": {
-              "duration": 14706185400,
+              "duration": 16850083000,
               "status": "passed"
             },
             "match": {
@@ -119,14 +119,14 @@
             }
           }
         ],
-        "line": 13,
-        "name": "Search Services menu",
+        "line": 11,
+        "name": "Select CNN International Edition",
         "description": "",
-        "id": "explore-td-bank-home-page;search-services-menu",
+        "id": "explore-cnn-home-page;select-cnn-international-edition",
         "after": [
           {
             "result": {
-              "duration": 1539879700,
+              "duration": 1056174400,
               "status": "passed"
             },
             "match": {
@@ -139,25 +139,37 @@
         "steps": [
           {
             "result": {
-              "duration": 1357367900,
+              "duration": 672202700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I Click on Edition submenu",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_Edition_submenu()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1214751800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I Click on International",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_International()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5620966900,
               "status": "passed"
             },
             "line": 14,
-            "name": "I bring mouse on Services",
+            "name": "I should see CNN World page",
             "match": {
-              "location": "stepdefinition.StepDefinition.i_bring_mouse_on_Services()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 67819100,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I should see All Services on the menu",
-            "match": {
-              "location": "stepdefinition.StepDefinition.i_should_see_All_Services_on_the_menu()"
+              "location": "stepdefinition.StepDefinition.i_should_see_CNN_World_page()"
             },
             "keyword": "Then "
           }
@@ -169,7 +181,7 @@
         ]
       },
       {
-        "line": 4,
+        "line": 3,
         "name": "",
         "description": "",
         "type": "background",
@@ -177,24 +189,24 @@
         "steps": [
           {
             "result": {
-              "duration": 1993900,
+              "duration": 1993800,
               "status": "passed"
             },
-            "line": 5,
-            "name": "I am at TD Bank Home Page",
+            "line": 4,
+            "name": "I am at CNN Home Page",
             "match": {
-              "location": "stepdefinition.StepDefinition.i_am_at_TD_Bank_Home_Page()"
+              "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-06-27T18:39:05.723Z",
+        "start_timestamp": "2020-06-27T19:49:01.799Z",
         "before": [
           {
             "result": {
-              "duration": 12686074300,
+              "duration": 12820839900,
               "status": "passed"
             },
             "match": {
@@ -202,14 +214,14 @@
             }
           }
         ],
-        "line": 18,
-        "name": "Search TD Bank Products to Services menu",
+        "line": 16,
+        "name": "Search keyword on Menu button",
         "description": "",
-        "id": "explore-td-bank-home-page;search-td-bank-products-to-services-menu",
+        "id": "explore-cnn-home-page;search-keyword-on-menu-button",
         "after": [
           {
             "result": {
-              "duration": 956325200,
+              "duration": 1000804800,
               "status": "passed"
             },
             "match": {
@@ -222,120 +234,49 @@
         "steps": [
           {
             "result": {
-              "duration": 10208698200,
+              "duration": 6755933600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I Click on Menu Button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_Menu_Button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1350424300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter Economy in search box",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_enter_Economy_in_search_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1811061900,
               "status": "passed"
             },
             "line": 19,
-            "name": "I bring mouse on Products",
+            "name": "I Click on SearchSubmit",
             "match": {
-              "location": "stepdefinition.StepDefinition.i_bring_mouse_on_Products()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 13324361500,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "I move mouse from Products to Services",
-            "match": {
-              "location": "stepdefinition.StepDefinition.i_move_mouse_from_Products_to_Services()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 53856400,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "I should see All Services on the menu",
-            "match": {
-              "location": "stepdefinition.StepDefinition.i_should_see_All_Services_on_the_menu()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@SmokeTest"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1994900,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I am at TD Bank Home Page",
-            "match": {
-              "location": "stepdefinition.StepDefinition.i_am_at_TD_Bank_Home_Page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-06-27T18:39:42.970Z",
-        "before": [
-          {
-            "result": {
-              "duration": 9879984200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepdefinition.StepDefinition.openBrowser()"
-            }
-          }
-        ],
-        "line": 24,
-        "name": "Search TD Bank Learning info",
-        "description": "",
-        "id": "explore-td-bank-home-page;search-td-bank-learning-info",
-        "after": [
-          {
-            "result": {
-              "duration": 2108361300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepdefinition.StepDefinition.closeBrowser()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 6410856300,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "I click on Learning",
-            "match": {
-              "location": "stepdefinition.StepDefinition.i_click_on_Learning()"
+              "location": "stepdefinition.StepDefinition.i_Click_on_SearchSubmit()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 118682400,
+              "duration": 2765601700,
               "status": "passed"
             },
-            "line": 26,
-            "name": "I should be in Learning Center",
+            "line": 20,
+            "name": "I should see Everything about economy",
             "match": {
-              "location": "stepdefinition.StepDefinition.i_should_be_in_Learning_Center()"
+              "location": "stepdefinition.StepDefinition.i_should_see_Everything_about_economy()"
             },
             "keyword": "Then "
           }
@@ -347,7 +288,7 @@
         ]
       },
       {
-        "line": 4,
+        "line": 3,
         "name": "",
         "description": "",
         "type": "background",
@@ -355,24 +296,119 @@
         "steps": [
           {
             "result": {
-              "duration": 1995100,
+              "duration": 1995700,
               "status": "passed"
             },
-            "line": 5,
-            "name": "I am at TD Bank Home Page",
+            "line": 4,
+            "name": "I am at CNN Home Page",
             "match": {
-              "location": "stepdefinition.StepDefinition.i_am_at_TD_Bank_Home_Page()"
+              "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-06-27T18:40:01.503Z",
+        "start_timestamp": "2020-06-27T19:49:28.326Z",
         "before": [
           {
             "result": {
-              "duration": 9752703500,
+              "duration": 10691751500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Check CNN Business page",
+        "description": "",
+        "id": "explore-cnn-home-page;check-cnn-business-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1005734800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9191419100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I Click on Business",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_Business()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 263296500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I scroll down in the page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_scroll_down_in_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5983997300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should see bottom of the page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_bottom_of_the_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1994700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at CNN Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T19:49:55.488Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16830545500,
               "status": "passed"
             },
             "match": {
@@ -381,13 +417,13 @@
           }
         ],
         "line": 29,
-        "name": "Search TD Bank all Kind of Accounts Log In",
+        "name": "Check CNN Top Stories",
         "description": "",
-        "id": "explore-td-bank-home-page;search-td-bank-all-kind-of-accounts-log-in",
+        "id": "explore-cnn-home-page;check-cnn-top-stories",
         "after": [
           {
             "result": {
-              "duration": 1034527300,
+              "duration": 1133556500,
               "status": "passed"
             },
             "match": {
@@ -400,25 +436,37 @@
         "steps": [
           {
             "result": {
-              "duration": 343085300,
+              "duration": 541551700,
               "status": "passed"
             },
             "line": 30,
-            "name": "I bring mouse on Log In",
+            "name": "I Click on CNN Entertainment",
             "match": {
-              "location": "stepdefinition.StepDefinition.i_bring_mouse_on_Log_In()"
+              "location": "stepdefinition.StepDefinition.i_Click_on_CNN_Entertainment()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7661511100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I Click on Top Story",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_Top_Story()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 65823300,
+              "duration": 1308502100,
               "status": "passed"
             },
-            "line": 31,
-            "name": "I should see All kind of accounts Log In",
+            "line": 32,
+            "name": "I am at CNN Entertainment Top Story page",
             "match": {
-              "location": "stepdefinition.StepDefinition.i_should_see_All_kind_of_accounts_Log_In()"
+              "location": "stepdefinition.StepDefinition.i_am_at_CNN_Entertainment_Top_Story_page()"
             },
             "keyword": "Then "
           }
@@ -430,7 +478,7 @@
         ]
       },
       {
-        "line": 4,
+        "line": 3,
         "name": "",
         "description": "",
         "type": "background",
@@ -438,24 +486,24 @@
         "steps": [
           {
             "result": {
-              "duration": 996500,
+              "duration": 1993100,
               "status": "passed"
             },
-            "line": 5,
-            "name": "I am at TD Bank Home Page",
+            "line": 4,
+            "name": "I am at CNN Home Page",
             "match": {
-              "location": "stepdefinition.StepDefinition.i_am_at_TD_Bank_Home_Page()"
+              "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-06-27T18:40:12.712Z",
+        "start_timestamp": "2020-06-27T19:50:22.978Z",
         "before": [
           {
             "result": {
-              "duration": 8384112000,
+              "duration": 17137166100,
               "status": "passed"
             },
             "match": {
@@ -463,14 +511,14 @@
             }
           }
         ],
-        "line": 34,
-        "name": "Search TD Bank Branch",
+        "line": 35,
+        "name": "Check CNN Business Perspectives page",
         "description": "",
-        "id": "explore-td-bank-home-page;search-td-bank-branch",
+        "id": "explore-cnn-home-page;check-cnn-business-perspectives-page",
         "after": [
           {
             "result": {
-              "duration": 1236620900,
+              "duration": 980181700,
               "status": "passed"
             },
             "match": {
@@ -483,49 +531,37 @@
         "steps": [
           {
             "result": {
-              "duration": 1695969400,
+              "duration": 1085097700,
               "status": "passed"
             },
-            "line": 35,
-            "name": "I click on Find Us",
+            "line": 36,
+            "name": "I Click on Business",
             "match": {
-              "location": "stepdefinition.StepDefinition.i_click_on_Find_Us()"
+              "location": "stepdefinition.StepDefinition.i_Click_on_Business()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1580772300,
-              "status": "passed"
-            },
-            "line": 36,
-            "name": "I enter Queens NY in Search Box",
-            "match": {
-              "location": "stepdefinition.StepDefinition.i_enter_Queens_NY_in_Search_Box()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 342092100,
+              "duration": 12189403600,
               "status": "passed"
             },
             "line": 37,
-            "name": "I Click on Search Button",
+            "name": "I Click on Perspectives",
             "match": {
-              "location": "stepdefinition.StepDefinition.i_Click_on_Search_Button()"
+              "location": "stepdefinition.StepDefinition.i_Click_on_Perspectives()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 267279900,
+              "duration": 1447129500,
               "status": "passed"
             },
             "line": 38,
-            "name": "I should see The Branches in Queens NY USA",
+            "name": "I am at CNN Business Perspectives page",
             "match": {
-              "location": "stepdefinition.StepDefinition.i_should_see_The_Branches_in_Queens_NY_USA()"
+              "location": "stepdefinition.StepDefinition.i_am_at_CNN_Business_Perspectives_page()"
             },
             "keyword": "Then "
           }
@@ -537,7 +573,7 @@
         ]
       },
       {
-        "line": 4,
+        "line": 3,
         "name": "",
         "description": "",
         "type": "background",
@@ -545,24 +581,24 @@
         "steps": [
           {
             "result": {
-              "duration": 995900,
+              "duration": 1994800,
               "status": "passed"
             },
-            "line": 5,
-            "name": "I am at TD Bank Home Page",
+            "line": 4,
+            "name": "I am at CNN Home Page",
             "match": {
-              "location": "stepdefinition.StepDefinition.i_am_at_TD_Bank_Home_Page()"
+              "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-06-27T18:40:26.237Z",
+        "start_timestamp": "2020-06-27T19:50:55.847Z",
         "before": [
           {
             "result": {
-              "duration": 8644131900,
+              "duration": 10977325500,
               "status": "passed"
             },
             "match": {
@@ -571,13 +607,13 @@
           }
         ],
         "line": 41,
-        "name": "Search TD Bank Branch",
+        "name": "Go to CNN Business Perspectives page and go back to Home Page",
         "description": "",
-        "id": "explore-td-bank-home-page;search-td-bank-branch",
+        "id": "explore-cnn-home-page;go-to-cnn-business-perspectives-page-and-go-back-to-home-page",
         "after": [
           {
             "result": {
-              "duration": 1106780300,
+              "duration": 990156100,
               "status": "passed"
             },
             "match": {
@@ -590,73 +626,61 @@
         "steps": [
           {
             "result": {
-              "duration": 11931093000,
+              "duration": 8270765300,
               "status": "passed"
             },
             "line": 42,
-            "name": "I click on Log In Button",
+            "name": "I Click on Business",
             "match": {
-              "location": "stepdefinition.StepDefinition.i_click_on_Log_In_Button()"
+              "location": "stepdefinition.StepDefinition.i_Click_on_Business()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1502050600,
+              "duration": 5210567000,
               "status": "passed"
             },
             "line": 43,
-            "name": "I enter User name",
+            "name": "I Click on Perspectives",
             "match": {
-              "location": "stepdefinition.StepDefinition.i_enter_User_name()"
+              "location": "stepdefinition.StepDefinition.i_Click_on_Perspectives()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2805497700,
+              "duration": 1520934800,
               "status": "passed"
             },
             "line": 44,
-            "name": "I enter Password",
+            "name": "I navigate back to Business Page",
             "match": {
-              "location": "stepdefinition.StepDefinition.i_enter_Password()"
+              "location": "stepdefinition.StepDefinition.i_navigate_back_to_Business_Page()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1442143200,
+              "duration": 956443000,
               "status": "passed"
             },
             "line": 45,
-            "name": "I Click on Submit Button",
+            "name": "I am at CNN Business Page",
             "match": {
-              "location": "stepdefinition.StepDefinition.i_Click_on_Submit_Button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 654251400,
-              "status": "passed"
-            },
-            "line": 46,
-            "name": "I should see Welcome message",
-            "match": {
-              "location": "stepdefinition.StepDefinition.i_should_see_Welcome_message()"
+              "location": "stepdefinition.StepDefinition.i_am_at_CNN_Business_Page()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@SmokeTest"
+            "name": "@Regression"
           }
         ]
       },
       {
-        "line": 4,
+        "line": 3,
         "name": "",
         "description": "",
         "type": "background",
@@ -664,24 +688,24 @@
         "steps": [
           {
             "result": {
-              "duration": 996900,
+              "duration": 1989200,
               "status": "passed"
             },
-            "line": 5,
-            "name": "I am at TD Bank Home Page",
+            "line": 4,
+            "name": "I am at CNN Home Page",
             "match": {
-              "location": "stepdefinition.StepDefinition.i_am_at_TD_Bank_Home_Page()"
+              "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-06-27T18:40:54.346Z",
+        "start_timestamp": "2020-06-27T19:51:23.791Z",
         "before": [
           {
             "result": {
-              "duration": 8881613900,
+              "duration": 16468918300,
               "status": "passed"
             },
             "match": {
@@ -689,14 +713,14 @@
             }
           }
         ],
-        "line": 49,
-        "name": "Search Country",
+        "line": 48,
+        "name": "CNN Home Page scroll down",
         "description": "",
-        "id": "explore-td-bank-home-page;search-country",
+        "id": "explore-cnn-home-page;cnn-home-page-scroll-down",
         "after": [
           {
             "result": {
-              "duration": 1110833700,
+              "duration": 1469069700,
               "status": "passed"
             },
             "match": {
@@ -709,37 +733,275 @@
         "steps": [
           {
             "result": {
-              "duration": 296205600,
+              "duration": 599396900,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I scroll down to the bottom of CNN home page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_scroll_down_to_the_bottom_of_CNN_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2280900900,
               "status": "passed"
             },
             "line": 50,
-            "name": "I click on country flag",
+            "name": "I am able to see all topics at the bottom",
             "match": {
-              "location": "stepdefinition.StepDefinition.i_click_on_country_flag()"
+              "location": "stepdefinition.StepDefinition.i_am_able_to_see_all_topics_at_the_bottom()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1990500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at CNN Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T19:51:44.622Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16642497400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "Check CNN 2020 Election page",
+        "description": "",
+        "id": "explore-cnn-home-page;check-cnn-2020-election-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1022400500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1772261200,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I Click on Politics",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_Politics()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4048174100,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I Click on 2020 Election",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2020",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.i_Click_on_Election(java.lang.Integer)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 3021918500,
+              "duration": 2760061400,
               "status": "passed"
             },
-            "line": 51,
-            "name": "I select Canada",
+            "line": 56,
+            "name": "I refresh the page",
             "match": {
-              "location": "stepdefinition.StepDefinition.i_select_Canada()"
+              "location": "stepdefinition.StepDefinition.i_refresh_the_page()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2788543600,
+              "duration": 2024585200,
               "status": "passed"
             },
-            "line": 52,
-            "name": "I should be in TD Bank Canada Home Page",
+            "line": 57,
+            "name": "I can see CNN 2020 Election page clearly",
             "match": {
-              "location": "stepdefinition.StepDefinition.i_should_be_in_TD_Bank_Canada_Home_Page()"
+              "arguments": [
+                {
+                  "val": "2020",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.i_can_see_CNN_Election_page_clearly(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at CNN Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T19:52:12.912Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16626885800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 60,
+        "name": "Check CNN 2020 Election States page",
+        "description": "",
+        "id": "explore-cnn-home-page;check-cnn-2020-election-states-page",
+        "after": [
+          {
+            "result": {
+              "duration": 988779500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1801184700,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I Click on Politics",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_Politics()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6551596600,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I Click on 2020 Election",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2020",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.i_Click_on_Election(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3133271700,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I hover mouse on States \u0026 Territories",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_hover_mouse_on_States_Territories()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2317663800,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I click on Virginia",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Virginia()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4180818700,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I am at CNN 2020 Election Virginia state page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2020",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.i_am_at_CNN_Election_Virginia_state_page(java.lang.Integer)"
             },
             "keyword": "Then "
           }
@@ -747,215 +1009,13 @@
         "tags": [
           {
             "name": "@SmokeTest"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1994500,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I am at TD Bank Home Page",
-            "match": {
-              "location": "stepdefinition.StepDefinition.i_am_at_TD_Bank_Home_Page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-06-27T18:41:10.471Z",
-        "before": [
-          {
-            "result": {
-              "duration": 8162878900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepdefinition.StepDefinition.openBrowser()"
-            }
-          }
-        ],
-        "line": 55,
-        "name": "Search Help on TD Bank Home Page",
-        "description": "",
-        "id": "explore-td-bank-home-page;search-help-on-td-bank-home-page",
-        "after": [
-          {
-            "result": {
-              "duration": 1026165700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepdefinition.StepDefinition.closeBrowser()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1576782100,
-              "status": "passed"
-            },
-            "line": 56,
-            "name": "I click on help",
-            "match": {
-              "location": "stepdefinition.StepDefinition.i_click_on_help()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 10745908500,
-              "status": "passed"
-            },
-            "line": 57,
-            "name": "I enter keyword on search box",
-            "match": {
-              "location": "stepdefinition.StepDefinition.i_enter_keyword_on_search_box()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1142541700,
-              "status": "passed"
-            },
-            "line": 58,
-            "name": "I click on search submit",
-            "match": {
-              "location": "stepdefinition.StepDefinition.i_click_on_search_submit()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 370009400,
-              "status": "passed"
-            },
-            "line": 59,
-            "name": "I should see the search results",
-            "match": {
-              "location": "stepdefinition.StepDefinition.i_should_see_the_search_results()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Regression"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1994900,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I am at TD Bank Home Page",
-            "match": {
-              "location": "stepdefinition.StepDefinition.i_am_at_TD_Bank_Home_Page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-06-27T18:41:33.507Z",
-        "before": [
-          {
-            "result": {
-              "duration": 8350477500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepdefinition.StepDefinition.openBrowser()"
-            }
-          }
-        ],
-        "line": 62,
-        "name": "Search TD Bank Investing And Wealth Info",
-        "description": "",
-        "id": "explore-td-bank-home-page;search-td-bank-investing-and-wealth-info",
-        "after": [
-          {
-            "result": {
-              "duration": 999384400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepdefinition.StepDefinition.closeBrowser()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2309823800,
-              "status": "passed"
-            },
-            "line": 63,
-            "name": "I click on Investing \u0026 Wealth",
-            "match": {
-              "location": "stepdefinition.StepDefinition.i_click_on_Investing_Wealth()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3510611500,
-              "status": "passed"
-            },
-            "line": 64,
-            "name": "I click on Individuals and Family",
-            "match": {
-              "location": "stepdefinition.StepDefinition.i_click_on_Individuals_and_Family()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 213430500,
-              "status": "passed"
-            },
-            "line": 65,
-            "name": "I should see different Investing Solutions",
-            "match": {
-              "location": "stepdefinition.StepDefinition.i_should_see_different_Investing_Solutions()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Regression"
           }
         ]
       }
     ],
-    "name": "Explore TD Bank Home page",
-    "description": "  As a customer I want to explore different services",
-    "id": "explore-td-bank-home-page",
+    "name": "Explore CNN Home Page",
+    "description": "",
+    "id": "explore-cnn-home-page",
     "keyword": "Feature",
     "uri": "file:src/main/java/features/Homepage.feature",
     "tags": []

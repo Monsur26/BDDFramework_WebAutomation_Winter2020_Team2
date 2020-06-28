@@ -158,4 +158,38 @@ public class StepDefinition extends WebAPI {
         getInitElements();
         homepage.validateProvidersNewUser("New User Registration");
     }
+    @Given("I click on Medicaid")
+    public void i_click_on_Medicaid() {
+       getInitElements();
+       homepage.insuranceMedicaid();
+    }
+
+    @Given("I am at new Window")
+    public void i_am_at_new_Window() {
+        getInitElements();
+        homepage.medicaidNewWindow();
+    }
+
+    @When("I click on Eligibility")
+    public void i_click_on_Eligibility() {
+        getInitElements();
+        homepage.medicaidEligibility();
+    }
+
+    @Then("I am at Eligibility page")
+    public void i_am_at_Eligibility_page() {
+        getInitElements();
+        homepage.validateMedicaidEligInfo();
+    }
+    @When("I switch back to Main Window")
+    public void i_switch_back_to_Main_Window() {
+        getInitElements();
+        homepage.backtoParentWindow();
+    }
+
+    @Then("I am at Home Page")
+    public void i_am_at_Home_Page() {
+       getInitElements();
+       homepage.validateParentWindow();
+    }
 }

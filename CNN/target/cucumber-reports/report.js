@@ -1,7 +1,7 @@
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/main/java/features/Homepage.feature");
 formatter.feature({
-  "name": "Explore TD Bank Home page",
-  "description": "  As a customer I want to explore different services",
+  "name": "Explore CNN Home Page",
+  "description": "",
   "keyword": "Feature"
 });
 formatter.background({
@@ -13,17 +13,17 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "I am at TD Bank Home Page",
+  "name": "I am at CNN Home Page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_am_at_TD_Bank_Home_Page()"
+  "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Search Products menu",
+  "name": "Check CNN US page",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -33,21 +33,21 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "I bring mouse on Products",
+  "name": "I Click on US on CNN submenu",
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_bring_mouse_on_Products()"
+  "location": "stepdefinition.StepDefinition.i_Click_on_US_on_CNN_submenu()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I should see All Products on the menu",
+  "name": "I should see CNN US page",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_should_see_All_Products_on_the_menu()"
+  "location": "stepdefinition.StepDefinition.i_should_see_CNN_US_page()"
 });
 formatter.result({
   "status": "passed"
@@ -64,17 +64,17 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "I am at TD Bank Home Page",
+  "name": "I am at CNN Home Page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_am_at_TD_Bank_Home_Page()"
+  "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Search Services menu",
+  "name": "Select CNN International Edition",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -84,133 +84,31 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "I bring mouse on Services",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinition.StepDefinition.i_bring_mouse_on_Services()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I should see All Services on the menu",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepdefinition.StepDefinition.i_should_see_All_Services_on_the_menu()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.background({
-  "name": "",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I am at TD Bank Home Page",
+  "name": "I Click on Edition submenu",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_am_at_TD_Bank_Home_Page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "Search TD Bank Products to Services menu",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@SmokeTest"
-    }
-  ]
-});
-formatter.step({
-  "name": "I bring mouse on Products",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "stepdefinition.StepDefinition.i_bring_mouse_on_Products()"
+  "location": "stepdefinition.StepDefinition.i_Click_on_Edition_submenu()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I move mouse from Products to Services",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinition.StepDefinition.i_move_mouse_from_Products_to_Services()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I should see All Services on the menu",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepdefinition.StepDefinition.i_should_see_All_Services_on_the_menu()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.background({
-  "name": "",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I am at TD Bank Home Page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "stepdefinition.StepDefinition.i_am_at_TD_Bank_Home_Page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "Search TD Bank Learning info",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@SmokeTest"
-    }
-  ]
-});
-formatter.step({
-  "name": "I click on Learning",
+  "name": "I Click on International",
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_click_on_Learning()"
+  "location": "stepdefinition.StepDefinition.i_Click_on_International()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I should be in Learning Center",
+  "name": "I should see CNN World page",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_should_be_in_Learning_Center()"
+  "location": "stepdefinition.StepDefinition.i_should_see_CNN_World_page()"
 });
 formatter.result({
   "status": "passed"
@@ -227,17 +125,17 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "I am at TD Bank Home Page",
+  "name": "I am at CNN Home Page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_am_at_TD_Bank_Home_Page()"
+  "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Search TD Bank all Kind of Accounts Log In",
+  "name": "Search keyword on Menu button",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -247,21 +145,41 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "I bring mouse on Log In",
-  "keyword": "When "
+  "name": "I Click on Menu Button",
+  "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_bring_mouse_on_Log_In()"
+  "location": "stepdefinition.StepDefinition.i_Click_on_Menu_Button()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I should see All kind of accounts Log In",
+  "name": "I enter Economy in search box",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinition.StepDefinition.i_enter_Economy_in_search_box()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I Click on SearchSubmit",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "stepdefinition.StepDefinition.i_Click_on_SearchSubmit()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should see Everything about economy",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_should_see_All_kind_of_accounts_Log_In()"
+  "location": "stepdefinition.StepDefinition.i_should_see_Everything_about_economy()"
 });
 formatter.result({
   "status": "passed"
@@ -278,17 +196,17 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "I am at TD Bank Home Page",
+  "name": "I am at CNN Home Page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_am_at_TD_Bank_Home_Page()"
+  "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Search TD Bank Branch",
+  "name": "Check CNN Business page",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -298,41 +216,31 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "I click on Find Us",
+  "name": "I Click on Business",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_click_on_Find_Us()"
+  "location": "stepdefinition.StepDefinition.i_Click_on_Business()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter Queens NY in Search Box",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinition.StepDefinition.i_enter_Queens_NY_in_Search_Box()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I Click on Search Button",
+  "name": "I scroll down in the page",
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_Click_on_Search_Button()"
+  "location": "stepdefinition.StepDefinition.i_scroll_down_in_the_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I should see The Branches in Queens NY USA",
+  "name": "I should see bottom of the page",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_should_see_The_Branches_in_Queens_NY_USA()"
+  "location": "stepdefinition.StepDefinition.i_should_see_bottom_of_the_page()"
 });
 formatter.result({
   "status": "passed"
@@ -349,17 +257,17 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "I am at TD Bank Home Page",
+  "name": "I am at CNN Home Page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_am_at_TD_Bank_Home_Page()"
+  "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Search TD Bank Branch",
+  "name": "Check CNN Top Stories",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -369,51 +277,31 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "I click on Log In Button",
+  "name": "I Click on CNN Entertainment",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_click_on_Log_In_Button()"
+  "location": "stepdefinition.StepDefinition.i_Click_on_CNN_Entertainment()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter User name",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinition.StepDefinition.i_enter_User_name()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I enter Password",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinition.StepDefinition.i_enter_Password()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I Click on Submit Button",
+  "name": "I Click on Top Story",
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_Click_on_Submit_Button()"
+  "location": "stepdefinition.StepDefinition.i_Click_on_Top_Story()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I should see Welcome message",
+  "name": "I am at CNN Entertainment Top Story page",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_should_see_Welcome_message()"
+  "location": "stepdefinition.StepDefinition.i_am_at_CNN_Entertainment_Top_Story_page()"
 });
 formatter.result({
   "status": "passed"
@@ -430,17 +318,17 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "I am at TD Bank Home Page",
+  "name": "I am at CNN Home Page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_am_at_TD_Bank_Home_Page()"
+  "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Search Country",
+  "name": "Check CNN Business Perspectives page",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -450,31 +338,31 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "I click on country flag",
-  "keyword": "And "
+  "name": "I Click on Business",
+  "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_click_on_country_flag()"
+  "location": "stepdefinition.StepDefinition.i_Click_on_Business()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I select Canada",
+  "name": "I Click on Perspectives",
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_select_Canada()"
+  "location": "stepdefinition.StepDefinition.i_Click_on_Perspectives()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I should be in TD Bank Canada Home Page",
+  "name": "I am at CNN Business Perspectives page",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_should_be_in_TD_Bank_Canada_Home_Page()"
+  "location": "stepdefinition.StepDefinition.i_am_at_CNN_Business_Perspectives_page()"
 });
 formatter.result({
   "status": "passed"
@@ -491,17 +379,17 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "I am at TD Bank Home Page",
+  "name": "I am at CNN Home Page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_am_at_TD_Bank_Home_Page()"
+  "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Search Help on TD Bank Home Page",
+  "name": "Go to CNN Business Perspectives page and go back to Home Page",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -511,41 +399,41 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "I click on help",
+  "name": "I Click on Business",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepdefinition.StepDefinition.i_Click_on_Business()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I Click on Perspectives",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_click_on_help()"
+  "location": "stepdefinition.StepDefinition.i_Click_on_Perspectives()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter keyword on search box",
+  "name": "I navigate back to Business Page",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_enter_keyword_on_search_box()"
+  "location": "stepdefinition.StepDefinition.i_navigate_back_to_Business_Page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I click on search submit",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "stepdefinition.StepDefinition.i_click_on_search_submit()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I should see the search results",
+  "name": "I am at CNN Business Page",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_should_see_the_search_results()"
+  "location": "stepdefinition.StepDefinition.i_am_at_CNN_Business_Page()"
 });
 formatter.result({
   "status": "passed"
@@ -562,17 +450,17 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "I am at TD Bank Home Page",
+  "name": "I am at CNN Home Page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_am_at_TD_Bank_Home_Page()"
+  "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Search TD Bank Investing And Wealth Info",
+  "name": "CNN Home Page scroll down",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -582,31 +470,173 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "I click on Investing \u0026 Wealth",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinition.StepDefinition.i_click_on_Investing_Wealth()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I click on Individuals and Family",
+  "name": "I scroll down to the bottom of CNN home page",
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_click_on_Individuals_and_Family()"
+  "location": "stepdefinition.StepDefinition.i_scroll_down_to_the_bottom_of_CNN_home_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I should see different Investing Solutions",
+  "name": "I am able to see all topics at the bottom",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefinition.StepDefinition.i_should_see_different_Investing_Solutions()"
+  "location": "stepdefinition.StepDefinition.i_am_able_to_see_all_topics_at_the_bottom()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am at CNN Home Page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Check CNN 2020 Election page",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Regression"
+    }
+  ]
+});
+formatter.step({
+  "name": "I Click on Politics",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepdefinition.StepDefinition.i_Click_on_Politics()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I Click on 2020 Election",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinition.StepDefinition.i_Click_on_Election(java.lang.Integer)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I refresh the page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "stepdefinition.StepDefinition.i_refresh_the_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I can see CNN 2020 Election page clearly",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepdefinition.StepDefinition.i_can_see_CNN_Election_page_clearly(java.lang.Integer)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am at CNN Home Page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Check CNN 2020 Election States page",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@SmokeTest"
+    }
+  ]
+});
+formatter.step({
+  "name": "I Click on Politics",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepdefinition.StepDefinition.i_Click_on_Politics()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I Click on 2020 Election",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinition.StepDefinition.i_Click_on_Election(java.lang.Integer)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I hover mouse on States \u0026 Territories",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinition.StepDefinition.i_hover_mouse_on_States_Territories()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on Virginia",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "stepdefinition.StepDefinition.i_click_on_Virginia()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am at CNN 2020 Election Virginia state page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepdefinition.StepDefinition.i_am_at_CNN_Election_Virginia_state_page(java.lang.Integer)"
 });
 formatter.result({
   "status": "passed"

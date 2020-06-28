@@ -3,11 +3,19 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-06-20T14:59:52.035Z",
+        "line": 4,
+        "name": "I am at Verizon Home Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T19:40:54.685Z",
         "before": [
           {
             "result": {
-              "duration": 13095516700,
+              "duration": 11523183300,
               "status": "passed"
             },
             "match": {
@@ -15,14 +23,14 @@
             }
           }
         ],
-        "line": 4,
-        "name": "Explore Verizon Products",
+        "line": 7,
+        "name": "Explore Verizon Wireless Products",
         "description": "",
-        "id": "explore-verizon-home-page;explore-verizon-products",
+        "id": "explore-verizon-home-page;explore-verizon-wireless-products",
         "after": [
           {
             "result": {
-              "duration": 3974217300,
+              "duration": 1903908600,
               "status": "passed"
             },
             "match": {
@@ -35,22 +43,10 @@
         "steps": [
           {
             "result": {
-              "duration": 290682500,
+              "duration": 3304163800,
               "status": "passed"
             },
-            "line": 5,
-            "name": "I am at Verizon Home Page",
-            "match": {
-              "location": "stepdefinition.StepDefinition.i_am_at_Verizon_Home_Page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4206483600,
-              "status": "passed"
-            },
-            "line": 6,
+            "line": 8,
             "name": "I click on Wireless",
             "match": {
               "location": "stepdefinition.StepDefinition.i_click_on_Wireless()"
@@ -59,10 +55,10 @@
           },
           {
             "result": {
-              "duration": 12918089000,
+              "duration": 350061700,
               "status": "passed"
             },
-            "line": 7,
+            "line": 9,
             "name": "I should see Verizon Wireless Products and Services",
             "match": {
               "location": "stepdefinition.StepDefinition.i_should_see_Verizon_Wireless_Products_and_Services()"
@@ -77,11 +73,19 @@
         ]
       },
       {
-        "start_timestamp": "2020-06-20T15:00:27.094Z",
+        "line": 4,
+        "name": "I am at Verizon Home Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T19:41:12.375Z",
         "before": [
           {
             "result": {
-              "duration": 7920557900,
+              "duration": 8886589000,
               "status": "passed"
             },
             "match": {
@@ -89,14 +93,14 @@
             }
           }
         ],
-        "line": 10,
-        "name": "Search Verizon Products",
+        "line": 12,
+        "name": "Explore Verizon Wireless Shop",
         "description": "",
-        "id": "explore-verizon-home-page;search-verizon-products",
+        "id": "explore-verizon-home-page;explore-verizon-wireless-shop",
         "after": [
           {
             "result": {
-              "duration": 1244341800,
+              "duration": 1296144000,
               "status": "passed"
             },
             "match": {
@@ -109,22 +113,387 @@
         "steps": [
           {
             "result": {
-              "duration": 2992000,
+              "duration": 5489319600,
               "status": "passed"
             },
-            "line": 11,
-            "name": "I am at Verizon Home Page",
+            "line": 13,
+            "name": "I click on Wireless",
             "match": {
-              "location": "stepdefinition.StepDefinition.i_am_at_Verizon_Home_Page()"
+              "location": "stepdefinition.StepDefinition.i_click_on_Wireless()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 6557191500,
+              "duration": 3851700900,
               "status": "passed"
             },
-            "line": 12,
+            "line": 14,
+            "name": "I click on Shop",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Shop()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1967743200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see Wireless Products and Services",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Wireless_Products_and_Services()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "I am at Verizon Home Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T19:41:33.881Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8406490300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Explore Verizon Wireless Shop page",
+        "description": "",
+        "id": "explore-verizon-home-page;explore-verizon-wireless-shop-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1013112400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2698781500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on Wireless",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Wireless()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3776899600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on Shop",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Shop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1747328000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I scroll down to the page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_scroll_down_to_the_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150596700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I scroll up",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_scroll_up()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 143616300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am at top of the page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_top_of_the_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "I am at Verizon Home Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T19:41:51.829Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8112085200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Explore Verizon In Home Shop Deals",
+        "description": "",
+        "id": "explore-verizon-home-page;explore-verizon-in-home-shop-deals",
+        "after": [
+          {
+            "result": {
+              "duration": 1263622300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4371825100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on In Home",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_In_Home()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.JavascriptException: javascript error: Failed to execute \u0027elementsFromPoint\u0027 on \u0027Document\u0027: The provided double value is non-finite.\n  (Session info: chrome\u003d83.0.4103.116)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-I809MD1\u0027, ip: \u0027192.168.106.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\maruf\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58170}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: aed6128530a1f3f4b81b0158c7c595e6\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)\r\n\tat org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)\r\n\tat org.openqa.selenium.interactions.Actions.perform(Actions.java:595)\r\n\tat common.WebAPI.mouseHoverByXpath(WebAPI.java:420)\r\n\tat home.Homepage.inHomeShopMouseHover(Homepage.java:67)\r\n\tat stepdefinition.StepDefinition.i_bring_Hover_mouse_on_Shop(StepDefinition.java:80)\r\n\tat ✽.I bring Hover mouse on Shop(file:///C:/Users/maruf/Desktop/Selenium_group_2/BDD%20group%20project/BDDFramework_WebAutomation_Winter2020_Team2/Verizon/src/main/java/features/Homepage.feature:28)\r\n",
+              "duration": 139625100,
+              "status": "failed"
+            },
+            "line": 28,
+            "name": "I bring Hover mouse on Shop",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_bring_Hover_mouse_on_Shop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 999800,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "I click on Deals",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Deals()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996900,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "I am should see all In Home Deals",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_should_see_all_In_Home_Deals()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "I am at Verizon Home Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T19:42:05.746Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7845998700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Explore Verizon In Home Shop Internet",
+        "description": "",
+        "id": "explore-verizon-home-page;explore-verizon-in-home-shop-internet",
+        "after": [
+          {
+            "result": {
+              "duration": 1281620000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4230481200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click on In Home",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_In_Home()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2142271400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click on Internet",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Internet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 493679600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I scroll down",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_scroll_down()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 823796500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I am should see Internet Order link",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_should_see_Internet_Order_link()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "I am at Verizon Home Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T19:42:22.574Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8342565100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Search Verizon Products",
+        "description": "",
+        "id": "explore-verizon-home-page;search-verizon-products",
+        "after": [
+          {
+            "result": {
+              "duration": 1247663900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2916200400,
+              "status": "passed"
+            },
+            "line": 41,
             "name": "I click on Wireless",
             "match": {
               "location": "stepdefinition.StepDefinition.i_click_on_Wireless()"
@@ -133,10 +502,10 @@
           },
           {
             "result": {
-              "duration": 8049002000,
+              "duration": 4061889700,
               "status": "passed"
             },
-            "line": 13,
+            "line": 42,
             "name": "I enter iPhone 11 Pro in search box",
             "match": {
               "arguments": [
@@ -151,10 +520,10 @@
           },
           {
             "result": {
-              "duration": 948980000,
+              "duration": 1743108200,
               "status": "passed"
             },
-            "line": 14,
+            "line": 43,
             "name": "I press ENTER",
             "match": {
               "location": "stepdefinition.StepDefinition.i_press_ENTER()"
@@ -163,10 +532,10 @@
           },
           {
             "result": {
-              "duration": 4080943800,
+              "duration": 2042538600,
               "status": "passed"
             },
-            "line": 15,
+            "line": 44,
             "name": "I should see iPhone 11 Pro",
             "match": {
               "arguments": [
@@ -185,10 +554,374 @@
             "name": "@SmokeTest"
           }
         ]
+      },
+      {
+        "line": 4,
+        "name": "I am at Verizon Home Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T19:42:42.946Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8455866600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "Search Verizon Wireless Phones",
+        "description": "",
+        "id": "explore-verizon-home-page;search-verizon-wireless-phones",
+        "after": [
+          {
+            "result": {
+              "duration": 886380100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3146585000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I click on Wireless",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Wireless()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3653392400,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I click on Phones",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Phones()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7186848400,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I should see all SmartPhones",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_all_SmartPhones()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "I am at Verizon Home Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T19:43:06.292Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8005574200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "Search Tablet in Verizon",
+        "description": "",
+        "id": "explore-verizon-home-page;search-tablet-in-verizon",
+        "after": [
+          {
+            "result": {
+              "duration": 907781300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3033887200,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I click on Wireless",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Wireless()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3341111900,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I enter Tablet in search box",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_enter_Tablet_in_search_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1045644100,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I press ENTER",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_press_ENTER()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2047971500,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I should see all Tablets",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_all_Tablets()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "I am at Verizon Home Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T19:43:24.690Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8250579500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 60,
+        "name": "Explore Verizon In Home Shop Internet",
+        "description": "",
+        "id": "explore-verizon-home-page;explore-verizon-in-home-shop-internet",
+        "after": [
+          {
+            "result": {
+              "duration": 943679600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4267587400,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I click on In Home",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_In_Home()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5189508700,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I Hover mouse on Watch TV",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Hover_mouse_on_Watch_TV()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Guide\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-I809MD1\u0027, ip: \u0027192.168.106.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\maruf\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58699}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 4f436221f39d824aea4e6871e2d57ecc\n*** Element info: {Using\u003dlink text, value\u003dGuide}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:220)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat home.Homepage.inHomeWatchTVGuide(Homepage.java:118)\r\n\tat stepdefinition.StepDefinition.i_click_on_Guide(StepDefinition.java:161)\r\n\tat ✽.I click on Guide(file:///C:/Users/maruf/Desktop/Selenium_group_2/BDD%20group%20project/BDDFramework_WebAutomation_Winter2020_Team2/Verizon/src/main/java/features/Homepage.feature:63)\r\n",
+              "duration": 10178292300,
+              "status": "failed"
+            },
+            "line": 63,
+            "name": "I click on Guide",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Guide()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 64,
+            "name": "I am should see Watch TV Guide",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_should_see_Watch_TV_Guide()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "I am at Verizon Home Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T19:43:53.536Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7932458800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 67,
+        "name": "Explore Verizon In Home Shop Internet",
+        "description": "",
+        "id": "explore-verizon-home-page;explore-verizon-in-home-shop-internet",
+        "after": [
+          {
+            "result": {
+              "duration": 881925900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5523214600,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I click on In Home",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_In_Home()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2532220800,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I click on Internet",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_click_on_Internet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1325460300,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I navigate back",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_navigate_back()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34897700,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I am at In Home page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_In_Home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
       }
     ],
     "name": "Explore Verizon Home Page",
-    "description": "",
+    "description": "  As a customer I want to explore verizon.com",
     "id": "explore-verizon-home-page",
     "keyword": "Feature",
     "uri": "file:src/main/java/features/Homepage.feature",
