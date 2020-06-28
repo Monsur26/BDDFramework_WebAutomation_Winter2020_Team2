@@ -11,11 +11,11 @@
         "steps": []
       },
       {
-        "start_timestamp": "2020-06-27T19:11:47.085Z",
+        "start_timestamp": "2020-06-28T05:32:47.154Z",
         "before": [
           {
             "result": {
-              "duration": 4028415000,
+              "duration": 2193417000,
               "status": "passed"
             },
             "match": {
@@ -30,7 +30,7 @@
         "after": [
           {
             "result": {
-              "duration": 110368000,
+              "duration": 110408000,
               "status": "passed"
             },
             "match": {
@@ -43,7 +43,7 @@
         "steps": [
           {
             "result": {
-              "duration": 22171000,
+              "duration": 25841000,
               "status": "passed"
             },
             "line": 6,
@@ -55,7 +55,7 @@
           },
           {
             "result": {
-              "duration": 2213000,
+              "duration": 3139000,
               "status": "passed"
             },
             "line": 7,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 2495915000,
+              "duration": 2411216000,
               "status": "passed"
             },
             "line": 8,
@@ -79,7 +79,7 @@
           },
           {
             "result": {
-              "duration": 644000,
+              "duration": 1500000,
               "status": "passed"
             },
             "line": 9,
@@ -100,11 +100,11 @@
         "steps": []
       },
       {
-        "start_timestamp": "2020-06-27T19:11:53.798Z",
+        "start_timestamp": "2020-06-28T05:32:51.968Z",
         "before": [
           {
             "result": {
-              "duration": 1668351000,
+              "duration": 1569012000,
               "status": "passed"
             },
             "match": {
@@ -112,14 +112,14 @@
             }
           }
         ],
-        "line": 12,
+        "line": 11,
         "name": "Select Logo Button",
         "description": "",
         "id": "explore-cnn-home-page;select-logo-button",
         "after": [
           {
             "result": {
-              "duration": 81235000,
+              "duration": 90057000,
               "status": "passed"
             },
             "match": {
@@ -132,10 +132,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1072000,
+              "duration": 2399000,
               "status": "passed"
             },
-            "line": 13,
+            "line": 12,
             "name": "I am at CNN Home Page",
             "match": {
               "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
@@ -144,10 +144,10 @@
           },
           {
             "result": {
-              "duration": 897000,
+              "duration": 1258000,
               "status": "passed"
             },
-            "line": 14,
+            "line": 13,
             "name": "I Click on Logo Button in menu bar",
             "match": {
               "location": "stepdefinition.StepDefinition.i_click_on_Logo_Button_in_menu_bar()"
@@ -156,13 +156,783 @@
           },
           {
             "result": {
-              "duration": 521000,
+              "duration": 1213000,
               "status": "passed"
             },
-            "line": 15,
+            "line": 14,
             "name": "I should see Logo Button",
             "match": {
               "location": "stepdefinition.StepDefinition.i_should_see_Logo_Button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T05:32:53.640Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1470527000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "click US",
+        "description": "",
+        "id": "explore-cnn-home-page;click-us",
+        "after": [
+          {
+            "result": {
+              "duration": 111798000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1542000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am at CNN Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4277521000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I Click on US in Menu Bar",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_US_in_Menu_Bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 862000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see US",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_US()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T05:32:59.509Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1611170000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "click Edition",
+        "description": "",
+        "id": "explore-cnn-home-page;click-edition",
+        "after": [
+          {
+            "result": {
+              "duration": 139543000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1921000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am at CNN Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4415801000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I Click on Edition",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_Edition()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1219000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should see Edition",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Edition()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T05:33:05.687Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1626572000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "click Video",
+        "description": "",
+        "id": "explore-cnn-home-page;click-video",
+        "after": [
+          {
+            "result": {
+              "duration": 119228000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 878000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I am at CNN Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4092640000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I Click on Video",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_Video()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1717000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I should see Video",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Video()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T05:33:11.534Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3094178000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "click Travel",
+        "description": "",
+        "id": "explore-cnn-home-page;click-travel",
+        "after": [
+          {
+            "result": {
+              "duration": 144891000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 994000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I am at CNN Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3393529000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I Click on Travel",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_Travel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 951000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I should see Travel",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Travel()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T05:33:18.175Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1529492000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "click Entertainment",
+        "description": "",
+        "id": "explore-cnn-home-page;click-entertainment",
+        "after": [
+          {
+            "result": {
+              "duration": 114475000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 949000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I am at CNN Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4098431000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I Click on Entertainment",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_Entertainment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1084000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I should see Entertainment",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Entertainment()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T05:33:23.926Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1597229000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "click Health",
+        "description": "",
+        "id": "explore-cnn-home-page;click-health",
+        "after": [
+          {
+            "result": {
+              "duration": 117751000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3538000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I am at CNN Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4084733000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I Click on Health",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_Health()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1087000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I should see Health",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Health()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T05:33:29.736Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1619442000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "click Politics",
+        "description": "",
+        "id": "explore-cnn-home-page;click-politics",
+        "after": [
+          {
+            "result": {
+              "duration": 117162000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2290000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I am at CNN Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4246868000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I Click on Politics",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_Politics()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 599000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I should see Politics",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Politics()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T05:33:35.728Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1593001000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "click Opinion",
+        "description": "",
+        "id": "explore-cnn-home-page;click-opinion",
+        "after": [
+          {
+            "result": {
+              "duration": 139616000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 948000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I am at CNN Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4245287000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I Click on Opinion",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_Opinion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 694000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I should see Opinion",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Opinion()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T05:33:41.712Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1609687000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 56,
+        "name": "click Styles",
+        "description": "",
+        "id": "explore-cnn-home-page;click-styles",
+        "after": [
+          {
+            "result": {
+              "duration": 148517000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2350000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I am at CNN Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4783947000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I Click on Styles",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_Styles()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1169000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I should see Styles",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Styles()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T05:33:48.264Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1566257000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 61,
+        "name": "click Account",
+        "description": "",
+        "id": "explore-cnn-home-page;click-account",
+        "after": [
+          {
+            "result": {
+              "duration": 179573000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1013000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I am at CNN Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_CNN_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4936284000,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I Click on Account",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_Account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 551000,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I should see Account",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Account()"
             },
             "keyword": "Then "
           }

@@ -1,0 +1,1154 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T06:28:49.253Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2162850000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "click Login Button",
+        "description": "",
+        "id": "explore-tdbank-home-page;click-login-button",
+        "after": [
+          {
+            "result": {
+              "duration": 101133000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20982000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am at TDBank Home page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_TDBank_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3246139000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Click on Login Button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1391000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see Login Button",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Login_Button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T06:28:54.853Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1555273000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "click Small Business",
+        "description": "",
+        "id": "explore-tdbank-home-page;click-small-business",
+        "after": [
+          {
+            "result": {
+              "duration": 113280000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1187000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am at TDBank Home page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_TDBank_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7828583000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I Click on Small Business",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_Small_Business()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2096000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see Small Business",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Small_Business()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T06:29:04.363Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1578564000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "click Investing",
+        "description": "",
+        "id": "explore-tdbank-home-page;click-investing",
+        "after": [
+          {
+            "result": {
+              "duration": 96999000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1942000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am at TDBank Home page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_TDBank_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3930647000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I Click on Investing",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_Investing()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1388000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see Investing",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Investing()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T06:29:09.980Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1543491000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "click Find Us",
+        "description": "",
+        "id": "explore-tdbank-home-page;click-find-us",
+        "after": [
+          {
+            "result": {
+              "duration": 103199000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1370000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I am at TDBank Home page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_TDBank_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[2]/div[2]/header[1]/div[3]/div/div[2]/div/ul/li[1]/a/span[2]\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027iqras-MBP.home\u0027, ip: \u0027fd4b:8d38:69ba:1:39d3:c511:b733:3fb3%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/3d/zj33kjy14r7...}, goog:chromeOptions: {debuggerAddress: localhost:56855}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1aae15486aab908812a38b01d159bdcc\n*** Element info: {Using\u003dxpath, value\u003d/html/body/div[2]/div[2]/header[1]/div[3]/div/div[2]/div/ul/li[1]/a/span[2]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\n\tat home.Homepage.clickFindUs(Homepage.java:47)\n\tat stepdefinition.StepDefinition.i_Click_on_Find_Us(StepDefinition.java:69)\n\tat ✽.I Click on Find Us(file:///Users/iqrakhan/IdeaProjects/BDDFramework_WebAutomation_Winter2020_Team2/TDBank/src/main/java/features/Homepage.feature:22)\n",
+              "duration": 11063501000,
+              "status": "failed"
+            },
+            "line": 22,
+            "name": "I Click on Find Us",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_Find_Us()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 269000,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I should see Find Us",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Find_Us()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T06:29:22.706Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1585474000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "click Search",
+        "description": "",
+        "id": "explore-tdbank-home-page;click-search",
+        "after": [
+          {
+            "result": {
+              "duration": 85247000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 859000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I am at TDBank Home page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_TDBank_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 246676000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I Click on Search",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_Search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1737000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see Search",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Search()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T06:29:24.633Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1573438000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "searchBox Click",
+        "description": "",
+        "id": "explore-tdbank-home-page;searchbox-click",
+        "after": [
+          {
+            "result": {
+              "duration": 103877000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 841000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I am at TDBank Home page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_TDBank_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d83.0.4103.116)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027iqras-MBP.home\u0027, ip: \u0027fd4b:8d38:69ba:1:39d3:c511:b733:3fb3%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/3d/zj33kjy14r7...}, goog:chromeOptions: {debuggerAddress: localhost:56993}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: ca6652f3a173f300b48e27f2df881fcd\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy19.sendKeys(Unknown Source)\n\tat home.Homepage.eneterKeyWords(Homepage.java:82)\n\tat stepdefinition.StepDefinition.i_Click_on_searchBox(StepDefinition.java:92)\n\tat ✽.I Click on searchBox(file:///Users/iqrakhan/IdeaProjects/BDDFramework_WebAutomation_Winter2020_Team2/TDBank/src/main/java/features/Homepage.feature:32)\n",
+              "duration": 10224043000,
+              "status": "failed"
+            },
+            "line": 32,
+            "name": "I Click on searchBox",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_searchBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 309000,
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "I should see searchBox",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_searchBox()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T06:29:36.544Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1542273000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "click Flag",
+        "description": "",
+        "id": "explore-tdbank-home-page;click-flag",
+        "after": [
+          {
+            "result": {
+              "duration": 86083000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 801000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I am at TDBank Home page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_TDBank_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 155211000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I Click on Flag",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_Flag()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1157000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I should see Flag",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Flag()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T06:29:38.337Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1549360000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "click Help",
+        "description": "",
+        "id": "explore-tdbank-home-page;click-help",
+        "after": [
+          {
+            "result": {
+              "duration": 100449000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 866000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I am at TDBank Home page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_TDBank_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2177815000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I Click on Help",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_Help()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1139000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I should see Help",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_Help()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T06:29:42.174Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1528914000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "searchBox Element",
+        "description": "",
+        "id": "explore-tdbank-home-page;searchbox-element",
+        "after": [
+          {
+            "result": {
+              "duration": 101420000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 694000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I am at TDBank Home page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_TDBank_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d83.0.4103.116)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027iqras-MBP.home\u0027, ip: \u0027fd4b:8d38:69ba:1:39d3:c511:b733:3fb3%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/3d/zj33kjy14r7...}, goog:chromeOptions: {debuggerAddress: localhost:57177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: d9756cfded3c40095e56819255803e5b\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy19.sendKeys(Unknown Source)\n\tat home.Homepage.eneterKeyWords(Homepage.java:82)\n\tat home.Homepage.searchBoxElement(Homepage.java:108)\n\tat stepdefinition.StepDefinition.i_Click_on_searchBox_Element(StepDefinition.java:125)\n\tat ✽.I Click on searchBox  Element(file:///Users/iqrakhan/IdeaProjects/BDDFramework_WebAutomation_Winter2020_Team2/TDBank/src/main/java/features/Homepage.feature:47)\n",
+              "duration": 10105018000,
+              "status": "failed"
+            },
+            "line": 47,
+            "name": "I Click on searchBox  Element",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_Click_on_searchBox_Element()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 250000,
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "I should see searchBox Element",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_searchBox_Element()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T06:29:53.926Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1525792000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "mouseHover Services",
+        "description": "",
+        "id": "explore-tdbank-home-page;mousehover-services",
+        "after": [
+          {
+            "result": {
+              "duration": 97411000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 885000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I am at TDBank Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_TDBank_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 621000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I mouseHover on Services in Menu Bar",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_mouseHover_on_Services_in_Menu_Bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2206380000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I mouseHover on Services",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_mouseHover_on_Services()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 561000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I should see mouseHover on Services",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_mouseHover_on_Services()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T06:29:57.764Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1567029000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 58,
+        "name": "mouseHover Product",
+        "description": "",
+        "id": "explore-tdbank-home-page;mousehover-product",
+        "after": [
+          {
+            "result": {
+              "duration": 91470000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 595000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I am at TDBank Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_TDBank_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 367000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I mouseHover on Product in Menu Bar",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_mouseHover_on_Product_in_Menu_Bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2200924000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I mouseHover on Product",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_mouseHover_on_Product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 594000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I should see mouseHover on Product",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_mouseHover_on_Product()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T06:30:01.631Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1554209000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 64,
+        "name": "mouseHover LogIn",
+        "description": "",
+        "id": "explore-tdbank-home-page;mousehover-login",
+        "after": [
+          {
+            "result": {
+              "duration": 102277000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 617000,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I am at TDBank Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_TDBank_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 396000,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I mouseHover on LogIn in Menu Bar",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_mouseHover_on_LogIn_in_Menu_Bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2216585000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I mouseHover on LogIn",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_mouseHover_on_LogIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 848000,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I should see mouseHover on LogIn",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_mouseHover_on_LogIn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T06:30:05.513Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1501508000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 70,
+        "name": "mouseHover Search",
+        "description": "",
+        "id": "explore-tdbank-home-page;mousehover-search",
+        "after": [
+          {
+            "result": {
+              "duration": 99967000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 718000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I am at TDBank Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_TDBank_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 331000,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I mouseHover on Search in Menu Bar",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_mouseHover_on_Search_in_Menu_Bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2212216000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I mouseHover on Search",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_mouseHover_on_Search()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 581000,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I should see mouseHover on Search",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_mouseHover_on_Search()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-28T06:30:09.334Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1649701000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 76,
+        "name": "mouseHover Learn More",
+        "description": "",
+        "id": "explore-tdbank-home-page;mousehover-learn-more",
+        "after": [
+          {
+            "result": {
+              "duration": 98585000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 605000,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I am at TDBank Home Page",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_am_at_TDBank_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 313000,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "I mouseHover on Learn More in Menu Bar",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_mouseHover_on_Learn_More_in_Menu_Bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2227818000,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "I mouseHover on Learn More",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_mouseHover_on_Learn_More()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 740000,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "I should see mouseHover on Learn More",
+            "match": {
+              "location": "stepdefinition.StepDefinition.i_should_see_mouseHover_on_Learn_More()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Explore TDBank Home page",
+    "description": "",
+    "id": "explore-tdbank-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/Homepage.feature",
+    "tags": []
+  }
+]
